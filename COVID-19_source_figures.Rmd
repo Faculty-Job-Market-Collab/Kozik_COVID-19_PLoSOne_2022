@@ -1,0 +1,82 @@
+---
+title: "Response of the academic job market to COVID-19: Data analysis"
+author: "Alliance SciComm & Consulting, LLC"
+date: "2/21/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(rmarkdown)
+library(knitr)
+source("code/load_data.R")
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.align = "left",
+	fig.height = 4,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+
+## Figure 1 Related Data
+```{r fig_1}
+source("code/get_offers_data.R")
+source("code/figures/figure_2.R")
+```
+1. Overall response rate to the offers rescinded question: `r response_rate`%
+
+1. Offers made: `r offers_made`
+
+1. Offers rescinded: `r offers_rescinded`
+
+1. Overall offers rescinded: `r percent_rescinded`%
+
+
+## Figure 2 Related Data
+```{r fig_2}
+month_levels <- c(
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+herc_data <- herc_data %>% 
+  mutate(YearPosted = as_factor(YearPosted),
+         MonthPosted = factor(MonthPosted, levels = month_levels))
+
+source("code/get_ecr_ads.R")
+source("code/get_adjuct_ads.R")
+source("code/figures/figure_3.R")
+```
+1. Posting of assistant professor positions by institution region and month. Only regions contributing at least 2% of the postings from June to December are included: `r kable(ecr_region_month_data)`
+
+2. Posting of temporary faculty positions by institution region and month. Only regions contributing at least 3% of the postings from June to December are included: `r kable(temp_region_month_data)`
+
+3. Posting of temporary faculty positions by institution type from June to December: `r kable(temp_inst_data)`
+
+## Figure 3 Related Data
+```{r fig_3}
+source("code/get_strategy_data.R")
+source("code/get_search_strategy_results.R")
+source("code/figures/figure_4.R")
+```
+1. Current positions of the respondents to the mid-pandemic survey: `r kable(position_num)`
+
+2. Mid-pandemic responses (by respondents applying during the 2020-2021 hiring cycle) to the following statements:
+
+  + "I am not planning on doing any in-person interviews even if asked": `r kable(refuse_inperson)`
+  + "I limited my applications geographically based on local outbreaks and/or covid regulations": `r kable(geog_rest)`
+  + "If you receive an offer, how much will you consider the offering university/department's current adaptations to the Covid-19 pandemic in your decision to accept?": `r kable(offer_summary)`
+
+3. Mid-pandemic responses when asked about their reasons for changing career paths: `r kable(chx_career)`
+
+4. Mid-pandemic responses when asked about their reasons for waiting to apply: `r kable(wait)`
+
+![]("figures/Figure_2.png")
+
+![]("figures/Figure_3.png")
+
+![]("figures/Figure_4.png")
