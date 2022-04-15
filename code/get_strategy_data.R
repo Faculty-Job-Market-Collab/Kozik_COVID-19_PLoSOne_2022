@@ -1,7 +1,6 @@
 #did applicants alther their strategy?
 
 strategy_data <- clean_data %>% 
-  select(id, covid_alter_research, first_gen_phd) %>% 
   mutate(covid_alter = if_else(covid_alter_research == "Yes, significant changes"|covid_alter_research == "Somewhat", "true", "false"))
 
 strategy_summary <- strategy_data %>% 

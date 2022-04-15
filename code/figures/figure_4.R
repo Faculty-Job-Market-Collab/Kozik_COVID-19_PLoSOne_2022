@@ -1,41 +1,41 @@
-# Figure 3. Alternate strategies for the job search
+# Figure 4. Alternate strategies for the job search
 
 #setup for A &B ----
 #source("code/get_strategy_data.R")
 
 # A. March (full survey) change in strategy by research field----
-Fig_3A_data <- get_plot_summary(strategy_demo_data, "research_category", "covid_alter") %>% 
+Fig_4A_data <- get_plot_summary(strategy_data, "research_category", "covid_alter") %>% 
   filter(str_detect(research_category, "Integrated Sciences|NA") == FALSE)
 
-Fig_3A_avg <- get_percent(sum(Fig_3A_data$true), sum(Fig_3A_data$n))
+Fig_4A_avg <- get_percent(sum(Fig_4A_data$true), sum(Fig_4A_data$n))
   
-Fig_3A <- Fig_3A_data %>% 
+Fig_4A <- Fig_4A_data %>% 
   ggplot()+
   geom_col(aes(x = research_category, y=percent_res, fill = research_category))+
   coord_flip()+
   scale_fill_manual(values = cbPalette)+
   scale_y_continuous(limits = c(0,20), expand = c(0,0))+
-  geom_hline(yintercept = Fig_3A_avg, linetype="dashed", color = "black")+
-  geom_text(aes(1, Fig_3A_avg+1.25, label = Fig_3A_avg),  color = "black")+
+  geom_hline(yintercept = Fig_4A_avg, linetype="dashed", color = "black")+
+  geom_text(aes(1, Fig_4A_avg+1.25, label = Fig_4A_avg),  color = "black")+
   labs(y = "Early Pandemic Respondents That\nAltered Their Research Statement\nto Focus on Remote or\nComputational Research (%)", x = "\nResearch Category")+
   my_theme_horiz+
   right_margin
 
 # B. March change in strategy by 1st gen PhD----
-Fig_3B_data <- get_plot_summary(strategy_data, "first_gen_phd", "covid_alter") %>% 
+Fig_4B_data <- get_plot_summary(strategy_data, "first_gen_phd", "covid_alter") %>% 
   filter(str_detect(first_gen_phd, "n=0") == FALSE) %>% 
   filter(false != 0)
 
-Fig_3B_avg <- get_percent(sum(Fig_3B_data$true), sum(Fig_3B_data$n))
+Fig_4B_avg <- get_percent(sum(Fig_4B_data$true), sum(Fig_4B_data$n))
 
-Fig_3B <- Fig_3B_data %>% 
+Fig_4B <- Fig_4B_data %>% 
   ggplot()+
   geom_col(aes(x = first_gen_phd, y=percent_res, fill = first_gen_phd))+
   coord_flip()+
   scale_fill_manual(values = cbPalette)+
   scale_y_continuous(limits = c(0,20), expand = c(0,0))+
-  geom_hline(yintercept = Fig_3B_avg, linetype="dashed", color = "black")+
-  geom_text(aes(1, Fig_3B_avg+1.25, label = Fig_3B_avg),  color = "black")+
+  geom_hline(yintercept = Fig_4B_avg, linetype="dashed", color = "black")+
+  geom_text(aes(1, Fig_4B_avg+1.25, label = Fig_4B_avg),  color = "black")+
   labs(y = "Early Pandemic Respondents That\nAltered Their Research Statement\nto Focus on Remote or\nComputational Research (%)", x = "\nFirst-Generation PhD Status\n")+
   my_theme_horiz+
   right_margin
@@ -58,7 +58,7 @@ c_d_data <- mid_pan_strategy_data %>%
 #n_res <- nrow(c_d_data)
 
 # C. Fall alternate research &/or teaching strategies by research category----
-Fig_3c_data <- c_d_data %>% 
+Fig_4c_data <- c_d_data %>% 
   filter(concern != "More online teaching practices") %>% 
   select(id, research_category, concern, alt_strategy) %>% 
   distinct() %>% 
@@ -69,19 +69,19 @@ Fig_3c_data <- c_d_data %>%
          per_yes = get_percent(yes, (yes+no)),
          research_category = paste0(research_category, " (n=", no+yes, ")"))
 
-Fig_3c_avg <- Fig_3c_data %>% group_by(concern) %>% 
+Fig_4c_avg <- Fig_4c_data %>% group_by(concern) %>% 
   summarise(no = sum(no), yes = sum(yes)) %>% as_tibble() %>% 
   mutate(research_category = "Group Average",
          per_yes = get_percent(yes, yes+no))
 
-Fig_3c <- Fig_3c_data %>% 
+Fig_4c <- Fig_4c_data %>% 
   ggplot()+
   geom_col(aes(x = research_category, y=per_yes, fill = research_category))+
   coord_flip()+
   scale_fill_manual(values = cbPalette)+
-  geom_hline(data = Fig_3c_avg, mapping = aes(yintercept = per_yes), 
+  geom_hline(data = Fig_4c_avg, mapping = aes(yintercept = per_yes), 
              linetype="dashed", color = "black") +
-  geom_text(data = Fig_3c_avg, mapping = aes(2, per_yes+10, label = per_yes),  color = "black")+
+  geom_text(data = Fig_4c_avg, mapping = aes(2, per_yes+10, label = per_yes),  color = "black")+
   facet_wrap(~concern)+
   scale_y_continuous(limits = c(0,50), expand = c(0,0))+
   labs(y = "Mid-Pandemic Respondents That\nAltered Their Research Statement (%)", x = "\nResearch Category")+
@@ -90,7 +90,7 @@ Fig_3c <- Fig_3c_data %>%
   right_margin
 
 # D. Fall alt research &/or teaching strategies according to institution type (PUI vs RI)----
-Fig_3d_data <- c_d_data %>% 
+Fig_4d_data <- c_d_data %>% 
   select(id, desired_institution, concern, alt_strategy) %>% 
   distinct() %>% 
   count(desired_institution, concern, alt_strategy) %>% 
@@ -103,19 +103,19 @@ Fig_3d_data <- c_d_data %>%
                                           "PUI" = "Primarily Undergraduate Serving"),
          desired_institution = paste0(desired_institution, " (n=", no+yes, ")"))
 
-Fig_3d_avg <- Fig_3d_data %>% group_by(concern) %>% 
+Fig_4d_avg <- Fig_4d_data %>% group_by(concern) %>% 
   summarise(no = sum(no), yes = sum(yes)) %>% as_tibble() %>% 
   mutate(desired_institution = "Group Average",
          per_yes = get_percent(yes, yes+no))
 
-Fig_3d <- Fig_3d_data %>% 
+Fig_4d <- Fig_4d_data %>% 
   ggplot()+
   geom_col(aes(x = desired_institution, y=per_yes, fill = desired_institution))+
   coord_flip()+
   scale_fill_manual(values = cbPalette)+
-  geom_hline(data = Fig_3d_avg, mapping = aes(yintercept = per_yes), 
+  geom_hline(data = Fig_4d_avg, mapping = aes(yintercept = per_yes), 
              linetype="dashed", color = "black") +
-  geom_text(data = Fig_3d_avg, mapping = aes(2, per_yes+3, label = per_yes),  color = "black")+
+  geom_text(data = Fig_4d_avg, mapping = aes(2, per_yes+3, label = per_yes),  color = "black")+
   facet_wrap(~concern)+
   scale_y_continuous(limits = c(0,60), expand = c(0,0))+
   labs(y = "Mid-Pandemic Respondents That Altered\nTheir Research or Teaching Statements (%)", x = "\nDesired Institution Type\n")+
@@ -165,20 +165,20 @@ fall_2020 <- e_data_fall %>%
        x = "\nSubmitting Faculty Position\nApplications for 2020/21 Cycle")+
   my_theme_horiz
 
-#generate Fig 3-----
+#generate Fig 4-----
 
-Fig_3ab <- plot_grid(Fig_3A, Fig_3c, labels = c('A', 'B'),
+Fig_4ab <- plot_grid(Fig_4A, Fig_4c, labels = c('A', 'B'),
                      label_size = 18, nrow = 1, rel_widths = c(1, 1.25))
 
-Fig_3cd <- plot_grid(Fig_3B, Fig_3d, labels = c('C', 'D'),
+Fig_4cd <- plot_grid(Fig_4B, Fig_4d, labels = c('C', 'D'),
                      label_size = 18, nrow = 1, rel_widths = c(.6, 1))
 
-Fig_3ef <- plot_grid(fall_2020, blank,
+Fig_4ef <- plot_grid(fall_2020, blank,
                      labels = c('E', ''), label_size = 18)
 
-Fig_3 <- plot_grid(Fig_3ab, Fig_3cd, Fig_3ef,
+Fig_4 <- plot_grid(Fig_4ab, Fig_4cd, Fig_4ef,
                    nrow = 3)
 
-#save Fig 3
+#save Fig 4
 ggsave("Figure_4.png", device = 'png', units = "in", scale = 1.75,
        path = 'figures', width = 12, height = 8)

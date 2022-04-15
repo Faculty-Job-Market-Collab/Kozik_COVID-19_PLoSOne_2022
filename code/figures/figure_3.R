@@ -1,5 +1,5 @@
 library(chisq.posthoc.test)
-#Figure 2. What has happened to the job ads?
+#Figure 3. What has happened to the job ads?
 
 stats_ten_track <- ten_track_data %>% select(ECR, YearPosted, MonthPosted) %>% 
   rowid_to_column() %>% 
@@ -34,7 +34,7 @@ ten_track_avg <- stats_ten_track %>%
   mutate(MonthPosted = factor(MonthPosted, levels = month_levels))
 
 
-Fig2_A <- ten_track_avg %>% 
+Fig3_A <- ten_track_avg %>% 
   filter(YearPosted != "Average") %>% 
   ggplot(., aes(x = MonthPosted, y = n, group = YearPosted, 
                 color = YearPosted, label = P_value)) + 
@@ -74,7 +74,7 @@ ecr_avg <- ecr_summary %>% spread(YearPosted, n) %>%
   left_join(., y=ecr_track_posthoc, by = c("YearPosted" = "Dimension", "MonthPosted")) %>% 
   mutate(MonthPosted = factor(MonthPosted, levels = month_levels))
 
-Fig2_B <- ecr_avg %>% 
+Fig3_B <- ecr_avg %>% 
   filter(YearPosted != "Average") %>% 
   ggplot(., aes(x = MonthPosted, y = n, group = YearPosted, color = YearPosted, label = P_value)) + 
   geom_line(size = 2)+
@@ -112,7 +112,7 @@ temp_summary <- non_track_data %>%
   mutate(MonthPosted = factor(MonthPosted, levels = month_levels))
 
 
-Fig2_C <- temp_summary %>% 
+Fig3_C <- temp_summary %>% 
   filter(YearPosted != "Average") %>% 
   ggplot(., aes(x = MonthPosted, y = n, group = YearPosted, color = YearPosted, label = P_value)) + 
   geom_line(size = 2)+
@@ -136,7 +136,7 @@ ecr_region_fig_data <- ecr_region_summary %>%
   mutate(US_region = as.factor(US_region),
          Year = factor(Year, levels = c("2018", "2019", "2020", "2021")))
 
-Fig2_D <- ggplot(ecr_region_fig_data, aes(x = US_region, y = Percent, 
+Fig3_D <- ggplot(ecr_region_fig_data, aes(x = US_region, y = Percent, 
                                           fill = Year, label = P_value))+
   geom_col(position = "dodge")+
   scale_y_continuous(expand = c(0,0))+
@@ -159,7 +159,7 @@ ecr_uni_fig_data <- ecr_uni_summary %>%
   filter(Year != "Average") %>% 
   left_join(., y=ecr_uni_stats, by = c("PUI_RI", "Year")) 
 
-Fig2_E <- ggplot(ecr_uni_fig_data, aes(x = fct_reorder(PUI_RI, Percent), 
+Fig3_E <- ggplot(ecr_uni_fig_data, aes(x = fct_reorder(PUI_RI, Percent), 
                                    y = Percent, fill = Year,
                                    label = P_value))+
   geom_col(position = "dodge")+
@@ -172,19 +172,19 @@ Fig2_E <- ggplot(ecr_uni_fig_data, aes(x = fct_reorder(PUI_RI, Percent),
        x = "\nInstitution Type")+
   my_theme_leg_horiz
 
-#Generate Figure 2----
+#Generate Figure 3----
 
-Fig2_DE <- plot_grid(Fig2_D, Fig2_E, labels = c('D', 'E'),
+Fig3_DE <- plot_grid(Fig3_D, Fig3_E, labels = c('D', 'E'),
                      label_size = 18, nrow = 1)
 
-Fig2 <- plot_grid(Fig2_A, Fig2_B, Fig2_C, Fig2_DE,
+Fig3 <- plot_grid(Fig3_A, Fig3_B, Fig3_C, Fig3_DE,
                   labels = c('A', 'B', 'C', ''),
                   label_size = 18, nrow = 4)
 
 ggsave("Figure_3.png", device = 'png', units = "in", scale = 1.75,
        path = 'figures', width = 7, height = 6.8)
 
-#Relevant Fig 2 Data Calculations----
+#Relevant Fig 3 Data Calculations----
 #ecr_region_month_data <- ten_track_data %>% 
 #  filter(ECR == "Yes") %>% 
 #  filter(YearPosted == "2020" & Country == "USA") %>% 

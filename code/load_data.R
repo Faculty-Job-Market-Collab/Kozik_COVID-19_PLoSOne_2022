@@ -6,11 +6,17 @@ source("code/get_plot_options.R")
 
 #HERC data----
 
-herc_data <- read_csv("data/herc_dataset.csv")
+month_levels <- c(
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+herc_data <- read_csv("data/herc_dataset.csv") %>% 
+  mutate(YearPosted = as_factor(YearPosted),
+         MonthPosted = factor(MonthPosted, levels = month_levels))
 
 #survey data----
 
-clean_data <- read_csv("data/covid_dataset.csv") #load data
+clean_data <- read_csv("data/survey_covid_dataset.csv") #load data
 
 
 ## question-based datasets----
@@ -23,3 +29,5 @@ demographics <- select(clean_data, id, gender, research_category, race_ethnicity
          )
 
 covid_only <- select(clean_data, contains("covid"), id)
+
+offers_df <- read_csv("data/carn_offer_data.csv")

@@ -1,10 +1,10 @@
-#Figure 1. The Pandemic begins, mid-interview portion of the Faculty Job Search
+#Figure 2. The Pandemic begins, mid-interview portion of the Faculty Job Search
 
 # A/B. Offers Rescinded by field and gender----
 # requires get_offers_data 
-fig1A_data <- get_plot_summary(res_demo_data, "gender", "covid_offers_rescinded") 
+fig2A_data <- get_plot_summary(res_demo_data, "gender", "covid_offers_rescinded") 
 
-fig1A <-fig1A_data %>% 
+fig2A <-fig2A_data %>% 
   ggplot(aes(x = gender, y=percent_res, fill = gender))+
   geom_col()+
   coord_flip()+
@@ -18,7 +18,7 @@ fig1A <-fig1A_data %>%
   my_theme_horiz+
   right_margin
 
-fig1B <- get_plot_summary(data = res_demo_data, 
+fig2B <- get_plot_summary(data = res_demo_data, 
                                    x = "research_category", y = "covid_offers_rescinded") %>% 
   ggplot(aes(x = research_category, y = percent_res, fill = research_category))+
   geom_col()+
@@ -45,7 +45,7 @@ fig1B <- get_plot_summary(data = res_demo_data,
 #         race_ethnicity = paste0(race_ethnicity, "\n(n=", total, ")"),) %>% 
 #  filter(total != 0) 
 
-fig1C <- get_plot_summary(data = race_data, x = "race_ethnicity", y = "covid_offers_rescinded") %>% 
+fig2C <- get_plot_summary(data = race_data, x = "race_ethnicity", y = "covid_offers_rescinded") %>% 
   ggplot(aes(x = fct_reorder(race_ethnicity, desc(percent_res)), y = percent_res, fill = race_ethnicity))+
   geom_col()+
   #geom_text(aes(label = r), position = position_dodge(width = 0.9), hjust = -0.25)+
@@ -76,7 +76,7 @@ fig1C <- get_plot_summary(data = race_data, x = "race_ethnicity", y = "covid_off
 
 #D. Compare the % of R1 vs PUI offers made vs offers rescinded----
 
-fig1D <- PUI_RI_rescinded %>% 
+fig2D <- PUI_RI_rescinded %>% 
   ggplot(aes(x = PUI_RI, y = percent_res, fill = PUI_RI))+
   geom_col()+
   scale_fill_manual(values = cbPalette)+
@@ -111,7 +111,7 @@ fig1D <- PUI_RI_rescinded %>%
 #         percent_res = get_percent(n_rescinded, n_offers),
 #         world_region = paste0(world_region, "\n(n=", n_offers, ")"))
 #
-#fig1E <- per_world_region_rescinded %>% 
+#fig2E <- per_world_region_rescinded %>% 
 #  ggplot()+
 #  geom_col(aes(x = fct_reorder(world_region, desc(percent_res)), y = percent_res))+
 #  coord_flip()+
@@ -121,7 +121,7 @@ fig1D <- PUI_RI_rescinded %>%
 #  my_theme_horiz
 
 #F. Compare US region of institutions applied to and the number of offers rescinded----
-fig1F <- per_US_region_rescinded %>% 
+fig2F <- per_US_region_rescinded %>% 
   ggplot(aes(x = US_region, y = percent_res, fill = US_region))+
   geom_col()+
   #geom_text(aes(label = r), position = position_dodge(width = 0.9), hjust = -0.25)+
@@ -135,16 +135,16 @@ fig1F <- per_US_region_rescinded %>%
   my_theme_horiz+
   right_margin
 
-#build figure 1----
-fig1AB <- plot_grid(fig1A, fig1B, labels = c('A', 'B'),
+#build figure 2----
+fig2AB <- plot_grid(fig2A, fig2B, labels = c('A', 'B'),
                     label_size = 18,
                     nrow = 1, rel_widths = c(.75, 1))
 
-fig1DE <- plot_grid(fig1D, fig1F, labels = c('D', 'E'),
+fig2DE <- plot_grid(fig2D, fig2F, labels = c('D', 'E'),
                     label_size = 18,
                     nrow = 1, rel_widths = c(.5, 1))
 
-plot_grid(fig1AB, fig1C, fig1DE,
+plot_grid(fig2AB, fig2C, fig2DE,
           labels = c('', 'C', ''),
           label_size = 18, rel_heights = c(1, 1.25, 1),
           nrow = 3)

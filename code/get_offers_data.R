@@ -6,7 +6,7 @@ add_list <- c("1", "107", "257", "646", "680", "708", "74", "78", "93", "148", "
 offers_data <- clean_data %>% 
   filter(!is.na(on_site_interviews) & on_site_interviews != 0) %>% 
   mutate_at(c("faculty_offers", "covid_offers_rescinded"), as.numeric) %>% 
-  mutate(faculty_offers = if_else(is.na(faculty_offers), 0, faculty_offers)) %>% 
+  #mutate(faculty_offers = if_else(is.na(faculty_offers), 0, faculty_offers)) %>% 
   mutate(total_offers = if_else(faculty_offers == 0 | id %in% add_list, 
                                 faculty_offers + covid_offers_rescinded, faculty_offers),
          total_offers = if_else(is.na(covid_offers_rescinded), faculty_offers, total_offers))
@@ -48,14 +48,14 @@ offers_rescinded <- offers_data %>% pull(covid_offers_rescinded) %>% sum(., na.r
 percent_rescinded <- (offers_rescinded/offers_made)*100 #need to correct for differing interpretations, some did not include rescinded offers with the offers made
 
 #Gender, race, field, position
-res_demo_data <- left_join(offers_data, demographics, by = "id") %>% 
+res_demo_data <- offers_data %>% 
   filter(total_offers > 0) %>% 
   mutate(covid_offers_rescinded = 
            if_else(is.na(covid_offers_rescinded)|covid_offers_rescinded == 0, "false", "true"))
 
 
 race_data <- res_demo_data %>% 
-  select(id, race_ethnicity, legal_status, covid_offers_rescinded) %>% 
+  select(id, race_ethnicity, covid_offers_rescinded) %>% 
   mutate(race_ethnicity = str_remove(race_ethnicity, "\\(.+\\)")
          ) %>% 
   separate(race_ethnicity, sep = ",", into = c("a", "b")) %>% 
@@ -80,19 +80,12 @@ race_data <- res_demo_data %>%
 # D, E, & F. Comparing applications submitted vs offers received & rescinded----
 submitted <- clean_data %>% 
   select(id, R1_apps_submitted, PUI_apps_submitted) %>% 
-  mutate(R1_apps_submitted = if_else(is.na(R1_apps_submitted), "0", R1_apps_submitted),
-         PUI_apps_submitted = if_else(is.na(PUI_apps_submitted), "0", PUI_apps_submitted),
+  mutate(R1_apps_submitted = if_else(is.na(R1_apps_submitted), "0", as.character(R1_apps_submitted)),
+         PUI_apps_submitted = if_else(is.na(PUI_apps_submitted), "0", as.character(PUI_apps_submitted)),
          total_apps_submitted = as.numeric(R1_apps_submitted) + as.numeric(PUI_apps_submitted)) %>% 
   summarise(sum_PUI = sum(as.numeric(PUI_apps_submitted)), sum_RI = sum(as.numeric(R1_apps_submitted)), sum_total = sum(total_apps_submitted))
 
-offers_df <- offers_data %>% 
-  select(id, total_offers, offer_institutions, covid_offers_rescinded) %>% 
-  filter(total_offers > 0) %>% 
-  left_join(., carn_joined_inst, by = "id") %>% 
-  filter(inst_type == "offer_institutions") %>% 
-  select(id, total_offers, inst_type, covid_offers_rescinded, PUI_RI, US_region, world_region)
-
-rescinded_df <- offers_df %>% 
+rescinded_df <- offers_df %>% #offers_data for insitutions that extended offers, then joined with carnegie data and filtered for (total_offers > 0)
   filter(covid_offers_rescinded > 0) %>% 
   filter(covid_offers_rescinded <= total_offers) %>% 
   select(id, total_offers, covid_offers_rescinded, PUI_RI, US_region, world_region) %>% 
@@ -102,7 +95,7 @@ rescinded_df <- offers_df %>%
 
 offers_inst_type <- offers_df %>% 
   filter(!is.na(PUI_RI)) %>% 
-  select(-inst_type, -covid_offers_rescinded) %>% 
+  select(-covid_offers_rescinded) %>% 
   group_by(PUI_RI) %>% 
   summarise(n_offers = n())
 
@@ -123,7 +116,7 @@ PUI_RI_rescinded <- full_join(offers_inst_type, rescinded_inst_type, by = "PUI_R
 
 offers_US_region <- offers_df %>% 
   filter(!is.na(US_region)) %>% 
-  select(-inst_type, -covid_offers_rescinded) %>% 
+  select(-covid_offers_rescinded) %>% 
   group_by(US_region) %>% 
   summarise(n_offers = n())
 
