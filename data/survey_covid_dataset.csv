@@ -1,0 +1,792 @@
+id,on_site_interviews,faculty_offers,covid_offers_rescinded,offer_responses,race_ethnicity,R1_apps_submitted,PUI_apps_submitted,gender,research_category,covid_alter_research,position,first_gen_phd,commitment_impact
+1,1,1,1,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,2,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+2,2,0,NA,NA,Caucasian-American/European,2,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+3,1,0,NA,I did not recieve any offers,"Caucasian-American/European,Asian-American/Asian",7,7,Man,Biological Sciences,NA,Postdoc,No,Become weaker
+4,0,0,0,I did not recieve any offers,Caucasian-American/European,30,8,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+5,0,0,0,I did not recieve any offers,Asian-American/Asian,0,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+6,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,12,1,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become stronger
+7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8,0,0,0,I did not recieve any offers,Asian-American/Asian,24,0,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+9,9,3,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,18,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+10,0,0,NA,I did not recieve any offers,Caucasian-American/European,5,0,Man,Chemistry,Not at all,Postdoc,Yes,Not changed
+11,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,17,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+12,2,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,9,1,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+13,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,9,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Become stronger
+14,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+15,1,0,NA,I did not recieve any offers,Caucasian-American/European,34,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+16,2,0,0,I did not recieve any offers,Caucasian-American/European,0,3,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+17,0,0,NA,I did not recieve any offers,Caucasian-American/European,30,44,Non-binary,Biological Sciences,NA,Postdoc,Yes,Not changed
+18,6,3,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,60,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+19,0,0,NA,I did not recieve any offers,Caucasian-American/European,6,4,Man,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+20,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,6,Man,Biological Sciences,NA,Postdoc,No,Not changed
+21,0,0,0,I did not recieve any offers,Caucasian-American/European,0,1,Man,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Become weaker
+22,0,0,0,I did not recieve any offers,Asian-American/Asian,34,0,Man,Engineering,NA,NA,Yes,Become weaker
+23,3,3,1,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,7,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+24,1,0,NA,I did not recieve any offers,Caucasian-American/European,23,13,Non-binary,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,No,Become weaker
+25,2,0,NA,I did not recieve any offers,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Become weaker
+26,4,1,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,33,40,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+27,4,2,1,I accepted an offer at a research-intensive institution,Asian-American/Asian,22,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+28,0,0,NA,I did not recieve any offers,Caucasian-American/European,3,0,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+29,2,0,0,I did not recieve any offers,Caucasian-American/European,35,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+30,0,NA,NA,I did not recieve any offers,"Caucasian-American/European,Not Listed",1,3,Man,"Social, Behavior, & Economic Sciences",Somewhat,Postdoc,Yes,Become weaker
+31,3,0 (still waiting on one school),0,NA,Caucasian-American/European,40,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+32,4,2,1,I accepted an offer at a research-intensive institution,Caucasian-American/European,9,4,Woman,Computer & Information Sciences,NA,Postdoc,Yes,Not changed
+33,0,NA,NA,I did not recieve any offers,Caucasian-American/European,2,0,Man,Mathematical & Physical Sciences,Not at all,Postdoc,Yes,Become weaker
+34,2,0,NA,I did not recieve any offers,Caucasian-American/European,23,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+35,2,0,0,I did not recieve any offers,Caucasian-American/European,7,12,Man,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+36,7,2,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient",Asian-American/Asian,0,19,Woman,Chemistry,Not at all,Postdoc,No,Become stronger
+37,1,1,0,"I accepted an offer at a primarily undergraduate institution,I accepted an offer at a research-intensive institution",Caucasian-American/European,27,29,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+38,0,0,0,I did not recieve any offers,Caucasian-American/European,0,1,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Become weaker
+39,7,3,NA,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of spouse/partner job prospects,I rejected offer(s) for reasons not listed above",Caucasian-American/European,65,5,Man,Chemistry,NA,NA,Yes,Not changed
+40,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,3,1,Woman,Geosciences,NA,Postdoc,Yes,Become stronger
+41,4,2,1,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,20,22,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+42,8,4,NA,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of spouse/partner job prospects","Caribbean Islander (e.g., Puerto Rico, Trinidad)",50,0,Man,Chemistry,Not at all,Postdoc,Yes,Become stronger
+43,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/North African or Middle Eastern,20,0,Man,Engineering,Not at all,Postdoc,No,Become stronger
+44,14,3,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,49,1,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+45,0,0,NA,I did not recieve any offers,Caucasian-American/European,5,5,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,Not changed
+46,0,0,NA,NA,Caucasian-American/European,1,0,Man,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+47,0,0,NA,I did not recieve any offers,Caucasian-American/European,3,3,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+48,NA,NA,NA,I did not recieve any offers,Not Listed,0,0,Woman,Humanities,NA,Postdoc,Yes,Become weaker
+49,0,0,0,I did not recieve any offers,Caucasian-American/European,6,0,Man,Engineering,NA,Postdoc,Yes,Become weaker
+50,0,0,NA,I did not recieve any offers,Caucasian-American/European,2,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+51,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/North African or Middle Eastern,9,1,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+52,1,0,0,I did not recieve any offers,Caucasian-American/European,11,4,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+53,3,3,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,9,1,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+54,9,2,1,I rejected offer(s) for geographic fit,Caucasian-American/European,54,0,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+55,0,NA,NA,NA,Caucasian-American/European,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+56,0,0,NA,I did not recieve any offers,Not Listed,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+57,7,2,0,I accepted an offer at a research-intensive institution,"Caucasian-American/European,Oceania (e.g., Australian/New Zealander)",54,0,Woman,Chemistry,Not at all,Postdoc,Yes,Become stronger
+58,3,1,1,I did not recieve any offers,Caucasian-American/European,26,4,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+59,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,1,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Become weaker
+60,5,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,101,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+61,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,5,Woman,Chemistry,Not at all,Postdoc,Yes,Not changed
+62,5,0,0,I did not recieve any offers,Caucasian-American/European,67,0,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+63,4,1,0,I accepted an offer at a primarily undergraduate institution,"Caucasian-American/European,Caucasian-American/North African or Middle Eastern",41,25,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,Become stronger
+64,3,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,37,0,Man,Biological Sciences,NA,Postdoc,No,Become stronger
+65,0,0,0,I did not recieve any offers,Caucasian-American/European,3,9,Man,Geosciences,NA,Postdoc,Yes,Become weaker
+66,3,0,NA,I did not recieve any offers,Caucasian-American/European,20,NA,Woman,Biological Sciences,Not at all,Postdoc,No,Not changed
+67,0,0,NA,I did not recieve any offers,"Caucasian-American/European,Asian-American/Asian",1,0,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,No,Become stronger
+68,2,0,NA,I did not recieve any offers,Caucasian-American/European,22,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+69,2,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,17,6,Woman,Biological Sciences,NA,Postdoc,No,Become weaker
+70,3,0,0,I did not recieve any offers,"Caucasian-American/European,Caucasian-American/North African or Middle Eastern,Not Listed",80,9,Man,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+71,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,5,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+72,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73,2,0,NA,I did not recieve any offers,Not Listed,51,0,Man,Chemistry,NA,Postdoc,No,Become weaker
+74,1,0,1,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,24,0,Woman,Biological Sciences,Not at all,Postdoc,No,Become weaker
+75,0,0,NA,I did not recieve any offers,Caucasian-American/European,11,11,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+76,1,0,NA,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,1,NA,Man,Engineering,NA,Postdoc,Yes,Become stronger
+77,1,0,NA,I did not recieve any offers,Caucasian-American/European,14,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+78,0,0,2,I did not recieve any offers,Caucasian-American/European,4,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+79,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,59,0,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),No,Become stronger
+80,7,0,NA,I did not recieve any offers,Asian-American/Asian,83,7,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),No,Not changed
+82,0,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,2,1,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+83,1,1,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for reasons not listed above",Caucasian-American/European,0,4,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+84,13,7 offers (4 additional searches were either delayed or frozen because of COVID so my decision was based on the 7 offers),0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of spouse/partner job prospects,I rejected offer(s) because of other family needs",Caucasian-American/European,28,0,Woman,Engineering,Not at all,Postdoc,Yes,Become stronger
+85,5,5,0,"I accepted an offer at a primarily undergraduate institution,I accepted an offer at a research-intensive institution",Caucasian-American/European,3,6,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+86,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,29,0,Man,Biological Sciences,NA,Postdoc,No,Become stronger
+87,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Man,Biological Sciences,NA,Postdoc,No,Not changed
+88,6,2,0,I accepted an offer at a research-intensive institution,South/Central American,35,10,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+89,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,2,Woman,Integrated Sciences,NA,Postdoc,Yes,Become weaker
+90,3,"one rejection, waiting to hear from two others",NA,I did not recieve any offers,Caucasian-American/European,5,0,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,No,Not changed
+91,6,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for hostile/unwelcome interviewing environments,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,18,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+93,1,0,1,I did not recieve any offers,Caucasian-American/European,10,4,Man,Geosciences,Not at all,Postdoc,Yes,Become weaker
+94,2,1,0,NA,Caucasian-American/European,17,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+97,0,0,NA,I did not recieve any offers,Asian-American/Asian,2,0,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Become weaker
+98,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,2,Woman,Chemistry,Not at all,NA,Yes,Not changed
+99,1,0,NA,I did not recieve any offers,Caucasian-American/European,2,2,Woman,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+100,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,20,110,Woman,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+101,2,0,NA,I did not recieve any offers,"African-American/Black/African,South/Central American,Caribbean Islander (e.g., Puerto Rico, Trinidad)",1,3,Woman,"Social, Behavior, & Economic Sciences",Not at all,NA,Yes,Become weaker
+103,1,0,NA,I did not recieve any offers,Caucasian-American/European,1,5,Woman,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+104,NA,NA,NA,I did not recieve any offers,Not Listed,4,2,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Become weaker
+106,0,0,0,I did not recieve any offers,Caucasian-American/European,NA,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+107,1,1,1,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,6,10,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Not changed
+108,1,0,NA,I did not recieve any offers,Caucasian-American/European,8,9,Woman,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+109,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,1,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+110,4,2,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,17,23,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+111,3,1,0,I accepted an offer at a primarily undergraduate institution,"South/Central American,North American Hispanic/Latinx",0,6,Woman,"Social, Behavior, & Economic Sciences",Not at all,NA,Yes,Become stronger
+112,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,7,30,Man,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Not changed
+113,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,2,3,Woman,Humanities,Not at all,PhD Candidate (ABD),Yes,Not changed
+114,4,1,NA,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,20,45,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+115,13,2,3,NA,Caucasian-American/European,120,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Not changed
+116,2,0,NA,I did not recieve any offers,North American Hispanic/Latinx,19,20,Man,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+117,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Postdoc,NA,NA
+118,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,2,6,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+119,3,0,0,I did not recieve any offers,Caucasian-American/European,8,24,Man,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Become weaker
+120,1,1,NA,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for hostile/unwelcome interviewing environments",Caucasian-American/European,10,20,Man,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+121,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,Somewhat,PhD Candidate (ABD),Yes,Not changed
+122,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,4,1,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+123,1,0,0,I did not recieve any offers,Caucasian-American/European,6,5,Woman,Humanities,Somewhat,Postdoc,Yes,Not changed
+125,1,1,0,"I rejected offer(s) for geographic fit,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,14,9,Man,Humanities,Not at all,Postdoc,Yes,Become weaker
+126,2,0,0,I did not recieve any offers,Caucasian-American/European,1,4,Man,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+127,0,0,0,I did not recieve any offers,Caucasian-American/European,12,74,Woman,Humanities,Not at all,NA,Yes,Become weaker
+128,0,0,NA,I did not recieve any offers,Caucasian-American/European,6,0,Woman,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+129,7,6,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,0,19,Woman,Computer & Information Sciences,NA,PhD Candidate (ABD),Yes,Not changed
+130,1,0,NA,I did not recieve any offers,Caucasian-American/European,2,3,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+131,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,6,29,Man,Humanities,Somewhat,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+132,0,0,NA,I did not recieve any offers,Caucasian-American/European,24,6,Man,"Social, Behavior, & Economic Sciences",NA,NA,No,Not changed
+133,3,3,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient",Caucasian-American/European,1,5,Woman,Humanities,Not at all,PhD Candidate (ABD),No,Become stronger
+134,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,4,Man,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Become stronger
+135,0,0,0,I did not recieve any offers,Caucasian-American/European,2,4,Man,Humanities,NA,NA,Yes,Become weaker
+136,3,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,0,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+137,7,1,0,I rejected offer(s) for geographic fit,Caucasian-American/European,5,80,Woman,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Not changed
+138,0,0,0,NA,Caucasian-American/European,0,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+139,1,0,NA,I did not recieve any offers,African-American/Black/African,0,5,Man,"Social, Behavior, & Economic Sciences",Not at all,NA,Yes,Become weaker
+140,1,0,0,I did not recieve any offers,Caucasian-American/European,15,25,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Become weaker
+141,3,0,0,I did not recieve any offers,Caucasian-American/European,55,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+142,0,0,NA,I did not recieve any offers,Caucasian-American/European,7,6,Woman,Humanities,NA,NA,No,Not changed
+143,0,0,NA,I did not recieve any offers,Caucasian-American/European,9,0,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+144,2,1,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,3,0,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Become weaker
+145,1,0,NA,I did not recieve any offers,Caucasian-American/European,3,3,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Become weaker
+146,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+148,2,0,1,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,40,5,Man,Engineering,Not at all,Postdoc,Yes,Become weaker
+149,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Not changed
+150,0,0,NA,NA,Caucasian-American/European,3,5,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+151,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,7,13,Man,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+152,10,8,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Caucasian-American/North African or Middle Eastern,83,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+153,6,5,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects",African-American/Black/African,26,5,Woman,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Become weaker
+154,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,10,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+155,3,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals",Caucasian-American/European,6,10,Woman,Humanities,Not at all,NA,Yes,Become stronger
+156,1,Still waiting,NA,NA,Caucasian-American/European,0,7,Woman,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Become weaker
+157,0,0,NA,I did not recieve any offers,Asian-American/Asian,5,1,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+158,0,0,0,I did not recieve any offers,Asian-American/Asian,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+159,4,2,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,12,13,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Not changed
+161,0,NA,NA,I did not recieve any offers,Caucasian-American/European,0,3,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),No,Become weaker
+162,18,5,1,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of spouse/partner job prospects",Asian-American/Asian,58,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+163,5,3,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) for hostile/unwelcome interviewing environments",Caucasian-American/European,1,30,Woman,Biological Sciences,Not at all,Postdoc,No,Become stronger
+164,NA,NA,NA,I did not recieve any offers,Caucasian-American/European,4,2,Woman,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+165,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,1,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become stronger
+168,3,1,0,NA,African-American/Black/African,7,15,Man,Humanities,Not at all,Postdoc,Yes,Not changed
+169,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+170,5,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,83,37,Unlisted gender,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),No,Become stronger
+172,1,1,0,"I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of other family needs",Caucasian-American/European,7,18,Man,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+173,8,4,NA,NA,Asian-American/Asian,25,0,Woman,Biological Sciences,Not at all,NA,Yes,Not changed
+174,0,NA,NA,I did not recieve any offers,Caucasian-American/European,5,10,Man,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+175,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,3,16,Woman,Humanities,Not at all,PhD Candidate (ABD),Yes,Become stronger
+176,2,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,NA,NA,Man,Humanities,Not at all,Postdoc,No,Not changed
+177,0,0,0,I did not recieve any offers,Caucasian-American/European,0,1,Woman,Humanities,Not at all,PhD Candidate (ABD),Yes,Become weaker
+178,1,1,0,I accepted an offer at a primarily undergraduate institution,North American Hispanic/Latinx,3,3,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+180,1,0,NA,I did not recieve any offers,Caucasian-American/European,4,0,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+181,6,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,30,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+182,0,0,NA,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+183,0,NA,NA,I did not recieve any offers,Caucasian-American/European,3,4,Non-binary,Humanities,Not at all,PhD Candidate (ABD),No,Not changed
+185,16,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of spouse/partner job prospects",Asian-American/Asian,102,0,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+186,13,3,NA,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of spouse/partner job prospects",NA,40,19,Man,Chemistry,NA,Postdoc,Yes,Not changed
+187,4,1,NA,NA,Asian-American/Asian,30,70,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Not changed
+188,0,0,0,I did not recieve any offers,North American Hispanic/Latinx,4,32,Man,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+189,2,0,0,I did not recieve any offers,Caucasian-American/European,17,10,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+190,0,NA,NA,I did not recieve any offers,Caucasian-American/European,0,1,Man,Biological Sciences,Somewhat,NA,Yes,Become weaker
+191,0,NA,NA,I did not recieve any offers,Caucasian-American/European,1,14,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+193,12,5,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,29,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+194,1,0,NA,I did not recieve any offers,Caucasian-American/European,27,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+195,2,2,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,2,18,Non-binary,Mathematical & Physical Sciences,NA,Postdoc,No,Not changed
+196,5,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,9,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+197,3,0,1,I did not recieve any offers,Caucasian-American/European,3,13,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+198,0,NA,NA,I did not recieve any offers,Caucasian-American/European,2,0,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+199,1,0,NA,I did not recieve any offers,Caucasian-American/European,17,0,Man,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+200,2,0,0,I did not recieve any offers,Caucasian-American/European,40,0,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+201,3,0,NA,I did not recieve any offers,Caucasian-American/European,66,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Become stronger
+202,3,2,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,12,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+203,3,1,0,I accepted an offer at a research-intensive institution,"Caucasian-American/European,Asian-American/Asian",12,0,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+204,2,2,0,I rejected offer(s) because the position did not fit my career goals,"Caucasian-American/European,Caribbean Islander (e.g., Puerto Rico, Trinidad)",25,6,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+205,0,0,0,I did not recieve any offers,Caucasian-American/European,0,1,Man,Humanities,NA,NA,No,Become weaker
+206,13,1,0,I accepted an offer at a research-intensive institution,"Caucasian-American/European,Asian-American/Asian",40,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+207,2,0,1,I did not recieve any offers,South/Central American,4,6,Woman,Biological Sciences,NA,NA,Yes,Become weaker
+208,3,0,0,I did not recieve any offers,"African-American/Black/African,Asian-American/Asian",14,3,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+210,1,1,0,I accepted an offer at a primarily undergraduate institution,"African-American/Black/African,Asian-American/Asian",1,2,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+211,0,1,NA,I did not recieve any offers,Caucasian-American/European,2,5,Woman,Humanities,NA,NA,Yes,Become weaker
+212,1,0,NA,I did not recieve any offers,Caucasian-American/European,5,15,Woman,Humanities,Somewhat,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+213,2,NA,0,I accepted an offer at a primarily undergraduate institution,Asian-American/Asian,60,60,Man,Mathematical & Physical Sciences,NA,PhD Candidate (ABD),Yes,Become weaker
+214,3,2,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,5,5,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),No,Not changed
+215,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,1,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Not changed
+216,NA,NA,NA,I did not recieve any offers,Caucasian-American/European,7,8,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,No,Not changed
+217,2,0,0,I did not recieve any offers,Caucasian-American/European,1,2,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+218,7,4,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,12,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+219,3,0,NA,I did not recieve any offers,Caucasian-American/European,33,10,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Not changed
+220,3,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,17,5,Woman,Biological Sciences,NA,NA,No,Become stronger
+221,2,0,0,I did not recieve any offers,Caucasian-American/European,15,20,Non-binary,Humanities,Somewhat,PhD Candidate (ABD),Yes,Become weaker
+222,1,0,NA,NA,Asian-American/Asian,22,4,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+223,1,0,NA,NA,Asian-American/Asian,25,5,Man,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Become weaker
+224,0,0,NA,I did not recieve any offers,Asian-American/Asian,0,0,Man,Geosciences,NA,Postdoc,Yes,Not changed
+225,NA,NA,NA,I did not recieve any offers,Caucasian-American/European,6,2,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Become weaker
+226,0,0,NA,I did not recieve any offers,Caucasian-American/European,7,3,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Not changed
+227,3,1,0,I accepted an offer at a research-intensive institution,"Oceania (e.g., Australian/New Zealander)",7,0,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),No,Not changed
+228,1,0,0,I did not recieve any offers,Caucasian-American/European,3,0,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+229,2,1,0,NA,Caucasian-American/European,20,0,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+231,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,8,0,Woman,Biological Sciences,NA,NA,Yes,Not changed
+232,1,0,0,I did not recieve any offers,Asian-American/Asian,9,0,Man,Geosciences,NA,PhD Candidate (ABD),Yes,Become weaker
+233,2,2,0,I accepted an offer at a research-intensive institution,African-American/Black/African,6,8,Woman,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+235,1,0,0,I did not recieve any offers,Asian-American/Asian,27,0,Man,Biological Sciences,NA,Postdoc,No,Become weaker
+236,3,0,NA,I did not recieve any offers,Caucasian-American/European,15,1,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+237,1,0,NA,I did not recieve any offers,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Not changed
+238,0,0,NA,I did not recieve any offers,Caucasian-American/European,2,4,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+239,5,3,2,NA,North American Hispanic/Latinx,35,35,Man,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+240,5,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,24,0,Woman,Engineering,Not at all,Postdoc,Yes,Not changed
+241,3,0,NA,I did not recieve any offers,"African-American/Black/African,Caribbean Islander (e.g., Puerto Rico, Trinidad)",2,8,Woman,Humanities,NA,Postdoc,Yes,Not changed
+242,1,0,0,I did not recieve any offers,Caucasian-American/European,40,15,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Not changed
+243,1,1,NA,"I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",South/Central American,40,30,Woman,Humanities,Not at all,PhD Candidate (ABD),Yes,Become weaker
+244,0,0,NA,I did not recieve any offers,Asian-American/Asian,1,3,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Not changed
+245,0,0,NA,I did not recieve any offers,Caucasian-American/European,3,4,Non-binary,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+246,2,1,0,I accepted an offer at a primarily undergraduate institution,Asian-American/Asian,NA,NA,Woman,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),No,Not changed
+247,4,0,0,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,43,3,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+248,2,0,NA,I did not recieve any offers,"Caucasian-American/European,Asian-American/Asian,North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",3,0,Man,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+249,3,0,NA,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,8,1,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+251,4,1,0,I accepted an offer at a primarily undergraduate institution,North American Hispanic/Latinx,2,28,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+252,2,0,NA,I did not recieve any offers,Asian-American/Asian,6,2,Man,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+253,0,0,NA,I did not recieve any offers,Asian-American/Asian,8,2,Man,Humanities,NA,Postdoc,No,Become weaker
+254,5,1,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,0,12,Woman,"Social, Behavior, & Economic Sciences",Not at all,NA,Yes,Not changed
+255,0,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Not changed
+256,1,NA,NA,NA,Caucasian-American/European,2,1,Woman,Humanities,NA,NA,Yes,Become weaker
+257,1,1,1,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals",Caucasian-American/European,25,80,Man,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+258,0,0,NA,I did not recieve any offers,Caucasian-American/European,52,3,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+259,1,0,NA,I did not recieve any offers,Asian-American/Asian,3,1,Woman,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Become weaker
+260,0,0,0,I did not recieve any offers,Caucasian-American/European,5,5,Woman,Geosciences,Not at all,NA,No,Become weaker
+261,0,0,NA,I did not recieve any offers,Caucasian-American/European,15,0,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Become weaker
+262,8,3,1,I accepted an offer at a research-intensive institution,Asian-American/Asian,90,75,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+263,8,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit",Caucasian-American/European,36,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+264,4,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,17,3,Woman,Biological Sciences,NA,Postdoc,No,Become stronger
+266,9,2,0,"I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals","North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",4,16,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+267,NA,0,NA,I did not recieve any offers,Caucasian-American/European,0,1,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+268,0,0,0,I did not recieve any offers,Caucasian-American/European,12,16,Man,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+269,2,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,20,65,Man,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+270,9,0,NA,I did not recieve any offers,North American Hispanic/Latinx,3,0,Woman,Humanities,NA,NA,Yes,Become weaker
+271,0,0,0,I did not recieve any offers,South/Central American,22,0,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+272,4,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,13,20,Man,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Become stronger
+273,0,0,0,I did not recieve any offers,Caucasian-American/European,0,2,Man,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Not changed
+274,0,2,0,"I accepted an offer at a primarily undergraduate institution,I accepted an offer at a research-intensive institution",Caucasian-American/European,3,5,Woman,"Social, Behavior, & Economic Sciences",Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+275,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Man,Engineering,Not at all,Postdoc,No,Become weaker
+276,0,0,NA,NA,Caucasian-American/European,0,0,Man,Geosciences,NA,Postdoc,Yes,NA
+277,2,2,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,4,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+278,2,2,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,18,20,Man,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+279,0,0,NA,I did not recieve any offers,Caucasian-American/European,0,3,Man,Humanities,NA,NA,Yes,Not changed
+280,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,3,Woman,Biological Sciences,Not at all,Postdoc,No,Become stronger
+281,3,0,NA,I did not recieve any offers,Caucasian-American/European,10,10,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+282,0,NA,0,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,0,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+283,4,1,0,"I rejected offer(s) because of reduced resources directly related to the economic impact of Covid-19,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,60,15,Man,Biological Sciences,Not at all,NA,Yes,Become weaker
+284,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,6,3,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),No,Become weaker
+285,2,0,NA,NA,African-American/Black/African,0,30,Woman,Humanities,NA,NA,No,Become weaker
+286,0,0,0,I did not recieve any offers,Caucasian-American/European,3,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+287,1,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,15,4,Man,Humanities,NA,PhD Candidate (ABD),Yes,Become stronger
+288,0,NA,0,NA,Caucasian-American/European,0,0,Woman,Integrated Sciences,NA,Postdoc,Yes,Become weaker
+289,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,1,Woman,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+290,0,0,0,I did not recieve any offers,Asian-American/Asian,0,2,Man,Chemistry,NA,Postdoc,Yes,Not changed
+291,1,0,0,I did not recieve any offers,Asian-American/Asian,16,0,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+292,1,1,1,NA,Caucasian-American/European,NA,5,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Become weaker
+293,7,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of other family needs",Caucasian-American/European,70,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+294,5,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit",Asian-American/Asian,46,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+295,1,1,0,I rejected offer(s) because of spouse/partner job prospects,Caucasian-American/European,0,0,Woman,Humanities,NA,Postdoc,Yes,Become stronger
+296,1,0,0,I did not recieve any offers,Caucasian-American/European,6,12,Woman,Mathematical & Physical Sciences,NA,Postdoc,No,Become weaker
+297,0,0,NA,I did not recieve any offers,Caucasian-American/European,5,2,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+298,1,0,NA,I did not recieve any offers,Caucasian-American/European,2,0,Woman,Biological Sciences,Somewhat,Non-tenure track faculty (e.g. research associate…),No,Become weaker
+299,0,0,0,NA,Not Listed,0,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+300,3,0,0,I did not recieve any offers,NA,40,0,Unlisted gender,Biological Sciences,NA,Postdoc,Yes,Become weaker
+301,1,1,0,I accepted an offer at a research-intensive institution,African-American/Black/African,6,0,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Become stronger
+302,5,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,18,Woman,Chemistry,Not at all,PhD Candidate (ABD),Yes,Become stronger
+303,2,0,NA,I did not recieve any offers,"Caucasian-American/European,Oceania (e.g., Australian/New Zealander)",3,3,Woman,Biological Sciences,Not at all,NA,No,Become weaker
+304,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Engineering,Not at all,Postdoc,Yes,Become weaker
+305,3,0,0,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,6,3,Woman,Engineering,Somewhat,Postdoc,Yes,Become stronger
+306,4,3,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,25,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+307,2,0,NA,I did not recieve any offers,Caucasian-American/European,2,0,Man,Engineering,"Yes, significant changes",Postdoc,Yes,Not changed
+308,1,0,0,I did not recieve any offers,North American Hispanic/Latinx,1,0,Woman,Biological Sciences,Not at all,Postdoc,No,Not changed
+309,0,0,0,I did not recieve any offers,Caucasian-American/European,2,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+310,0,0,0,I did not recieve any offers,"North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",1,0,Man,"Social, Behavior, & Economic Sciences",Somewhat,Postdoc,Yes,Become stronger
+311,4,0,0,I did not recieve any offers,Not Listed,35,0,Man,Chemistry,NA,Postdoc,Yes,Not changed
+313,2,0,1,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,9,2,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Become stronger
+316,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,2,0,Woman,Biological Sciences,NA,NA,Yes,Become stronger
+317,3,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for reasons not listed above",Caucasian-American/European,20,12,Man,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Not changed
+318,1,"They have not made any offers yet, hiring freeze purgatory",0,NA,Caucasian-American/European,0,1,Woman,Chemistry,NA,Postdoc,Yes,Not changed
+319,0,0,NA,I did not recieve any offers,"Caucasian-American/European,Caucasian-American/North African or Middle Eastern,Asian-American/Asian",12,3,Woman,Engineering,Not at all,Postdoc,Yes,Become weaker
+320,8,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,45,4,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+321,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,No,Become stronger
+322,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,1,2,Woman,Biological Sciences,Not at all,PhD Candidate (ABD),No,Not changed
+323,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,1,Man,Biological Sciences,Not at all,Postdoc,No,Become stronger
+324,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,40,1,Woman,Geosciences,NA,Postdoc,Yes,Become stronger
+325,NA,NA,NA,I did not recieve any offers,Asian-American/Asian,1,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+326,1,0,0,I did not recieve any offers,Caucasian-American/European,2,0,Woman,Biological Sciences,Not at all,Postdoc,No,Not changed
+327,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,35,0,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,Become stronger
+328,0,0,NA,I did not recieve any offers,Caucasian-American/European,0,30,Woman,"Social, Behavior, & Economic Sciences",Somewhat,NA,Yes,Become weaker
+329,0,0,0,I did not recieve any offers,Asian-American/Asian,0,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+330,4,0,2,NA,Caucasian-American/European,0,12,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+331,0,0,0,I did not recieve any offers,Caucasian-American/European,3,0,Non-binary,Humanities,NA,Postdoc,Yes,Become weaker
+332,2,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,32,4,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Become weaker
+333,0,0,NA,I did not recieve any offers,Asian-American/Asian,0,2,Man,Humanities,Not at all,NA,Yes,Become weaker
+335,3,0,0,I did not recieve any offers,Asian-American/Asian,4,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+336,NA,NA,NA,NA,Asian-American/Asian,0,0,Man,Biological Sciences,"Yes, significant changes",Postdoc,Yes,Not changed
+337,3,1,NA,I accepted an offer at a research-intensive institution,Caucasian-American/European,34,1,Woman,Engineering,Not at all,Postdoc,No,Become weaker
+338,2,2,NA,I accepted an offer at a research-intensive institution,"North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+339,3,2,0,I accepted an offer at a research-intensive institution,African-American/Black/African,12,11,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Not changed
+340,0,0,0,I did not recieve any offers,Caucasian-American/European,10,0,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+341,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,30,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+342,NA,NA,NA,NA,Asian-American/Asian,3,NA,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+343,0,0,0,I did not recieve any offers,Caucasian-American/European,10,10,Man,Humanities,Not at all,NA,Yes,Become weaker
+344,0,0,NA,I did not recieve any offers,Caucasian-American/European,0,1,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+345,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,Become weaker
+347,0,0,NA,NA,Not Listed,2,0,Man,Biological Sciences,Somewhat,Postdoc,Yes,Not changed
+348,0,0,NA,I did not recieve any offers,"Caucasian-American/European,African-American/Black/African,Asian-American/Asian,Caribbean Islander (e.g., Puerto Rico, Trinidad),Not Listed",5,5,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+349,1,0,NA,I did not recieve any offers,Caucasian-American/European,0,2,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,Become weaker
+350,1,none yet (wating to hear back from the two above),NA,NA,Not Listed,15,0,Man,"Social, Behavior, & Economic Sciences",Somewhat,Postdoc,Yes,NA
+351,0,0,0,I did not recieve any offers,Caucasian-American/European,3,0,Woman,Biological Sciences,NA,Postdoc,No,Become weaker
+352,0,0,NA,NA,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+353,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,20,5,Woman,Biological Sciences,Not at all,Postdoc,No,Become weaker
+354,0,0,0,NA,Caucasian-American/European,5,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+355,0,0,0,I did not recieve any offers,Caucasian-American/European,7,1,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+356,0,NA,NA,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Integrated Sciences,NA,Postdoc,Yes,Become weaker
+357,1,1,0,I accepted an offer at a research-intensive institution,South/Central American,1,0,Woman,Geosciences,NA,Postdoc,Yes,Not changed
+358,0,0,NA,NA,Caucasian-American/European,4,3,Man,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+359,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,2,1,Woman,Humanities,NA,Postdoc,Yes,Not changed
+360,0,0,NA,I did not recieve any offers,Caucasian-American/European,3,3,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+361,0,0,0,I did not recieve any offers,Asian-American/Asian,1,42,Man,"Social, Behavior, & Economic Sciences",Somewhat,Postdoc,Yes,NA
+362,NA,NA,NA,I did not recieve any offers,Caucasian-American/European,3,0,Woman,Humanities,NA,Postdoc,No,Become weaker
+363,1,0,0,I did not recieve any offers,Asian-American/Asian,4,1,Man,Engineering,NA,Postdoc,Yes,NA
+364,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,1,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+365,0,NA,NA,NA,Caucasian-American/European,0,1,Woman,Integrated Sciences,NA,Postdoc,Yes,Not changed
+366,0,0,0,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,5,0,Man,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+367,0,0,0,I did not recieve any offers,African-American/Black/African,5,NA,Man,"Social, Behavior, & Economic Sciences",Not at all,NA,No,Become weaker
+368,NA,NA,NA,NA,Caucasian-American/European,5,5,Woman,Humanities,NA,Postdoc,Yes,Become weaker
+369,1,0,NA,I did not recieve any offers,Asian-American/Asian,25,5,Woman,Engineering,Not at all,Postdoc,Yes,Become weaker
+370,0,0,NA,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,10,6,Man,Engineering,NA,Postdoc,Yes,Not changed
+371,0,0,0,I did not recieve any offers,Caucasian-American/European,10,21,Woman,Humanities,NA,Postdoc,Yes,Become weaker
+373,0,0,0,I did not recieve any offers,Asian-American/Asian,3,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+374,0,0,NA,I did not recieve any offers,Asian-American/Asian,4,0,Man,Computer & Information Sciences,NA,Postdoc,No,Become stronger
+375,NA,NA,NA,NA,"North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",NA,NA,Man,"Social, Behavior, & Economic Sciences","Yes, significant changes",Postdoc,Yes,NA
+378,1,NA,NA,I did not recieve any offers,Asian-American/Asian,0,2,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+379,0,0,NA,I did not recieve any offers,African-American/Black/African,7,1,Man,Engineering,NA,Postdoc,Yes,Become stronger
+380,0,NA,NA,NA,Caucasian-American/European,0,1,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,Become stronger
+381,6,2,NA,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Asian-American/Asian,30,2,Woman,Chemistry,NA,Postdoc,No,Become stronger
+382,4,0,0,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,9,0,Man,Engineering,NA,Postdoc,Unsure,Not changed
+383,2,1,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/North African or Middle Eastern,10,2,Woman,Engineering,NA,NA,No,Not changed
+384,0,NA,NA,I did not recieve any offers,Caucasian-American/European,1,0,Man,Humanities,NA,Postdoc,No,Not changed
+385,0,0,0,I did not recieve any offers,Caucasian-American/European,4,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+386,2,"0, though still waiting to hear from 1",0,I did not recieve any offers,Caucasian-American/European,12,0,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,Not changed
+388,8,3,NA,NA,Asian-American/Asian,24,0,Woman,Engineering,Not at all,NA,Yes,Become weaker
+389,1,0,NA,I did not recieve any offers,Caucasian-American/European,3,0,Woman,Humanities,Not at all,NA,Yes,Become weaker
+390,0,0,NA,I did not recieve any offers,Caucasian-American/European,4,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+391,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,2,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+392,NA,NA,NA,NA,Not Listed,NA,NA,Man,NA,NA,Postdoc,Yes,NA
+393,1,1,0,"I rejected offer(s) for geographic fit,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,0,6,Man,Chemistry,Not at all,Postdoc,Yes,Not changed
+394,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+395,1,0,1,I did not recieve any offers,Caucasian-American/European,6,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+396,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+397,1,0,NA,I did not recieve any offers,Caucasian-American/European,6,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+398,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+399,1,0,NA,I did not recieve any offers,Caucasian-American/European,0,1,Man,Biological Sciences,NA,Postdoc,Yes,NA
+400,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+401,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Chemistry,NA,Postdoc,No,NA
+402,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Chemistry,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+403,3,2,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,4,0,Woman,Biological Sciences,NA,Postdoc,No,NA
+404,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+405,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Mathematical & Physical Sciences,NA,Postdoc,No,NA
+406,0,NA,NA,NA,Caucasian-American/European,0,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+407,0,0,NA,I did not recieve any offers,Asian-American/Asian,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+408,NA,NA,NA,NA,Caucasian-American/European,0,0,Man,Engineering,Not at all,Postdoc,No,NA
+409,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+410,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Chemistry,NA,Postdoc,No,NA
+411,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+412,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,No,NA
+413,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+414,NA,NA,NA,NA,"Caucasian-American/European,North American Hispanic/Latinx",NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+415,0,0,0,I did not recieve any offers,Caucasian-American/European,20,0,Man,Engineering,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+416,NA,NA,NA,NA,"Caucasian-American/European,South/Central American",NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+417,0,0,0,I did not recieve any offers,Not Listed,0,2,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+418,0,0,NA,I did not recieve any offers,"Caucasian-American/European,Asian-American/Asian",0,1,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,NA
+419,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Chemistry,NA,Postdoc,No,NA
+420,0,0,0,NA,Caucasian-American/European,0,0,Man,Engineering,NA,Postdoc,Yes,NA
+421,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,1,Woman,Geosciences,NA,Postdoc,Yes,NA
+422,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,NA
+423,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),No,NA
+424,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Geosciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+425,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Humanities,NA,NA,Yes,NA
+426,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+427,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Unsure,NA
+428,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+429,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+430,4,2,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,0,4,Woman,Biological Sciences,NA,PhD Candidate (ABD),Yes,NA
+431,0,0,0,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Humanities,NA,PhD Candidate (ABD),No,NA
+432,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,No,NA
+433,1,0,NA,I did not recieve any offers,"Caucasian-American/European,Asian-American/Asian",7,10,Woman,Humanities,NA,Postdoc,Yes,NA
+434,0,0,0,I did not recieve any offers,Caucasian-American/European,10,50,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+435,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+436,NA,NA,NA,NA,"Caucasian-American/European,Asian-American/Asian",NA,NA,Non-binary,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+437,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+438,1,1,0,I accepted an offer at a primarily undergraduate institution,Asian-American/Asian,1,1,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+439,6,5,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects",African-American/Black/African,26,5,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+440,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PhD Candidate (ABD),NA,NA
+441,2,2,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,2,1,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),No,NA
+442,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Biological Sciences,NA,Postdoc,No,NA
+443,NA,0,0,I did not recieve any offers,Caucasian-American/European,3,2,Woman,Mathematical & Physical Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+444,0,0,0,I did not recieve any offers,African-American/Black/African,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+445,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,NA
+446,NA,NA,NA,NA,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,Postdoc,No,NA
+447,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,2,Woman,Humanities,NA,NA,Yes,NA
+448,NA,NA,NA,NA,"Caucasian-American/European,North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",NA,NA,Woman,NA,NA,Postdoc,Yes,NA
+449,1,1,0,"I accepted an offer at a primarily undergraduate institution,I accepted an offer at a research-intensive institution",Not Listed,2,1,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+450,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+451,0,0,NA,I did not recieve any offers,Caucasian-American/European,5,5,Non-binary,Humanities,NA,Postdoc,Yes,NA
+452,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),No,NA
+453,NA,NA,NA,NA,"Caucasian-American/European,North American Hispanic/Latinx",NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+454,NA,NA,NA,NA,African-American/Black/African,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+455,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+456,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+457,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+458,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Humanities,NA,Postdoc,Yes,NA
+459,3,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,3,6,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+460,1,1,NA,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,NA,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,NA
+461,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Chemistry,NA,Postdoc,No,NA
+462,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+463,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+464,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+465,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Humanities,NA,NA,Yes,NA
+466,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+467,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Chemistry,NA,PhD Candidate (ABD),Yes,NA
+468,0,0,NA,I did not recieve any offers,Caucasian-American/European,0,4,Man,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),NA,NA
+469,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Non-binary,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+470,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+471,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+472,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Engineering,NA,Postdoc,Yes,NA
+473,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,NA
+474,0,0,0,I did not recieve any offers,Asian-American/Asian,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+475,0,0,NA,I did not recieve any offers,Caucasian-American/European,12,8,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+476,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,NA,Yes,NA
+477,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+478,NA,NA,NA,NA,Caucasian-American/European,3,12,Man,Biological Sciences,NA,Postdoc,Yes,NA
+479,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Mathematical & Physical Sciences,NA,Postdoc,No,NA
+480,NA,NA,NA,NA,"Caribbean Islander (e.g., Puerto Rico, Trinidad)",NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+481,2,1,0,I rejected offer(s) because the personal compensation/benefits were insufficient,Caucasian-American/European,5,0,Woman,Engineering,NA,NA,Yes,NA
+482,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+483,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+484,3,2,0,I accepted an offer at a research-intensive institution,North American Hispanic/Latinx,2,NA,Man,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+485,0,0,NA,I did not recieve any offers,Caucasian-American/European,2,2,Woman,Humanities,NA,Postdoc,Yes,NA
+486,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Postdoc,Yes,NA
+487,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+488,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+489,0,1 (continue where I am with promotion to full time VAP),NA,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,6,6,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),No,NA
+490,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Engineering,NA,Non-tenure track faculty (e.g. research associate…),No,NA
+492,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,5,0,Woman,Computer & Information Sciences,Not at all,Postdoc,Yes,NA
+493,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+494,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+495,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+496,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+497,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+498,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+499,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+500,NA,NA,NA,NA,North American Hispanic/Latinx,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+501,NA,NA,NA,NA,South/Central American,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,NA
+502,NA,NA,NA,NA,"Caribbean Islander (e.g., Puerto Rico, Trinidad)",NA,NA,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,NA
+503,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Humanities,NA,NA,Unsure,NA
+504,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+505,NA,NA,NA,I did not recieve any offers,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+506,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+507,NA,NA,NA,I did not recieve any offers,Asian-American/Asian,NA,NA,Unlisted gender,Biological Sciences,NA,Postdoc,Yes,NA
+508,0,NA,NA,"I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of other family needs",Caucasian-American/European,4,5,Woman,Humanities,NA,Postdoc,Yes,NA
+509,0,0,NA,I did not recieve any offers,Not Listed,1,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+510,NA,NA,NA,NA,Not Listed,NA,NA,Man,Biological Sciences,NA,NA,Yes,NA
+511,NA,NA,NA,NA,"South/Central American,North American Hispanic/Latinx",NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,NA
+512,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+513,1,0,NA,I did not recieve any offers,Caucasian-American/European,0,10,Man,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+514,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+515,NA,NA,NA,NA,North American Hispanic/Latinx,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+516,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+517,NA,NA,NA,NA,NA,NA,NA,NA,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,NA
+518,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+519,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,0,0,Man,Mathematical & Physical Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+520,2,2,0,I accepted an offer at a primarily undergraduate institution,"Caucasian-American/European,North American Hispanic/Latinx",0,2,Non-binary,Biological Sciences,"Yes, significant changes",Postdoc,Yes,Not changed
+521,7,4,NA,"I accepted an offer at a primarily undergraduate institution,I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,25,25,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+522,NA,NA,NA,NA,Not Listed,1,NA,Man,Chemistry,Not at all,Postdoc,Yes,Become stronger
+523,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Postdoc,NA,NA
+524,1,1,NA,I rejected offer(s) because of other family needs,Caucasian-American/European,2,10,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+525,4,1,0,"I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,24,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+526,3,3,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,4,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+527,3,0,NA,I did not recieve any offers,Caucasian-American/European,13,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+528,0,NA,NA,I did not recieve any offers,Caucasian-American/European,0,1,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+529,2,0,NA,I did not recieve any offers,Caucasian-American/European,6,0,Woman,Mathematical & Physical Sciences,Not at all,Postdoc,No,Not changed
+530,NA,NA,NA,I did not recieve any offers,Asian-American/Asian,0,0,Woman,Biological Sciences,NA,NA,No,Not changed
+531,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+532,0,0,0,I did not recieve any offers,Caucasian-American/European,15,5,Man,Mathematical & Physical Sciences,NA,NA,Unsure,Become weaker
+533,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,0,Man,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+534,0,0,NA,I did not recieve any offers,Caucasian-American/European,20,3,Man,Chemistry,NA,Postdoc,Yes,Not changed
+535,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Postdoc,Yes,NA
+536,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Humanities,Not at all,Postdoc,Yes,Not changed
+537,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,1,0,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+538,0,0,0,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+539,4,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,3,12,Woman,Mathematical & Physical Sciences,NA,Postdoc,No,Not changed
+540,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+541,NA,NA,NA,NA,African-American/Black/African,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+542,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+543,0,N/A,NA,I did not recieve any offers,North American Hispanic/Latinx,0,1,Man,Engineering,Not at all,Postdoc,Yes,Not changed
+544,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+545,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Computer & Information Sciences,NA,Postdoc,Yes,NA
+546,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+547,2,NA,NA,I did not recieve any offers,Not Listed,7,0,Man,Engineering,NA,Postdoc,Yes,Not changed
+548,0,0,NA,NA,Caucasian-American/European,0,0,Man,Biological Sciences,NA,NA,Yes,NA
+549,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Non-binary,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+550,0,0,NA,I did not recieve any offers,Asian-American/Asian,1,2,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+551,15,8,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) for hostile/unwelcome interviewing environments,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the start up package was insufficient",Asian-American/Asian,21,26,Woman,Biological Sciences,Not at all,Postdoc,No,Become stronger
+552,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,NA,Yes,NA
+553,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+554,1,1,0,I accepted an offer at a research-intensive institution,African-American/Black/African,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+555,0,0,0,I did not recieve any offers,Asian-American/Asian,18,0,Woman,Engineering,Somewhat,Postdoc,No,Become weaker
+556,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,NA
+557,0,NA,NA,I did not recieve any offers,"Caucasian-American/European,African-American/Black/African",2,2,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Not changed
+558,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+559,0,0,0,I did not recieve any offers,African-American/Black/African,2,3,Woman,"Social, Behavior, & Economic Sciences",Not at all,PhD Candidate (ABD),Yes,Become weaker
+560,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+561,0,0,NA,I did not recieve any offers,African-American/Black/African,1,1,Woman,Chemistry,Not at all,PhD Candidate (ABD),Yes,Not changed
+562,4,1,0,"I rejected offer(s) for geographic fit,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because of other family needs,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,7,1,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Become stronger
+563,4,0,NA,I did not recieve any offers,"Caucasian-American/European,Caucasian-American/North African or Middle Eastern",40,1,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,No,Not changed
+564,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Humanities,NA,Postdoc,Yes,NA
+565,NA,NA,NA,I did not recieve any offers,Caucasian-American/European,14,2,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+566,NA,NA,NA,NA,African-American/Black/African,12,NA,Man,Engineering,NA,Postdoc,Yes,NA
+567,NA,NA,NA,NA,Caucasian-American/European,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+568,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Postdoc,NA,NA
+569,1,0,0,I did not recieve any offers,Caucasian-American/European,80,20,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Unsure,Become weaker
+570,4,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,21,14,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become stronger
+571,0,0,0,I did not recieve any offers,South/Central American,5,0,Woman,Computer & Information Sciences,NA,Postdoc,Yes,NA
+572,0,0,NA,I did not recieve any offers,Caucasian-American/European,2,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+573,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Geosciences,NA,Postdoc,No,NA
+574,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Geosciences,NA,PhD Candidate (ABD),Yes,NA
+575,0,0,NA,I did not recieve any offers,Caucasian-American/European,20,40,Woman,Humanities,Somewhat,PhD Candidate (ABD),Yes,Become weaker
+576,0,0,NA,I did not recieve any offers,Caucasian-American/European,10,12,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+578,0,0,NA,I did not recieve any offers,Caucasian-American/European,22,5,Woman,Biological Sciences,NA,Postdoc,No,Become weaker
+579,1,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,50,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+580,3,0,0,I did not recieve any offers,Caucasian-American/European,29,3,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+581,1,1,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient",Asian-American/Asian,3,17,Man,Biological Sciences,Not at all,Postdoc,No,Not changed
+582,0,0,NA,NA,Caucasian-American/European,0,0,Woman,NA,NA,Postdoc,No,NA
+583,0,0,NA,I did not recieve any offers,Asian-American/Asian,0,0,Man,Biological Sciences,NA,Postdoc,No,Become stronger
+584,12,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because of spouse/partner job prospects,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,46,0,Woman,Engineering,Not at all,Postdoc,Yes,Become stronger
+585,NA,NA,NA,NA,Not Listed,NA,NA,Woman,Integrated Sciences,NA,Postdoc,No,NA
+586,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+587,1,0,0,I did not recieve any offers,Caucasian-American/European,2,0,Man,Biological Sciences,NA,Postdoc,No,Not changed
+588,1,1,0,I accepted an offer at a primarily undergraduate institution,"Caribbean Islander (e.g., Puerto Rico, Trinidad)",0,1,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+589,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+590,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+591,4,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the start up package was insufficient",Caucasian-American/European,5,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+592,NA,NA,NA,NA,"South/Central American,Not Listed",NA,NA,Woman,Integrated Sciences,NA,NA,No,NA
+593,1,1,0,"I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,0,1,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+595,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Biological Sciences,"Yes, significant changes",NA,Yes,Become weaker
+597,3,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,34,0,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,NA
+598,0,0,NA,I did not recieve any offers,Asian-American/Asian,0,0,Man,Biological Sciences,NA,Postdoc,No,Become stronger
+599,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+600,0,0,NA,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,2,0,Woman,Biological Sciences,NA,NA,No,Become weaker
+601,0,0,0,I did not recieve any offers,"Caribbean Islander (e.g., Puerto Rico, Trinidad)",2,0,Woman,Geosciences,Not at all,PhD Candidate (ABD),Yes,Not changed
+602,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+603,0,NA,NA,NA,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+604,0,0,0,I did not recieve any offers,Caucasian-American/European,10,37,Man,Mathematical & Physical Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Become weaker
+605,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Mathematical & Physical Sciences,NA,Postdoc,No,NA
+606,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+607,2,2,1,I accepted an offer at a research-intensive institution,Asian-American/Asian,30,5,Woman,Chemistry,NA,Postdoc,Yes,Not changed
+608,0,0,0,I did not recieve any offers,African-American/Black/African,10,0,Woman,Computer & Information Sciences,NA,NA,Yes,NA
+609,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+610,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+611,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+612,NA,NA,NA,NA,Not Listed,NA,NA,Woman,Biological Sciences,NA,PhD Candidate (ABD),Yes,NA
+613,1,0,NA,I did not recieve any offers,Caucasian-American/European,0,2,Woman,Humanities,NA,PhD Candidate (ABD),Yes,NA
+614,NA,NA,NA,NA,Asian-American/Asian,0,0,Man,Computer & Information Sciences,NA,Postdoc,Yes,NA
+615,2,1,0,I accepted an offer at a primarily undergraduate institution,Asian-American/Asian,50,26,Woman,Engineering,NA,NA,Yes,Become weaker
+616,NA,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+617,0,NA,0,I did not recieve any offers,African-American/Black/African,5,13,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+618,4,1,0,I rejected offer(s) for reasons not listed above,Caucasian-American/European,10,7,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Become weaker
+619,1,0,0,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+620,NA,NA,NA,NA,"African-American/Black/African,Asian-American/Asian,Caribbean Islander (e.g., Puerto Rico, Trinidad)",NA,NA,Woman,NA,NA,Postdoc,Yes,NA
+621,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+622,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+623,NA,NA,NA,NA,Caucasian-American/North African or Middle Eastern,NA,NA,Woman,Mathematical & Physical Sciences,NA,Postdoc,Unsure,NA
+624,11,2,1,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Asian-American/Asian,70,6,Woman,Chemistry,Somewhat,Postdoc,Yes,Become stronger
+625,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+626,0,0,NA,I did not recieve any offers,Asian-American/Asian,60,0,Man,Chemistry,Not at all,Postdoc,Yes,Become weaker
+627,0,0,0,I did not recieve any offers,Caucasian-American/European,8,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+628,2,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,6,17,Woman,Biological Sciences,Not at all,NA,Yes,Not changed
+629,2,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,7,Woman,Chemistry,NA,Postdoc,Yes,Not changed
+630,1,1,NA,I accepted an offer at a research-intensive institution,Caucasian-American/European,35,25,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become stronger
+631,12,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) for hostile/unwelcome interviewing environments,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,55,5,Man,Chemistry,NA,Postdoc,Yes,Not changed
+632,2,1,0,I accepted an offer at a primarily undergraduate institution,African-American/Black/African,35,6,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+633,0,0,NA,I did not recieve any offers,"Caucasian-American/European,North American Hispanic/Latinx",11,1,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+634,1,0,NA,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,22,0,Woman,Biological Sciences,NA,Postdoc,No,Become weaker
+635,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,24,0,Man,Biological Sciences,NA,Postdoc,Yes,NA
+636,1,0,0,I did not recieve any offers,"Caucasian-American/European,South/Central American",2,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Become weaker
+637,2,0,NA,I did not recieve any offers,Caucasian-American/European,0,16,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+638,0,0,NA,I did not recieve any offers,Caucasian-American/European,6,0,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+640,NA,NA,NA,NA,Asian-American/Asian,10,0,Man,Engineering,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+641,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Engineering,NA,NA,No,NA
+643,NA,NA,NA,NA,NA,NA,NA,Unlisted gender,NA,NA,NA,NA,NA
+644,1,0,NA,I did not recieve any offers,Caucasian-American/European,5,0,Woman,Engineering,Not at all,Postdoc,Yes,Become stronger
+645,4,2,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,25,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+646,4,3,3,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of spouse/partner job prospects",Asian-American/Asian,30,0,Woman,Engineering,Not at all,Postdoc,Yes,Become stronger
+647,5,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals",Asian-American/Asian,8,0,Woman,Biological Sciences,Not at all,NA,No,Not changed
+648,3,2,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,70,0,Man,Chemistry,NA,Postdoc,Yes,Become stronger
+649,2,1,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,0,0,Man,Chemistry,NA,Postdoc,Yes,Not changed
+650,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,3,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+651,7,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,53,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+652,1,1,NA,"I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient",South/Central American,30,80,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+653,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+654,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Chemistry,NA,Postdoc,Yes,NA
+655,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+656,2,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for reasons not listed above",Caucasian-American/European,51,0,Woman,Biological Sciences,NA,NA,Yes,NA
+657,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,1,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+658,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Computer & Information Sciences,NA,Postdoc,Unsure,NA
+659,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Chemistry,NA,Postdoc,Yes,NA
+661,5,1,2,I rejected offer(s) because the personal compensation/benefits were insufficient,Caucasian-American/European,2,16,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+662,2,1,0,I accepted an offer at a research-intensive institution,African-American/Black/African,32,12,Man,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Become stronger
+663,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,6,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Not changed
+664,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,10,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+665,0,0,0,I did not recieve any offers,Caucasian-American/European,5,0,Woman,Biological Sciences,Somewhat,NA,Yes,Become weaker
+666,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+667,NA,NA,NA,NA,Not Listed,NA,NA,Woman,Biological Sciences,NA,NA,No,NA
+668,1,0,0,NA,Caucasian-American/European,6,0,Man,Humanities,NA,Postdoc,No,Become stronger
+669,3,0,NA,I did not recieve any offers,Caucasian-American/European,4,0,Woman,Geosciences,NA,Postdoc,Yes,Not changed
+670,4,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) for reasons not listed above,I rejected offer(s) because of reduced resources directly related to the economic impact of Covid-19",South/Central American,4,0,Woman,Engineering,Not at all,Postdoc,No,Become stronger
+671,1,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,2,1,Woman,Biological Sciences,NA,NA,No,NA
+672,NA,NA,NA,NA,Asian-American/Asian,1,1,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+673,1,0,NA,I did not recieve any offers,South/Central American,20,0,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+674,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,6,0,Woman,Chemistry,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+675,1,1,1,NA,"Caribbean Islander (e.g., Puerto Rico, Trinidad)",21,0,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),No,Not changed
+676,5,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit,I rejected offer(s) because of other family needs","Caribbean Islander (e.g., Puerto Rico, Trinidad)",1,11,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+677,1,0,NA,I did not recieve any offers,Caucasian-American/European,7,0,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+678,0,0,NA,I did not recieve any offers,Caucasian-American/European,5,4,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+679,4,0,NA,I did not recieve any offers,Caucasian-American/European,40,0,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Not changed
+680,2,1,1,I accepted an offer at a research-intensive institution,Asian-American/Asian,10,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+681,0,0,NA,I did not recieve any offers,Caucasian-American/European,12,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+682,2,1,0,I rejected offer(s) for geographic fit,Caucasian-American/European,0,38,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+683,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,3,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+684,0,0,0,I did not recieve any offers,Caucasian-American/European,10,NA,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+685,1,0,0,I did not recieve any offers,Asian-American/Asian,0,3,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become stronger
+686,10,4,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,17,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+690,1,1,0,I accepted an offer at a research-intensive institution,"Caucasian-American/European,Asian-American/Asian",1,0,Woman,Mathematical & Physical Sciences,NA,NA,Yes,NA
+691,0,0,NA,I did not recieve any offers,Caucasian-American/European,3,0,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,Become weaker
+692,1,0,0,I did not recieve any offers,North American Hispanic/Latinx,3,30,Woman,Humanities,NA,PhD Candidate (ABD),Yes,Become weaker
+693,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,16,23,Man,Humanities,Not at all,Non-tenure track faculty (e.g. research associate…),No,Not changed
+694,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,1,Woman,Integrated Sciences,Not at all,NA,Yes,Not changed
+695,2,1,0,I accepted an offer at a research-intensive institution,"Caucasian-American/European,African-American/Black/African",30,0,Woman,Computer & Information Sciences,Not at all,Postdoc,Yes,Not changed
+696,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,7,4,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,Become weaker
+697,0,0,0,I did not recieve any offers,Caucasian-American/European,4,0,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+698,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,3,19,Woman,"Social, Behavior, & Economic Sciences",Somewhat,PhD Candidate (ABD),Yes,Become weaker
+699,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/North African or Middle Eastern,23,12,Man,Engineering,NA,NA,No,Become stronger
+700,8,2,1,I accepted an offer at a research-intensive institution,Asian-American/Asian,80,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+701,1,0,0,I did not recieve any offers,Caucasian-American/European,2,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+702,5,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,39,0,Woman,Biological Sciences,NA,Postdoc,No,Become stronger
+703,0,0,0,I did not recieve any offers,Caucasian-American/European,10,0,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+704,8,2,0,"I accepted an offer at a primarily undergraduate institution,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because the start up package was insufficient,I rejected offer(s) for reasons not listed above",Caucasian-American/European,0,22,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),No,Not changed
+705,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+706,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+707,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,No,NA
+708,8,2,2,"I accepted an offer at a research-intensive institution,I rejected offer(s) for geographic fit",Caucasian-American/European,58,8,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+709,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+710,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+711,0,0,NA,I did not recieve any offers,Not Listed,5,10,Man,Humanities,NA,NA,No,NA
+712,1,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,1,1,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,NA
+713,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+714,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+715,0,0,NA,I did not recieve any offers,Caucasian-American/European,10,10,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,NA
+716,2,1,0,"I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,8,4,Woman,Biological Sciences,Not at all,Postdoc,No,Become weaker
+717,9,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals",Caucasian-American/European,37,NA,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+718,NA,NA,NA,NA,Caucasian-American/North African or Middle Eastern,NA,NA,Woman,Mathematical & Physical Sciences,NA,Postdoc,Yes,NA
+719,NA,NA,NA,I did not recieve any offers,Caucasian-American/European,5,5,Woman,Biological Sciences,"Yes, significant changes",Postdoc,Yes,Become weaker
+720,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,NA,No,NA
+721,NA,NA,NA,I did not recieve any offers,Asian-American/Asian,2,0,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become weaker
+722,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+723,1,0,NA,I did not recieve any offers,Caucasian-American/European,2,0,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+724,0,0,0,I did not recieve any offers,Caucasian-American/European,2,1,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+725,1,0,NA,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,21,0,Man,Engineering,NA,Postdoc,No,Not changed
+726,1,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,0,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+727,2,0,NA,I did not recieve any offers,Caucasian-American/European,11,1,Woman,Biological Sciences,NA,NA,Yes,Not changed
+728,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,28,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+729,17,4,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals",Caucasian-American/European,30,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+730,2,0,NA,I did not recieve any offers,Caucasian-American/European,51,45,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+731,1,3,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,22,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+732,1,0,NA,I did not recieve any offers,Caucasian-American/European,19,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+733,0,0,0,I did not recieve any offers,Caucasian-American/North African or Middle Eastern,0,0,Man,Chemistry,NA,Postdoc,Yes,NA
+734,2,0,0,I did not recieve any offers,Caucasian-American/European,33,11,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+735,0,0,NA,I did not recieve any offers,Caucasian-American/European,22,3,Man,"Social, Behavior, & Economic Sciences",NA,NA,Yes,Not changed
+736,NA,NA,NA,I did not recieve any offers,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+737,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,2,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+738,1,0,0,I did not recieve any offers,Caucasian-American/European,20,25,Non-binary,Biological Sciences,NA,NA,Yes,NA
+739,0,NA,NA,NA,Caucasian-American/European,30,10,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+740,NA,NA,NA,NA,African-American/Black/African,NA,NA,Woman,Humanities,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+741,0,0,0,I did not recieve any offers,"Caucasian-American/European,North American Hispanic/Latinx",0,0,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,NA
+742,0,0,0,I did not recieve any offers,Asian-American/Asian,0,1,Man,Mathematical & Physical Sciences,NA,Postdoc,Yes,Not changed
+743,0,0,0,I did not recieve any offers,Asian-American/Asian,0,0,Man,Chemistry,NA,Postdoc,Unsure,Become stronger
+744,1,0,0,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+745,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,1,8,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,Become weaker
+746,0,0,7,I did not recieve any offers,Asian-American/Asian,0,0,Man,Engineering,NA,Postdoc,Yes,NA
+747,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+748,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Chemistry,NA,Postdoc,No,NA
+749,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+750,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+751,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),No,NA
+752,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+753,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+754,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+755,2,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,4,3,Man,Biological Sciences,NA,Postdoc,Yes,Become weaker
+756,0,0,NA,I did not recieve any offers,Caucasian-American/European,1,0,Woman,Biological Sciences,Not at all,PhD Candidate (ABD),Yes,Not changed
+757,0,0,0,I did not recieve any offers,Caucasian-American/European,0,3,Man,Chemistry,NA,PhD Candidate (ABD),Yes,Not changed
+758,1,1,0,I accepted an offer at a primarily undergraduate institution,Caucasian-American/European,0,12,Woman,Biological Sciences,Not at all,Postdoc,Yes,Become stronger
+761,0,NA,NA,I did not recieve any offers,Caucasian-American/European,0,5,Woman,Engineering,NA,NA,Yes,Become weaker
+762,1,1,0,I accepted an offer at a research-intensive institution,"North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",5,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+763,0,NA,NA,I did not recieve any offers,Caucasian-American/European,3,0,Woman,Integrated Sciences,NA,Postdoc,No,Not changed
+765,4,2,0,"I rejected offer(s) for geographic fit,I rejected offer(s) for hostile/unwelcome interviewing environments,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,30,4,Woman,Biological Sciences,NA,NA,Yes,Become weaker
+766,0,0,0,I did not recieve any offers,Asian-American/Asian,0,0,Man,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+767,3,0,NA,I did not recieve any offers,Caucasian-American/European,29,6,Man,Biological Sciences,NA,Postdoc,No,Become weaker
+768,15,6,NA,"I accepted an offer at a research-intensive institution,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,66,0,Woman,Biological Sciences,NA,Postdoc,Yes,Become stronger
+769,1,1,0,I accepted an offer at a research-intensive institution,"Caribbean Islander (e.g., Puerto Rico, Trinidad)",4,1,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+770,NA,NA,NA,NA,Caucasian-American/European,0,0,Woman,Engineering,Not at all,Postdoc,Yes,NA
+771,1,0,1,I did not recieve any offers,Caucasian-American/European,24,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+772,5,3,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because of spouse/partner job prospects",Caucasian-American/European,18,1,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+773,2,2,1,"I rejected offer(s) because of spouse/partner job prospects,I rejected offer(s) because of other family needs",Caucasian-American/European,5,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+774,6,5,0,I accepted an offer at a research-intensive institution,"African-American/Black/African,Caribbean Islander (e.g., Puerto Rico, Trinidad)",15,0,Man,Engineering,NA,Postdoc,Yes,Become stronger
+775,4,2 (plus 1 postdoc),1,"I rejected offer(s) for geographic fit,I rejected offer(s) because of other family needs,I rejected offer(s) because of reduced resources directly related to the economic impact of Covid-19,I rejected offer(s) because of other reasons pertaining to the impact of Covid-19",Caucasian-American/European,20,35,Woman,"Social, Behavior, & Economic Sciences",Not at all,Postdoc,Yes,Not changed
+776,4,4,NA,I accepted an offer at a research-intensive institution,Caucasian-American/European,31,NA,Woman,Biological Sciences,NA,NA,No,Not changed
+777,0,0,0,I did not recieve any offers,"Caucasian-American/European,North American Indigenous (e.g., Hawaii or Alaskan Native, American Indian)",0,7,NA,Biological Sciences,Not at all,Postdoc,Yes,Become weaker
+778,3,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,25,4,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+779,2,0,NA,I did not recieve any offers,Caucasian-American/European,7,0,Woman,Biological Sciences,NA,Postdoc,Yes,Not changed
+780,NA,NA,NA,NA,"African-American/Black/African,South/Central American",NA,NA,Man,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,Become stronger
+781,15,9,3,I accepted an offer at a research-intensive institution,North American Hispanic/Latinx,32,0,Man,Engineering,Not at all,Postdoc,Yes,Become stronger
+782,1,0,0,I did not recieve any offers,"Caucasian-American/European,Caribbean Islander (e.g., Puerto Rico, Trinidad)",0,1,Woman,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+783,11,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,60,0,Woman,Biological Sciences,Not at all,Postdoc,No,NA
+784,4,4,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,29,1,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+785,10,2,1,I accepted an offer at a research-intensive institution,Caucasian-American/European,94,0,Woman,Biological Sciences,Not at all,Non-tenure track faculty (e.g. research associate…),Yes,Become stronger
+786,0,0,0,I did not recieve any offers,Caucasian-American/European,2,9,Woman,"Social, Behavior, & Economic Sciences",Somewhat,Postdoc,No,Become weaker
+787,0,0,0,I did not recieve any offers,Caucasian-American/European,22,0,Man,Biological Sciences,NA,NA,No,Become weaker
+788,0,0,NA,NA,Asian-American/Asian,6,0,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+789,3,0,NA,I did not recieve any offers,Asian-American/Asian,4,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+790,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Integrated Sciences,NA,Postdoc,Yes,NA
+791,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Non-binary,Chemistry,NA,Postdoc,Yes,NA
+792,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+793,NA,NA,NA,NA,Caucasian-American/European,0,0,Woman,Biological Sciences,NA,PhD Candidate (ABD),Yes,NA
+794,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+795,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,NA,No,NA
+796,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Geosciences,NA,PhD Candidate (ABD),Yes,NA
+797,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Integrated Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+798,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,PhD Candidate (ABD),Yes,NA
+799,0,0,0,I did not recieve any offers,Caucasian-American/European,2,0,Woman,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Become weaker
+800,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+801,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/North African or Middle Eastern,9,1,Woman,Biological Sciences,NA,Postdoc,No,Not changed
+802,1,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/European,2,0,Woman,Engineering,Not at all,Postdoc,Yes,Become stronger
+803,4,1,0,I accepted an offer at a research-intensive institution,Caucasian-American/North African or Middle Eastern,24,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+804,1,0,0,I did not recieve any offers,"Caucasian-American/European,South/Central American,North American Hispanic/Latinx",2,1,Woman,Biological Sciences,NA,Postdoc,Yes,Become weaker
+805,4,1,0,I accepted an offer at a research-intensive institution,Asian-American/Asian,24,0,Woman,Engineering,Not at all,Postdoc,Yes,Become weaker
+806,3,1,1,NA,Caucasian-American/European,48,5,Man,Biological Sciences,NA,Postdoc,Yes,Not changed
+807,10,3,NA,I accepted an offer at a research-intensive institution,Asian-American/Asian,18,0,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+808,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Engineering,NA,Postdoc,Yes,NA
+809,NA,NA,NA,NA,Not Listed,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+810,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,NA,Yes,NA
+811,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+812,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+813,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Engineering,NA,Postdoc,Yes,NA
+814,NA,NA,NA,NA,"Caucasian-American/European,African-American/Black/African",0,0,Non-binary,Biological Sciences,NA,NA,Yes,NA
+815,6,3,1,I accepted an offer at a research-intensive institution,"Caucasian-American/European,Caucasian-American/North African or Middle Eastern",60,5,Man,Biological Sciences,NA,Non-tenure track faculty (e.g. research associate…),Yes,Not changed
+816,0,0,0,I did not recieve any offers,Caucasian-American/European,0,0,Man,Biological Sciences,NA,Postdoc,Yes,NA
+817,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+818,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Man,Biological Sciences,NA,NA,Yes,NA
+819,3,2,1,I accepted an offer at a research-intensive institution,Asian-American/Asian,24,0,Woman,Biological Sciences,NA,Postdoc,Yes,NA
+820,7,0,NA,I did not recieve any offers,Asian-American/Asian,30,0,Woman,Biological Sciences,Not at all,Postdoc,Yes,Not changed
+821,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Man,Mathematical & Physical Sciences,NA,Postdoc,Unsure,NA
+822,2,0,0,I did not recieve any offers,African-American/Black/African,7,3,Man,Engineering,Not at all,PhD Candidate (ABD),Yes,Become stronger
+823,0,0,0,NA,Caucasian-American/North African or Middle Eastern,0,0,Man,Engineering,Not at all,PhD Candidate (ABD),Yes,NA
+824,0,NA,NA,I did not recieve any offers,Caucasian-American/European,10,0,Man,"Social, Behavior, & Economic Sciences",NA,Postdoc,Yes,Not changed
+825,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,"Social, Behavior, & Economic Sciences",NA,Non-tenure track faculty (e.g. research associate…),Yes,NA
+826,0,0,NA,I did not recieve any offers,Caucasian-American/European,0,0,Man,Chemistry,NA,PhD Candidate (ABD),Yes,Not changed
+827,0,0,0,I did not recieve any offers,Caucasian-American/European,7,1,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+828,NA,NA,NA,NA,African-American/Black/African,NA,NA,Man,Biological Sciences,NA,Postdoc,Yes,NA
+829,2,2,0,"I accepted an offer at a research-intensive institution,I rejected offer(s) because the position did not fit my career goals,I rejected offer(s) because the personal compensation/benefits were insufficient,I rejected offer(s) because of spouse/partner job prospects,I rejected offer(s) because of other family needs",Asian-American/Asian,3,3,Man,Biological Sciences,NA,Postdoc,Yes,Become stronger
+830,NA,NA,NA,NA,South/Central American,NA,NA,Woman,Engineering,NA,PhD Candidate (ABD),Yes,NA
+831,NA,NA,NA,NA,Caucasian-American/European,NA,NA,Woman,Mathematical & Physical Sciences,NA,PhD Candidate (ABD),Yes,NA
+832,1,0,NA,I did not recieve any offers,Caucasian-American/European,4,0,Woman,Biological Sciences,Not at all,Postdoc,No,NA
+833,NA,NA,NA,NA,Asian-American/Asian,NA,NA,Woman,Biological Sciences,NA,PhD Candidate (ABD),Yes,NA
