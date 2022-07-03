@@ -1,4 +1,4 @@
-# Kozik_COVID-19_Science_2022 README
+# Kozik_COVID-19_PLoSOne_2022 README
 
 Knit `COVID-19_source_figures.Rmd` to generate figures 2-4.
 
