@@ -1,0 +1,136 @@
+[[1]]
+[[1]][[1]]
+[1] "Midwest Data: One-way ANOVA, with a Tukey multiple comparisions of means"
+
+[[1]][[2]]
+            Df Sum Sq Mean Sq F value Pr(>F)  
+YearPosted   3  6.974  2.3246   3.761 0.0241 *
+Residuals   24 14.835  0.6181                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[[1]][[3]]
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = n ~ YearPosted, data = df)
+
+$YearPosted
+                diff        lwr        upr     p adj
+2019-2018 -0.1730994 -1.3324096  0.9862108 0.9758942
+2020-2018 -1.2855310 -2.4448411 -0.1262208 0.0258661
+2021-2018 -0.3113957 -1.4707059  0.8479144 0.8795575
+2020-2019 -1.1124316 -2.2717417  0.0468786 0.0632492
+2021-2019 -0.1382963 -1.2976065  1.0210138 0.9873901
+2021-2020  0.9741352 -0.1851749  2.1334454 0.1219289
+
+
+
+[[2]]
+[[2]][[1]]
+[1] "Northeast Data: One-way ANOVA, with a Tukey multiple comparisions of means"
+
+[[2]][[2]]
+            Df Sum Sq Mean Sq F value Pr(>F)
+YearPosted   3  11.58   3.860   1.755  0.183
+Residuals   24  52.78   2.199               
+
+[[2]][[3]]
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = n ~ YearPosted, data = df)
+
+$YearPosted
+                diff        lwr      upr     p adj
+2019-2018  0.6848565 -1.5017644 2.871477 0.8231485
+2020-2018 -0.4673373 -2.6539582 1.719284 0.9342551
+2021-2018  1.2170950 -0.9695260 3.403716 0.4329743
+2020-2019 -1.1521938 -3.3388147 1.034427 0.4798722
+2021-2019  0.5322385 -1.6543824 2.718859 0.9068219
+2021-2020  1.6844323 -0.5021887 3.871053 0.1738776
+
+
+
+[[3]]
+[[3]][[1]]
+[1] "Pacific Data: One-way ANOVA, with a Tukey multiple comparisions of means"
+
+[[3]][[2]]
+            Df Sum Sq Mean Sq F value Pr(>F)
+YearPosted   3  5.103   1.701   1.521  0.235
+Residuals   24 26.846   1.119               
+
+[[3]][[3]]
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = n ~ YearPosted, data = df)
+
+$YearPosted
+                 diff        lwr       upr     p adj
+2019-2018  0.28132221 -1.2781881 1.8408325 0.9588309
+2020-2018 -0.74450445 -2.3040148 0.8150059 0.5614981
+2021-2018  0.31750280 -1.2420075 1.8770131 0.9424267
+2020-2019 -1.02582666 -2.5853370 0.5336837 0.2912637
+2021-2019  0.03618059 -1.5233297 1.5956909 0.9999031
+2021-2020  1.06200724 -0.4975031 2.6215176 0.2634752
+
+
+
+[[4]]
+[[4]][[1]]
+[1] "Southeast Data: One-way ANOVA, with a Tukey multiple comparisions of means"
+
+[[4]][[2]]
+            Df Sum Sq Mean Sq F value Pr(>F)  
+YearPosted   3  4.614  1.5380   2.351 0.0975 .
+Residuals   24 15.699  0.6541                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[[4]][[3]]
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = n ~ YearPosted, data = df)
+
+$YearPosted
+                diff        lwr       upr     p adj
+2019-2018 -0.3153638 -1.5079286 0.8772010 0.8843041
+2020-2018 -1.0516349 -2.2441997 0.1409299 0.0976699
+2021-2018 -0.1359636 -1.3285284 1.0566012 0.9889492
+2020-2019 -0.7362710 -1.9288358 0.4562938 0.3440335
+2021-2019  0.1794002 -1.0131646 1.3719650 0.9753737
+2021-2020  0.9156713 -0.2768935 2.1082360 0.1760333
+
+
+
+[[5]]
+[[5]][[1]]
+[1] "Southwest Data: One-way ANOVA, with a Tukey multiple comparisions of means"
+
+[[5]][[2]]
+            Df Sum Sq Mean Sq F value Pr(>F)  
+YearPosted   3  2.755  0.9182   3.711 0.0259 *
+Residuals   23  5.691  0.2474                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+[[5]][[3]]
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = n ~ YearPosted, data = df)
+
+$YearPosted
+                 diff        lwr         upr     p adj
+2019-2018 -0.11526601 -0.8510746  0.62054262 0.9720828
+2020-2018 -0.85128169 -1.6171356 -0.08542779 0.0255654
+2021-2018 -0.18574682 -0.9215555  0.55006181 0.8965672
+2020-2019 -0.73601568 -1.5018696  0.02983822 0.0626329
+2021-2019 -0.07048081 -0.8062894  0.66532782 0.9932968
+2021-2020  0.66553487 -0.1003190  1.43138878 0.1042918
+
+
+

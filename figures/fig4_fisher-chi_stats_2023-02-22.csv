@@ -1,0 +1,62 @@
+attribute,value,figure
+p.value,0.691141358869464,4A
+alternative,two.sided,4A
+method,Fisher's Exact Test for Count Data,4A
+data.name,a_count,4A
+p.value,0.429140831081813,4B
+conf.int1,0.56755028666514,4B
+conf.int2,11.0922802047981,4B
+estimate.odds ratio,2.02829741166933,4B
+null.value.odds ratio,1,4B
+alternative,two.sided,4B
+method,Fisher's Exact Test for Count Data,4B
+data.name,b_count,4B
+p.value,0.593543818318196,4C pandemic topics
+alternative,two.sided,4C pandemic topics
+method,Fisher's Exact Test for Count Data,4C pandemic topics
+data.name,c_topic_count,4C pandemic topics
+p.value,0.806721964058074,4C remote research
+alternative,two.sided,4C remote research
+method,Fisher's Exact Test for Count Data,4C remote research
+data.name,c_remote_count,4C remote research
+p.value,0.590021669044977,4D pandemic topics
+conf.int1,0.0562311168277324,4D pandemic topics
+conf.int2,5.94513350898576,4D pandemic topics
+estimate.odds ratio,0.469404542598352,4D pandemic topics
+null.value.odds ratio,1,4D pandemic topics
+alternative,two.sided,4D pandemic topics
+method,Fisher's Exact Test for Count Data,4D pandemic topics
+data.name,d_topic_count,4D pandemic topics
+p.value,0.604756619628984,4D remote research
+conf.int1,0.0648023991074085,4D remote research
+conf.int2,6.69210700218557,4D remote research
+estimate.odds ratio,0.533464113054751,4D remote research
+null.value.odds ratio,1,4D remote research
+alternative,two.sided,4D remote research
+method,Fisher's Exact Test for Count Data,4D remote research
+data.name,d_remote_count,4D remote research
+p.value,1,4D online teaching
+conf.int1,0.10292632449397,4D online teaching
+conf.int2,6.99491143665992,4D online teaching
+estimate.odds ratio,0.848787921654199,4D online teaching
+null.value.odds ratio,1,4D online teaching
+alternative,two.sided,4D online teaching
+method,Fisher's Exact Test for Count Data,4D online teaching
+data.name,d_teach_count,4D online teaching
+statistic.X-squared,44.9691182258027,4F
+parameter.df,2,4F
+p.value,1.71822506153403e-10,4F
+method,Chi-squared test for given probabilities,4F
+data.name,f_count,4F
+observed1,10,4F
+observed2,13,4F
+observed3,54,4F
+expected1,25.41,4F
+expected2,25.41,4F
+expected3,26.18,4F
+residuals1,-3.05703426230604,4F
+residuals2,-2.46189456166242,4F
+residuals3,5.43716239523399,4F
+stdres1,-3.73476177204116,4F
+stdres2,-3.00768290662108,4F
+stdres3,6.69268425926112,4F
