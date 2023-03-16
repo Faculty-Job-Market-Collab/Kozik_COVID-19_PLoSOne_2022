@@ -3,7 +3,7 @@ library(readxl)
 
 strategy_data_raw <- read_excel("data/search_strategy_survey_2021_13.21.xlsx") %>% 
   filter(Progress == 100) %>% 
-  select(-c(1:17)) %>% 
+  select(-c(1:8)) %>% 
   rowid_to_column()
 
 colnames(strategy_data_raw) <- c("id", "current_app", "current_position", "research_category",

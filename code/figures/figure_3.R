@@ -1,7 +1,8 @@
 library(chisq.posthoc.test)
 #Figure 3. What has happened to the job ads?
 
-stats_ten_track <- ten_track_data %>% select(ECR, YearPosted, MonthPosted) %>% 
+stats_ten_track <- ten_track_data %>% 
+  select(ECR, YearPosted, MonthPosted) %>% 
   rowid_to_column() %>% 
   mutate(Date = paste(MonthPosted, " ", YearPosted))
 

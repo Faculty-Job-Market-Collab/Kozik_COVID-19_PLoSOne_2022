@@ -1,7 +1,7 @@
 #Figure 2. The Pandemic begins, mid-interview portion of the Faculty Job Search
 
 # A/B. Offers Rescinded by field and gender----
-# requires get_offers_data 
+# requires get_3yr_survey_results
 fig2A_data <- get_plot_summary(res_demo_data, "gender", "covid_offers_rescinded") 
 
 fig2A <-fig2A_data %>% 
@@ -32,18 +32,7 @@ fig2B <- get_plot_summary(data = res_demo_data,
   scale_y_continuous(limits = c(0,40), expand = c(0,0))+
   my_theme
 
-# C. Offers rescinded by race/ethnicity vs visa status----
-
-#race_res_data <- race_data %>% 
-#  group_by(spons_req, race_ethnicity, covid_offers_rescinded) %>% 
-#  summarise(n = n()) %>% 
-#  as_tibble() %>% 
-#  spread(key = covid_offers_rescinded, value = n) %>% 
-#  mutate(total = true + false,
-#         total = if_else(is.na(total), "0", as.character(total)),
-#         percent = get_percent(true, total),
-#         race_ethnicity = paste0(race_ethnicity, "\n(n=", total, ")"),) %>% 
-#  filter(total != 0) 
+# C. Offers rescinded by race/ethnicity----
 
 fig2C <- get_plot_summary(data = race_data, x = "race_ethnicity", y = "covid_offers_rescinded") %>% 
   ggplot(aes(x = fct_reorder(race_ethnicity, desc(percent_res)), y = percent_res, fill = race_ethnicity))+
@@ -92,33 +81,6 @@ fig2D <- PUI_RI_rescinded %>%
   
   #map_df(.x = id_list, 
   #                   .f = get_rescinded_inst, rescinded_df)
-
-# E. Compare world region of institutions applied to and the number of offers rescinded----
-
-#offers_world_region <- offers_df %>% 
-#  filter(!is.na(world_region)) %>% 
-#select(-inst_type, -covid_offers_rescinded) %>% 
-#  group_by(world_region) %>% 
-#  summarise(n_offers = n())
-#
-#rescinded_world_region <- rescinded_df %>% 
-#  filter(!is.na(world_region)) %>% 
-#  group_by(world_region, covid_offers_rescinded) %>% summarise(n = n()) %>% 
-#  group_by(world_region) %>% summarise(n_rescinded = sum(n)) %>% as.tibble() 
-#
-#per_world_region_rescinded <- full_join(offers_world_region, rescinded_world_region, by = "world_region") %>% 
-#  mutate(n_rescinded = replace(n_rescinded, is.na(n_rescinded), 0),
-#         percent_res = get_percent(n_rescinded, n_offers),
-#         world_region = paste0(world_region, "\n(n=", n_offers, ")"))
-#
-#fig2E <- per_world_region_rescinded %>% 
-#  ggplot()+
-#  geom_col(aes(x = fct_reorder(world_region, desc(percent_res)), y = percent_res))+
-#  coord_flip()+
-#  labs(y = "\nPercent of Offers Rescinded", x = "\nWorld Region\n",
-#       caption = "(n = total number of offers made)")+
-#  scale_y_continuous(expand = c(0,0))+
-#  my_theme_horiz
 
 #F. Compare US region of institutions applied to and the number of offers rescinded----
 fig2F <- per_US_region_rescinded %>% 

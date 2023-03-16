@@ -1,4 +1,29 @@
-#how many offers were rescinded due to covid?
+#How many onsite interviews were moved to remote?----
+interview_data <- app_outcomes %>% 
+  select(id, on_site_interviews, off_site_interviews, covid_remote) %>% 
+  mutate_at(c("on_site_interviews", "off_site_interviews", "covid_remote"), as.numeric)
+
+interview_summary <- interview_data %>% summarise_if(is.numeric, funs(sum(., na.rm = TRUE)))
+
+percent_moved <- interview_summary %>% 
+  mutate(per_moved = (covid_remote/on_site_interviews)*100) %>% 
+  pull(per_moved) %>% 
+  round()
+
+num_moved <- interview_summary %>% pull(covid_remote)
+
+#did applicants alter their strategy?----
+strategy_data <- clean_data %>% 
+  mutate(covid_alter = if_else(covid_alter_research == "Yes, significant changes"|covid_alter_research == "Somewhat", "true", "false"))
+
+strategy_summary <- strategy_data %>% 
+  group_by(covid_alter_research) %>% summarise(n=n())
+
+num_changed <- strategy_summary[3,2]+strategy_summary[2,2]
+
+percent_changed <- get_percent(num_changed,sum(strategy_summary$n))
+
+#how many offers were rescinded due to covid?----
 
 add_list <- c("1", "107", "257", "646", "680", "708", "74", "78", "93", "148", "41", "624", "197", "207", "313", 
               "330", "395", "746", "771", "775", "661", "773")
@@ -11,7 +36,7 @@ offers_data <- clean_data %>%
                                 faculty_offers + covid_offers_rescinded, faculty_offers),
          total_offers = if_else(is.na(covid_offers_rescinded), faculty_offers, total_offers))
 
-#calulate important stats = response rate, offers made, rescinded, etc.----
+#calulate important stats = response rate, offers made, rescinded, etc.
 response_rate <- offers_data %>% 
   count(covid_offers_rescinded) %>% 
   mutate(rate = get_percent(n, sum(n))) %>% 
@@ -24,8 +49,7 @@ offers_rescinded <- offers_data %>% pull(covid_offers_rescinded) %>% sum(., na.r
 
 percent_rescinded <- (offers_rescinded/offers_made)*100 #need to correct for differing interpretations, some did not include rescinded offers with the offers made
 
-#did applicants reject offers due to covid?
-
+#did applicants reject offers due to covid?----
 offer_response_data <- offers_data %>% select(id, offer_responses) %>% 
   mutate(num_resp = str_count(offer_responses, ",")) %>% 
   separate(., offer_responses, sep = ",", 
@@ -57,7 +81,7 @@ res_demo_data <- offers_data %>%
 race_data <- res_demo_data %>% 
   select(id, race_ethnicity, covid_offers_rescinded) %>% 
   mutate(race_ethnicity = str_remove(race_ethnicity, "\\(.+\\)")
-         ) %>% 
+  ) %>% 
   separate(race_ethnicity, sep = ",", into = c("a", "b")) %>% 
   #ather(a:b, key = "test", value = "race_ethnicity") %>% 
   select(-b) %>% 
@@ -67,15 +91,6 @@ race_data <- res_demo_data %>%
                                                                           "Caribbean Islander ", 
                                                                           "North American Hispanic/Latinx", "South/Central American"))) %>% 
   filter(!is.na(race_ethnicity))
-
-#visa_rescinded <- race_data %>% 
-#  count(spons_req, covid_offers_rescinded) %>% 
-#    #as_tibble() %>% 
-#    spread(key = covid_offers_rescinded, value = n) %>% 
-#    mutate(total = true + false,
-#           total = if_else(is.na(total), "0", as.character(total)),
-#           percent_res = get_percent(true, total)) %>% 
-#    select(spons_req, total, percent_res)
 
 # D, E, & F. Comparing applications submitted vs offers received & rescinded----
 submitted <- clean_data %>% 
@@ -92,7 +107,6 @@ rescinded_df <- offers_df %>% #offers_data for insitutions that extended offers,
   distinct()
 
 #D. Compare the % of R1 vs PUI offers made vs offers rescinded----
-
 offers_inst_type <- offers_df %>% 
   filter(!is.na(PUI_RI)) %>% 
   select(-covid_offers_rescinded) %>% 
@@ -113,7 +127,6 @@ PUI_RI_rescinded <- full_join(offers_inst_type, rescinded_inst_type, by = "PUI_R
          nr = n_offers - n_rescinded)
 
 #F. Compare US region of institutions applied to and the number of offers rescinded----
-
 offers_US_region <- offers_df %>% 
   filter(!is.na(US_region)) %>% 
   select(-covid_offers_rescinded) %>% 

@@ -1,7 +1,7 @@
 stats_demo_data <- res_demo_data %>% 
   select(id, covid_offers_rescinded, gender, race_ethnicity, research_category)
 
-#Figure 1 -----
+#Figure 2 -----
 
 #Fig A
 gen_chi <- fisher.test(table(stats_demo_data$gender, 
@@ -27,7 +27,23 @@ us_reg_count <- per_US_region_rescinded %>% select(US_region, n_rescinded, nr) %
 
 us_reg_chi <- fisher.test(us_reg_count)
 
-#Figure 2 ----
+fig2_chi_list <- c("gen_chi", "cat_chi", 
+              "re_chi", "pui_chi",
+              "us_reg_chi")
+
+fig2_plot_list <- c('2A', '2B',
+               '2C', '2D', '2F')
+
+fig2_chi_tbl_raw <- map2_df(fig2_chi_list, fig2_plot_list, get_wilcox_tbl) 
+
+fig2_chi_tbl <- fig2_chi_tbl_raw %>% 
+  spread(key = attribute, value = value)
+
+write_csv(fig2_chi_tbl, file = paste0("figures/fig2abcdf_chi_stats_", 
+                                      Sys.Date(),".csv"))
+
+
+#Figure 3 ----
 
 stats_ten_track <- ten_track_data %>% select(ECR, YearPosted, MonthPosted) %>% 
   rowid_to_column() %>% 
@@ -35,7 +51,6 @@ stats_ten_track <- ten_track_data %>% select(ECR, YearPosted, MonthPosted) %>%
 
 #A
 #Pearson's chi-squared test w/ bonferroni correction
-
 ten_track_count <- table(stats_ten_track$YearPosted, stats_ten_track$MonthPosted)
 
 ten_track_chi <- chisq.test(ten_track_count)
@@ -44,12 +59,10 @@ ten_track_posthoc <- chisq.posthoc.test(ten_track_count, method = "bonferroni") 
   filter(Dimension == "2020") %>% 
   gather(Jan:Dec, key = "MonthPosted", value = "stat") %>% 
   spread(key = Value, value = stat) %>% 
-  filter(`p values` <= 0.5)
-
-
+  filter(`p values` <= 0.5) %>% 
+  mutate(figure = "3A")
 
 #B
-
 ecr_track_count_data <- stats_ten_track %>% 
   filter(ECR == "Yes") 
 
@@ -61,7 +74,8 @@ ecr_track_posthoc <- chisq.posthoc.test(ecr_track_count, method = "bonferroni") 
   filter(Dimension == "2020" | Dimension == "2021") %>% 
   gather(Jan:Dec, key = "MonthPosted", value = "stat") %>% 
   spread(key = Value, value = stat) %>% 
-  filter(`p values` <= 0.5)
+  filter(`p values` <= 0.5) %>% 
+  mutate(figure = "3B")
 
 #C
 
@@ -73,7 +87,30 @@ temp_posthoc <- chisq.posthoc.test(temp_track_count, method = "bonferroni") %>%
   filter(Dimension == "2020"| Dimension == "2021") %>% 
   gather(Jan:Dec, key = "MonthPosted", value = "stat") %>% 
   spread(key = Value, value = stat) %>% 
-  filter(`p values` <= 0.5)
+  filter(`p values` <= 0.5) %>% 
+  mutate(figure = "3C")
+
+#compile 3ABC tests
+fig3_chi_list <- c("ten_track_chi", "ecr_track_chi", 
+                   "temp_track_chi")
+
+fig3_plot_list <- c('3A', '3B', '3C')
+
+fig3_chi_tbl <- map2_dfc(fig3_chi_list, fig3_plot_list, get_wilcox_tbl) 
+
+colnames(fig3_chi_tbl) <- c("attribute_3a", "value_3a", "figure_3a",
+                            "attribute_3b", "value_3b", "figure_3b",
+                            "attribute_3c", "value_3c", "figure_3c")
+
+
+write_csv(fig3_chi_tbl, file = paste0("figures/fig3abc_chi_stats_", 
+                                      Sys.Date(),".csv"))
+
+fig3_posthoc_tbl <- rbind(ten_track_posthoc, ecr_track_posthoc, 
+                          temp_posthoc)
+
+write_csv(fig3_posthoc_tbl, file = paste0("figures/fig3abc_posthoc_stats_", 
+                                          Sys.Date(),".csv"))
 
 #D
 
@@ -99,19 +136,19 @@ ecr_reg_anov_list <- map(region_list, function(x){
   df <- ecr_region_count %>% filter(US_region == x)
   anova <- aov(n ~ YearPosted, data = df)
   summarise <- summary(anova)
+  region <- paste(x, "Data: One-way ANOVA, with a Tukey multiple comparisions of means")
   tukey <- TukeyHSD(anova)
-  stats <- list(summarise, tukey)
+  stats <- list(region, summarise, tukey)
   return(stats)
 })
 
-ecr_midwest <- ecr_reg_anov_list[[1]][[1]][[1]][[5]][[1]]
+sink(paste0("figures/anova_stats_fig3D_", Sys.Date(),".txt"))
 
-ecr_southeast <- ecr_reg_anov_list[[4]][[1]][[1]][[5]][[1]]
+print(ecr_reg_anov_list)
 
-ecr_southwest <- ecr_reg_anov_list[[5]][[1]][[1]][[5]][[1]]
+sink()
 
 #E
-
 ecr_uni_count <- ten_track_data %>% 
   filter(ECR == "Yes") %>% 
   filter(Country == "USA") %>% 
@@ -128,36 +165,39 @@ ecr_uni_anov_list <- map(uni_list, function(x){
   
   df <- ecr_uni_count %>% filter(PUI_RI == x)
   anova <- aov(n ~ YearPosted, data = df)
+  inst <- paste(x, "Data: One-way ANOVA, with a Tukey multiple comparisions of means")
   summarise <- summary(anova)
   tukey <- TukeyHSD(anova)
-  stats <- list(summarise, tukey)
+  stats <- list(inst, summarise, tukey)
   return(stats)
 })
 
-ecr_pui <- ecr_uni_anov_list[[1]][[2]][[1]]%>% as_tibble(., rownames = "year") 
+sink(paste0("figures/anova_stats_fig3E_", Sys.Date(),".txt"))
 
-ecr_ri <- ecr_uni_anov_list[[2]][[1]][[1]][[5]][[1]]
+print(ecr_uni_anov_list)
 
-#Figure 3----
+sink()
+
+#Figure 4----
 
 #Fig A
-a_count <- Fig_3A_data %>% select(research_category, false, true) %>% 
+a_count <- Fig_4A_data %>% select(research_category, false, true) %>% 
   remove_rownames %>% column_to_rownames(var="research_category") 
 
 a_chi <- fisher.test(a_count)
 
 #Fig B
-b_count <- Fig_3B_data %>% select(first_gen_phd, false, true) %>% 
+b_count <- Fig_4B_data %>% select(first_gen_phd, false, true) %>% 
   remove_rownames %>% column_to_rownames(var="first_gen_phd")
 
 b_chi <- fisher.test(b_count)
 
 #Fig C
-c_topic_count <- Fig_3c_data %>% filter(concern == "Added pandemic-related topics") %>% 
+c_topic_count <- Fig_4c_data %>% filter(concern == "Added pandemic-related topics") %>% 
   select(-concern, -per_yes) %>% 
   remove_rownames %>% column_to_rownames(var="research_category")
 
-c_remote_count <- Fig_3c_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
+c_remote_count <- Fig_4c_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
   select(-concern, -per_yes) %>% 
   remove_rownames %>% column_to_rownames(var="research_category")
 
@@ -166,15 +206,15 @@ c_topic_chi <- fisher.test(c_topic_count)
 c_remote_chi <- fisher.test(c_remote_count)
 
 #Fig D
-d_topic_count <- Fig_3d_data %>% filter(concern == "Added pandemic-related topics") %>% 
+d_topic_count <- Fig_4d_data %>% filter(concern == "Added pandemic-related topics") %>% 
   select(-concern, -per_yes) %>% 
   remove_rownames %>% column_to_rownames(var="desired_institution")
 
-d_remote_count <- Fig_3d_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
+d_remote_count <- Fig_4d_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
   select(-concern, -per_yes) %>% 
   remove_rownames %>% column_to_rownames(var="desired_institution")
   
-d_teach_count <- Fig_3d_data %>% filter(concern == "More online teaching practices") %>% 
+d_teach_count <- Fig_4d_data %>% filter(concern == "More online teaching practices") %>% 
   select(-concern, -per_yes) %>% 
   remove_rownames %>% column_to_rownames(var="desired_institution")
   
@@ -185,7 +225,22 @@ d_remote_chi <- fisher.test(d_remote_count)
 d_teach_chi <- fisher.test(d_teach_count)
 
 #Fig F
-f_count <- strategy_data %>% select(id, current_app) %>% distinct() %>% 
+f_count <- mid_pan_strategy_data %>% 
+  select(id, current_app) %>% distinct() %>% 
   filter(!is.na(current_app)) %>% count(current_app) %>% pull(n)
 
 f_chi <- chisq.test(f_count, p = c(0.33, 0.33, 0.34))
+
+#fig 4 chi stats
+fig4_chi_list <- c("a_chi", "b_chi", "c_topic_chi", "c_remote_chi",
+                   "d_topic_chi", "d_remote_chi", "d_teach_chi", "f_chi")
+
+fig4_plot_list <- c('4A', '4B', '4C pandemic topics', '4C remote research',
+                    '4D pandemic topics', '4D remote research', 
+                    '4D online teaching', '4F')
+
+fig4_chi_tbl <- map2_df(fig4_chi_list, fig4_plot_list, get_wilcox_tbl) 
+
+
+write_csv(fig4_chi_tbl, file = paste0("figures/fig4_fisher-chi_stats_", 
+                                          Sys.Date(),".csv"))

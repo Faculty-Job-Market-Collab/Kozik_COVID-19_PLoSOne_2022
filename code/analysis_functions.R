@@ -38,3 +38,12 @@ get_pvalue <- function(x, avg, test){
   
   return(outcome$p.value)
 }
+
+get_wilcox_tbl <- function(x, y){ 
+  x <- get(x)
+  
+  x %>% #wilcox test output
+    unlist() %>% 
+    as_tibble(rownames = "attribute") %>% 
+    add_column(figure = y)
+}
