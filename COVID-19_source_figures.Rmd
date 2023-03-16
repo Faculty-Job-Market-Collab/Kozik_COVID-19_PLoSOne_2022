@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 
 ## Figure 2 Related Data
 ```{r fig_2}
-source("code/get_offers_data.R")
+source("code/get_3yr_survey_results.R")
 source("code/figures/figure_2.R")
 ```
 1. Overall response rate to the offers rescinded question: `r response_rate`%
@@ -45,8 +45,11 @@ source("code/figures/figure_3.R")
 
 ![]("figures/Figure_3.png")
 ```{r fig_4}
-source("code/get_strategy_data.R")
 source("code/get_search_strategy_results.R")
 source("code/figures/figure_4.R")
 ```
 ![]("figures/Figure_4.png")
+
+```{r fig_stats}
+source("code/statistics.R")
+```
