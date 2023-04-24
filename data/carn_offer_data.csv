@@ -1,362 +1,1595 @@
-id,total_offers,covid_offers_rescinded,PUI_RI,US_region,world_region
-1,2,1,RI,Northeast,USA
-6,1,0,RI,Northeast,USA
-9,3,0,NA,NA,NA
-11,1,0,NA,NA,NA
-11,1,0,RI,NA,European
-12,2,0,NA,NA,NA
-14,1,0,RI,Midwest,USA
-18,3,0,RI,Southeast,USA
-18,3,0,RI,Pacific,USA
-18,3,0,RI,Rocky Mountains,USA
-23,3,1,NA,NA,NA
-26,1,0,PUI,Midwest,USA
-27,2,1,NA,NA,NA
-32,2,1,NA,NA,NA
-36,2,0,NA,NA,NA
-37,1,0,RI,Southwest,USA
-39,3,NA,NA,NA,NA
-40,1,0,RI,Northeast,USA
-41,3,1,RI,Midwest,USA
-41,3,1,RI,Midwest,USA
-42,4,NA,NA,NA,NA
-43,1,0,RI,Rocky Mountains,USA
-44,3,0,RI,Southwest,USA
-44,3,0,RI,Northeast,USA
-44,3,0,RI,Northeast,USA
-51,1,0,RI,Northeast,USA
-53,3,0,RI,Northeast,USA
-53,3,0,RI,Midwest,USA
-53,3,0,RI,Pacific,USA
-54,2,1,RI,Southeast,USA
-54,2,1,RI,Midwest,USA
-57,2,0,RI,Southeast,USA
-58,1,1,RI,Southeast,USA
-60,4,0,NA,NA,NA
-61,1,0,PUI,Southwest,USA
-63,1,0,PUI,Pacific,USA
-64,1,0,RI,Southwest,USA
-69,1,0,PUI,Pacific,USA
-71,1,0,RI,Southwest,USA
-74,1,1,NA,NA,NA
-79,1,0,RI,Southeast,USA
-83,1,0,RI,Midwest,USA
-85,5,0,PUI,Northeast,USA
-85,5,0,PUI,Pacific,USA
-85,5,0,RI,Northeast,USA
-86,1,0,RI,Southwest,USA
-88,2,0,RI,Northeast,USA
-91,2,0,RI,Northeast,USA
-91,2,0,RI,Midwest,USA
-93,1,1,RI,Rocky Mountains,USA
-94,1,0,RI,Pacific,USA
-98,1,0,PUI,Southeast,USA
-100,1,0,PUI,Rocky Mountains,USA
-107,2,1,PUI,Southeast,USA
-110,2,0,PUI,Northeast,USA
-111,1,0,PUI,Northeast,USA
-112,1,0,PUI,Southeast,USA
-113,1,0,PUI,Midwest,USA
-114,1,NA,RI,Northeast,USA
-115,2,3,RI,Midwest,USA
-118,1,0,RI,Southeast,USA
-120,1,NA,NA,NA,NA
-122,1,0,RI,Noncontiguous,USA
-125,1,0,RI,Southeast,USA
-129,6,0,PUI,Pacific,USA
-129,6,0,PUI,Northeast,USA
-129,6,0,PUI,Midwest,USA
-129,6,0,PUI,Northeast,USA
-129,6,0,PUI,Pacific,USA
-131,1,0,PUI,Midwest,USA
-133,3,0,PUI,Southeast,USA
-133,3,0,RI,Northeast,USA
-133,3,0,PUI,Northeast,USA
-134,1,0,NA,NA,NA
-136,1,0,RI,Northeast,USA
-137,1,0,PUI,Midwest,USA
-144,1,0,PUI,Pacific,USA
-148,1,1,NA,NA,NA
-151,1,0,NA,NA,NA
-152,8,0,RI,Southeast,USA
-152,8,0,RI,Northeast,USA
-152,8,0,RI,Northeast,USA
-152,8,0,PUI,Southwest,USA
-153,5,0,RI,Southeast,USA
-153,5,0,RI,Southeast,USA
-153,5,0,PUI,Northeast,USA
-153,5,0,RI,Midwest,USA
-153,5,0,RI,Northeast,USA
-155,2,0,NA,NA,NA
-159,2,0,PUI,Northeast,USA
-159,2,0,PUI,Midwest,USA
-162,5,1,RI,Pacific,USA
-162,5,1,RI,Pacific,USA
-162,5,1,RI,Northeast,USA
-162,5,1,RI,Southeast,USA
-162,5,1,RI,Northeast,USA
-163,3,0,PUI,Midwest,USA
-163,3,0,PUI,Southeast,USA
-163,3,0,PUI,Midwest,USA
-165,1,0,RI,Midwest,USA
-168,1,0,NA,NA,NA
-170,1,0,RI,Midwest,USA
-172,1,0,PUI,NA,Eastern Mediterranean
-173,4,NA,RI,Northeast,USA
-173,4,NA,RI,Midwest,USA
-175,1,0,PUI,Midwest,USA
-176,1,0,PUI,Southwest,USA
-178,1,0,PUI,Northeast,USA
-181,2,0,RI,Northeast,USA
-181,2,0,RI,Midwest,USA
-185,3,0,NA,NA,NA
-186,3,NA,NA,NA,NA
-187,1,NA,PUI,Southeast,USA
-193,5,0,RI,Pacific,USA
-193,5,0,RI,Midwest,USA
-193,5,0,RI,Northeast,USA
-193,5,0,RI,Northeast,USA
-193,5,0,RI,Northeast,USA
-195,2,0,PUI,Southeast,USA
-195,2,0,PUI,Northeast,USA
-196,3,0,RI,Southwest,USA
-196,3,0,RI,Southeast,USA
-196,3,0,RI,Southeast,USA
-197,1,1,NA,NA,NA
-202,2,0,RI,Southeast,USA
-202,2,0,RI,Northeast,USA
-203,1,0,RI,Northeast,USA
-204,2,0,NA,NA,NA
-206,1,0,RI,Midwest,USA
-207,1,1,NA,NA,NA
-210,1,0,PUI,Southeast,USA
-214,2,0,PUI,Northeast,USA
-215,1,0,RI,Midwest,USA
-218,4,0,RI,Midwest,USA
-218,4,0,RI,Southwest,USA
-218,4,0,RI,Rocky Mountains,USA
-220,1,0,RI,Southwest,USA
-227,1,0,NA,NA,NA
-229,1,0,RI,NA,European
-231,1,0,RI,Midwest,USA
-233,2,0,RI,Pacific,USA
-233,2,0,RI,Pacific,USA
-239,3,2,NA,NA,NA
-240,1,0,RI,Southeast,USA
-243,1,NA,PUI,Midwest,USA
-243,1,NA,PUI,Northeast,USA
-243,1,NA,PUI,Rocky Mountains,USA
-246,1,0,PUI,Midwest,USA
-251,1,0,PUI,Pacific,USA
-254,1,0,RI,Midwest,USA
-257,2,1,NA,NA,NA
-262,3,1,NA,NA,NA
-263,2,0,NA,NA,NA
-264,1,0,RI,Southwest,USA
-266,2,0,PUI,Rocky Mountains,USA
-269,1,0,RI,NA,European
-272,2,0,NA,NA,NA
-277,2,0,RI,Southeast,USA
-277,2,0,PUI,Southeast,USA
-278,2,0,PUI,Northeast,USA
-278,2,0,PUI,Northeast,USA
-280,1,0,PUI,Southeast,USA
-280,1,0,PUI,Northeast,USA
-283,1,0,RI,NA,European
-284,1,0,RI,NA,European
-287,1,0,NA,NA,NA
-289,1,0,PUI,Rocky Mountains,USA
-292,1,1,NA,NA,NA
-293,3,0,NA,NA,NA
-294,2,0,RI,NA,Canada
-295,1,0,RI,NA,Canada
-301,1,0,RI,Midwest,USA
-302,1,0,PUI,Southeast,USA
-306,3,0,RI,Midwest,USA
-306,3,0,RI,Rocky Mountains,USA
-306,3,0,RI,Rocky Mountains,USA
-313,1,1,NA,NA,NA
-316,1,0,NA,Northeast,USA
-317,2,0,RI,Northeast,USA
-320,2,0,RI,Southwest,USA
-322,1,0,PUI,Southwest,USA
-323,1,0,RI,Midwest,USA
-324,1,0,RI,Northeast,USA
-327,1,0,RI,Midwest,USA
-330,2,2,NA,NA,NA
-332,1,0,PUI,Southeast,USA
-337,1,NA,RI,Southwest,USA
-338,2,NA,NA,NA,NA
-339,2,0,PUI,Northeast,USA
-339,2,0,RI,Midwest,USA
-341,1,0,RI,Southeast,USA
-353,1,0,RI,Northeast,USA
-357,1,0,RI,NA,Canada
-359,1,0,NA,NA,NA
-364,1,0,RI,NA,Canada
-381,2,NA,NA,NA,NA
-383,1,0,NA,NA,USA
-388,3,NA,NA,NA,NA
-391,1,0,RI,NA,Canada
-393,1,0,PUI,Midwest,USA
-395,1,1,NA,NA,NA
-403,2,0,NA,NA,NA
-421,1,0,NA,NA,NA
-430,2,0,PUI,Midwest,USA
-430,2,0,PUI,Southeast,USA
-438,1,0,PUI,Midwest,USA
-439,5,0,RI,Southeast,USA
-439,5,0,PUI,Northeast,USA
-439,5,0,RI,Southeast,USA
-439,5,0,RI,Northeast,USA
-439,5,0,RI,Midwest,USA
-441,2,0,NA,NA,NA
-449,1,0,RI,NA,Canada
-459,1,0,PUI,Pacific,USA
-460,1,NA,RI,Pacific,USA
-473,1,0,RI,NA,European
-481,1,0,RI,Southeast,USA
-484,2,0,NA,NA,NA
-492,1,0,RI,Southeast,USA
-519,1,0,PUI,NA,Canada
-520,2,0,PUI,Southeast,USA
-520,2,0,PUI,Southeast,USA
-521,4,NA,NA,NA,NA
-524,1,NA,PUI,Midwest,USA
-525,1,0,RI,Southeast,USA
-526,3,0,RI,Rocky Mountains,USA
-526,3,0,RI,Rocky Mountains,USA
-526,3,0,RI,Pacific,USA
-537,1,0,RI,Pacific,USA
-539,1,0,NA,NA,NA
-551,8,0,RI,Southeast,USA
-551,8,0,RI,Northeast,USA
-551,8,0,PUI,Southeast,USA
-551,8,0,PUI,Midwest,USA
-551,8,0,PUI,Midwest,USA
-551,8,0,PUI,Midwest,USA
-551,8,0,PUI,Midwest,USA
-551,8,0,PUI,Northeast,USA
-554,1,0,NA,NA,NA
-562,1,0,RI,Southeast,USA
-570,4,0,PUI,Northeast,USA
-570,4,0,RI,Rocky Mountains,USA
-570,4,0,PUI,Northeast,USA
-570,4,0,PUI,Northeast,USA
-579,1,0,RI,Southeast,USA
-581,1,0,PUI,Southeast,USA
-584,4,0,RI,Midwest,USA
-584,4,0,RI,Southeast,USA
-584,4,0,RI,Midwest,USA
-584,4,0,RI,Northeast,USA
-588,1,0,RI,Southeast,USA
-591,2,0,RI,Midwest,USA
-591,2,0,RI,Southwest,USA
-593,1,0,PUI,Midwest,USA
-597,1,0,RI,NA,Canada
-607,2,1,NA,NA,NA
-615,1,0,NA,NA,NA
-618,1,0,NA,NA,NA
-624,3,1,RI,Northeast,USA
-628,1,0,PUI,Midwest,USA
-629,1,0,PUI,Pacific,USA
-630,1,NA,NA,NA,NA
-631,4,0,RI,Midwest,USA
-631,4,0,RI,Midwest,USA
-631,4,0,RI,Northeast,USA
-631,4,0,RI,Pacific,USA
-632,1,0,PUI,Southeast,USA
-635,1,0,RI,Northeast,USA
-645,2,0,RI,Northeast,USA
-646,6,3,RI,Southwest,USA
-646,6,3,RI,Southeast,USA
-646,6,3,RI,Southeast,USA
-647,4,0,RI,Midwest,USA
-647,4,0,RI,Southeast,USA
-648,2,0,NA,NA,NA
-649,1,0,NA,NA,NA
-650,1,0,RI,NA,Canada
-651,3,0,NA,NA,NA
-652,1,NA,NA,NA,NA
-656,2,0,RI,Midwest,USA
-661,3,2,PUI,Northeast,USA
-662,1,0,RI,Southeast,USA
-664,1,0,RI,Pacific,USA
-670,3,0,RI,Midwest,USA
-670,3,0,RI,Southwest,USA
-670,3,0,RI,Southeast,USA
-671,1,0,PUI,Midwest,USA
-674,1,0,NA,NA,NA
-675,1,1,NA,Northeast,USA
-676,4,0,RI,Southeast,USA
-676,4,0,PUI,Northeast,USA
-676,4,0,PUI,Northeast,USA
-680,2,1,RI,Pacific,USA
-682,1,0,PUI,Northeast,USA
-683,1,0,PUI,Southeast,USA
-686,4,0,NA,NA,NA
-690,1,0,NA,NA,NA
-693,1,0,RI,Midwest,USA
-695,1,0,RI,Northeast,USA
-696,1,0,PUI,Pacific,USA
-698,1,0,NA,NA,NA
-699,1,0,NA,NA,NA
-700,2,1,RI,Northeast,USA
-702,1,0,NA,NA,European
-704,2,0,PUI,Midwest,USA
-704,2,0,RI,Northeast,USA
-708,4,2,PUI,NA,Canada
-708,4,2,RI,NA,Canada
-712,1,0,RI,Southwest,USA
-716,1,0,RI,Southeast,USA
-717,3,0,NA,NA,NA
-726,1,0,PUI,NA,Western Pacific
-728,1,0,RI,Midwest,USA
-729,4,0,RI,Northeast,USA
-729,4,0,RI,Pacific,USA
-729,4,0,RI,Midwest,USA
-731,3,0,NA,NA,NA
-745,1,0,PUI,Midwest,USA
-755,1,0,RI,Southwest,USA
-758,1,0,PUI,Midwest,USA
-762,1,0,RI,Rocky Mountains,USA
-765,2,0,NA,NA,NA
-768,6,NA,NA,NA,NA
-769,1,0,RI,Midwest,USA
-771,1,1,NA,NA,NA
-772,3,0,NA,NA,NA
-773,3,1,RI,Southeast,USA
-773,3,1,RI,Pacific,USA
-774,5,0,RI,Southeast,USA
-774,5,0,RI,Northeast,USA
-774,5,0,RI,Pacific,USA
-774,5,0,RI,Southeast,USA
-774,5,0,RI,Northeast,USA
-775,1,1,PUI,Southwest,USA
-776,4,NA,RI,Southeast,USA
-776,4,NA,RI,Northeast,USA
-776,4,NA,RI,Pacific,USA
-776,4,NA,RI,Northeast,USA
-778,1,0,NA,NA,NA
-781,9,3,RI,Southwest,USA
-781,9,3,RI,Pacific,USA
-781,9,3,RI,Southwest,USA
-781,9,3,RI,Pacific,USA
-781,9,3,RI,Southeast,USA
-783,1,0,NA,NA,NA
-784,4,0,NA,NA,NA
-785,2,1,RI,Pacific,USA
-801,1,0,RI,Northeast,USA
-802,1,0,RI,Southeast,USA
-803,1,0,NA,NA,European
-803,1,0,NA,NA,European
-803,1,0,NA,NA,European
-805,1,0,RI,Southeast,USA
-806,1,1,NA,Southwest,USA
-807,3,NA,NA,NA,NA
-815,3,1,RI,Pacific,USA
-815,3,1,RI,Pacific,USA
-815,3,1,RI,Midwest,USA
-819,2,1,RI,Northeast,USA
-819,2,1,RI,Northeast,USA
-829,2,0,NA,NA,NA
+id,inst_type,inst_id,US_region,PUI_RI,world_region,Other_inst_type
+1_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+2_2019-2020,offer_institutions,3103,Northeast,RI,USA,US college or university
+3_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+4_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+5_2019-2020,offer_institutions,0,NA,NA,NA,NA
+6_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+7_2019-2020,offer_institutions,3665,Northeast,RI,USA,US college or university
+8_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+9_2019-2020,offer_institutions,0,NA,NA,NA,NA
+10_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+11_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+12_2019-2020,offer_institutions,4330,NA,RI,European,NA
+13_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+14_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+15_2019-2020,offer_institutions,3780,Midwest,RI,USA,US college or university
+16_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+17_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+18_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+19_2019-2020,offer_institutions,3939,Southeast,RI,USA,US college or university
+20_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+21_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+22_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+23_2019-2020,offer_institutions,0,NA,NA,NA,NA
+24_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+25_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+26_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+27_2019-2020,offer_institutions,2210,Midwest,PUI,USA,US college or university
+28_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+29_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+30_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+31_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+32_2019-2020,offer_institutions,0,NA,NA,NA,NA
+33_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+34_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+35_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+36_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+37_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+38_2019-2020,offer_institutions,195,Southwest,RI,USA,US college or university
+39_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+40_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+41_2019-2020,offer_institutions,3610,Northeast,RI,USA,US college or university
+43_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+44_2019-2020,offer_institutions,3794,Rocky Mountains,RI,USA,US college or university
+46_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+47_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+48_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+49_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+50_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+51_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+52_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+53_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+54_2019-2020,offer_institutions,958,Northeast,RI,USA,US college or university
+55_2019-2020,offer_institutions,3677,Southeast,RI,USA,US college or university
+56_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+57_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+58_2019-2020,offer_institutions,4312,NA,RI,Western Pacific,NA
+59_2019-2020,offer_institutions,3762,Southeast,RI,USA,US college or university
+60_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+61_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+62_2019-2020,offer_institutions,708,Southwest,PUI,USA,US college or university
+63_2019-2020,offer_institutions,0,NA,NA,NA,NA
+64_2019-2020,offer_institutions,3095,Pacific,PUI,USA,US college or university
+65_2019-2020,offer_institutions,195,Southwest,RI,USA,US college or university
+66_2019-2020,offer_institutions,0,NA,NA,NA,NA
+67_2019-2020,offer_institutions,0,NA,NA,NA,NA
+68_2019-2020,offer_institutions,0,NA,NA,NA,NA
+69_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+70_2019-2020,offer_institutions,4165,Pacific,PUI,USA,US college or university
+71_2019-2020,offer_institutions,0,NA,NA,NA,NA
+72_2019-2020,offer_institutions,195,Southwest,RI,USA,US college or university
+73_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+74_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+75_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+76_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+77_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+78_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+79_2019-2020,offer_institutions,0,NA,NA,NA,NA
+80_2019-2020,offer_institutions,1213,Southeast,RI,USA,US college or university
+81_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+82_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+83_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+84_2019-2020,offer_institutions,271,Midwest,RI,USA,US college or university
+85_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+86_2019-2020,offer_institutions,2247,Northeast,PUI,USA,US college or university
+87_2019-2020,offer_institutions,299,Southwest,RI,USA,US college or university
+88_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+90_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+91_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+92_2019-2020,offer_institutions,2680,Northeast,RI,USA,US college or university
+93_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+94_2019-2020,offer_institutions,3793,Rocky Mountains,RI,USA,US college or university
+95_2019-2020,offer_institutions,4091,Pacific,RI,USA,US college or university
+96_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+97_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+98_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+99_2019-2020,offer_institutions,3921,Southeast,PUI,USA,US college or university
+100_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+101_2019-2020,offer_institutions,3490,Rocky Mountains,PUI,USA,US college or university
+102_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+103_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+104_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+105_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+106_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+107_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+108_2019-2020,offer_institutions,799,Southeast,PUI,USA,US college or university
+109_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+110_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+111_2019-2020,offer_institutions,4504,NA,RI,European,NA
+112_2019-2020,offer_institutions,1517,Northeast,PUI,USA,US college or university
+113_2019-2020,offer_institutions,899,Southeast,PUI,USA,US college or university
+114_2019-2020,offer_institutions,241,Midwest,PUI,USA,US college or university
+115_2019-2020,offer_institutions,1894,Northeast,RI,USA,US college or university
+116_2019-2020,offer_institutions,0,NA,NA,NA,NA
+117_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+118_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+119_2019-2020,offer_institutions,1791,Southeast,RI,USA,US college or university
+120_2019-2020,offer_institutions,0,NA,NA,NA,NA
+121_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+122_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+123_2019-2020,offer_institutions,3729,Noncontiguous,RI,USA,US college or university
+124_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+125_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+126_2019-2020,offer_institutions,4539,NA,PUI,Eastern Mediterranean,NA
+127_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+128_2019-2020,offer_institutions,0,NA,NA,NA,NA
+129_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+130_2019-2020,offer_institutions,2541,Pacific,PUI,USA,US college or university
+131_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+132_2019-2020,offer_institutions,3774,Midwest,PUI,USA,US college or university
+133_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+134_2019-2020,offer_institutions,3568,Southeast,PUI,USA,US college or university
+135_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+136_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+137_2019-2020,offer_institutions,3767,Northeast,RI,USA,US college or university
+138_2019-2020,offer_institutions,2503,Midwest,PUI,USA,US college or university
+139_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+140_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+141_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+142_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+143_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+144_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+145_2019-2020,offer_institutions,1437,Pacific,PUI,USA,US college or university
+146_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+147_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+148_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+149_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+150_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+151_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+152_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+153_2019-2020,offer_institutions,3808,Southeast,RI,USA,US college or university
+155_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+156_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+157_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+158_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+159_2019-2020,offer_institutions,0,NA,NA,NA,NA
+160_2019-2020,offer_institutions,3140,Northeast,PUI,USA,US college or university
+161_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+162_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+163_2019-2020,offer_institutions,3693,Pacific,RI,USA,US college or university
+164_2019-2020,offer_institutions,1836,Midwest,PUI,USA,US college or university
+165_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+166_2019-2020,offer_institutions,2536,Midwest,RI,USA,US college or university
+167_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+168_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+169_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+170_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+171_2019-2020,offer_institutions,2130,Midwest,RI,USA,US college or university
+172_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+173_2019-2020,offer_institutions,4308,NA,PUI,Eastern Mediterranean,NA
+175_2019-2020,offer_institutions,0,NA,NA,NA,NA
+176_2019-2020,offer_institutions,3956,Midwest,PUI,USA,US college or university
+177_2019-2020,offer_institutions,3704,Southwest,PUI,USA,US college or university
+178_2019-2020,offer_institutions,0,NA,NA,NA,NA
+179_2019-2020,offer_institutions,3074,Northeast,PUI,USA,US college or university
+180_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+181_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+182_2019-2020,offer_institutions,3375,Northeast,RI,USA,US college or university
+183_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+184_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+185_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+186_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+187_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+188_2019-2020,offer_institutions,1725,Southeast,PUI,USA,US college or university
+189_2019-2020,offer_institutions,0,NA,NA,NA,NA
+190_2019-2020,offer_institutions,0,NA,NA,NA,NA
+191_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+192_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+193_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+194_2019-2020,offer_institutions,3941,Pacific,RI,USA,US college or university
+195_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+196_2019-2020,offer_institutions,799,Southeast,PUI,USA,US college or university
+197_2019-2020,offer_institutions,0,NA,NA,NA,NA
+198_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+199_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+200_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+201_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+202_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+204_2019-2020,offer_institutions,3767,Northeast,RI,USA,US college or university
+205_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+206_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+207_2019-2020,offer_institutions,3738,Midwest,RI,USA,US college or university
+208_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+209_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+210_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+211_2019-2020,offer_institutions,1027,Southeast,PUI,USA,US college or university
+212_2019-2020,offer_institutions,4336,NA,PUI,Canada,NA
+213_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+214_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+215_2019-2020,offer_institutions,2808,Northeast,PUI,USA,US college or university
+216_2019-2020,offer_institutions,3780,Midwest,RI,USA,US college or university
+217_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+218_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+219_2019-2020,offer_institutions,3624,Southeast,PUI,USA,US college or university
+220_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+221_2019-2020,offer_institutions,3451,Southwest,RI,USA,US college or university
+222_2019-2020,offer_institutions,0,NA,NA,NA,NA
+223_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+224_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+225_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+226_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+227_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+228_2019-2020,offer_institutions,0,NA,NA,NA,NA
+229_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+230_2019-2020,offer_institutions,4354,NA,RI,European,NA
+231_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+232_2019-2020,offer_institutions,2555,Midwest,RI,USA,US college or university
+233_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+234_2019-2020,offer_institutions,2788,Pacific,RI,USA,US college or university
+235_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+236_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+237_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+238_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+239_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+240_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+241_2019-2020,offer_institutions,3517,Southeast,RI,USA,US college or university
+242_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+243_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+244_2019-2020,offer_institutions,4178,Midwest,PUI,USA,US college or university
+244_2019-2020,offer_institutions,4179,Northeast,PUI,USA,US college or university
+244_2019-2020,offer_institutions,4180,Rocky Mountains,PUI,USA,US college or university
+245_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+246_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+247_2019-2020,offer_institutions,1063,Midwest,PUI,USA,US college or university
+248_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+249_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+250_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+251_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+252_2019-2020,offer_institutions,536,Pacific,PUI,USA,US college or university
+253_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+254_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+255_2019-2020,offer_institutions,2440,Midwest,RI,USA,US college or university
+256_2019-2020,offer_institutions,3675,Southwest,RI,USA,US college or university
+257_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+258_2019-2020,offer_institutions,0,NA,NA,NA,NA
+259_2019-2020,offer_institutions,0,NA,NA,NA,NA
+260_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+261_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+262_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+263_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+265_2019-2020,offer_institutions,300,Southwest,RI,USA,US college or university
+266_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+267_2019-2020,offer_institutions,868,Rocky Mountains,PUI,USA,US college or university
+268_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+269_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+270_2019-2020,offer_institutions,4496,NA,RI,European,NA
+271_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+272_2019-2020,offer_institutions,0,NA,NA,NA,NA
+273_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+274_2019-2020,offer_institutions,0,NA,NA,NA,NA
+275_2019-2020,offer_institutions,3738,Midwest,RI,USA,US college or university
+276_2019-2020,offer_institutions,0,NA,NA,NA,NA
+277_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+278_2019-2020,offer_institutions,3685,Southeast,RI,USA,US college or university
+279_2019-2020,offer_institutions,2404,Northeast,PUI,USA,US college or university
+280_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+281_2019-2020,offer_institutions,1209,Southeast,PUI,USA,US college or university
+281_2019-2020,offer_institutions,1210,Northeast,PUI,USA,US college or university
+282_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+283_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+284_2019-2020,offer_institutions,4454,NA,RI,European,NA
+285_2019-2020,offer_institutions,4496,NA,RI,European,NA
+286_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+287_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+288_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+289_2019-2020,offer_institutions,4494,NA,RI,Canada,NA
+290_2019-2020,offer_institutions,3520,Rocky Mountains,PUI,USA,US college or university
+291_2019-2020,offer_institutions,0,NA,NA,NA,NA
+292_2019-2020,offer_institutions,0,NA,NA,NA,NA
+293_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+295_2019-2020,offer_institutions,4497,NA,RI,Canada,NA
+296_2019-2020,offer_institutions,4414,NA,RI,Canada,NA
+297_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+298_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+299_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+300_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+301_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+302_2019-2020,offer_institutions,3782,Midwest,RI,USA,US college or university
+303_2019-2020,offer_institutions,2547,Southeast,PUI,USA,US college or university
+304_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+305_2019-2020,offer_institutions,0,NA,NA,NA,NA
+306_2019-2020,offer_institutions,0,NA,NA,NA,NA
+307_2019-2020,offer_institutions,3773,Midwest,RI,USA,US college or university
+308_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+309_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+310_2019-2020,offer_institutions,0,NA,NA,NA,NA
+311_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+312_2019-2020,offer_institutions,0,NA,NA,NA,NA
+313_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+314_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+315_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+316_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+317_2019-2020,offer_institutions,4337,NA,NA,USA,private research institute
+318_2019-2020,offer_institutions,0,NA,NA,NA,NA
+319_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+320_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+321_2019-2020,offer_institutions,3529,Southwest,RI,USA,US college or university
+322_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+323_2019-2020,offer_institutions,3704,Southwest,PUI,USA,US college or university
+324_2019-2020,offer_institutions,4157,Midwest,RI,USA,US college or university
+325_2019-2020,offer_institutions,958,Northeast,RI,USA,US college or university
+326_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+327_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+328_2019-2020,offer_institutions,3742,Midwest,RI,USA,US college or university
+329_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+330_2019-2020,offer_institutions,3444,Southwest,PUI,USA,US college or university
+331_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+332_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+333_2019-2020,offer_institutions,4149,Southeast,PUI,USA,US college or university
+334_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+335_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+336_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+337_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+338_2019-2020,offer_institutions,3530,Southwest,RI,USA,US college or university
+339_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+340_2019-2020,offer_institutions,816,Northeast,PUI,USA,US college or university
+341_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+342_2019-2020,offer_institutions,3725,Southeast,RI,USA,US college or university
+343_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+344_2019-2020,offer_institutions,0,NA,NA,NA,NA
+345_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+346_2019-2020,offer_institutions,0,NA,NA,NA,NA
+347_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+348_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+349_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+350_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+351_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+352_2019-2020,offer_institutions,0,NA,NA,NA,NA
+353_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+354_2019-2020,offer_institutions,3867,Northeast,RI,USA,US college or university
+355_2019-2020,offer_institutions,0,NA,NA,NA,NA
+356_2019-2020,offer_institutions,0,NA,NA,NA,NA
+357_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+358_2019-2020,offer_institutions,4455,NA,RI,Canada,NA
+359_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+360_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+361_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+362_2019-2020,offer_institutions,0,NA,NA,NA,NA
+363_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+364_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+365_2019-2020,offer_institutions,4486,NA,RI,Canada,NA
+366_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+367_2019-2020,offer_institutions,0,NA,NA,NA,NA
+368_2019-2020,offer_institutions,0,NA,NA,NA,NA
+369_2019-2020,offer_institutions,0,NA,NA,NA,NA
+370_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+371_2019-2020,offer_institutions,0,NA,NA,NA,NA
+372_2019-2020,offer_institutions,0,NA,NA,NA,NA
+373_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+374_2019-2020,offer_institutions,0,NA,NA,NA,NA
+375_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+376_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+377_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+378_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+379_2019-2020,offer_institutions,0,NA,NA,NA,NA
+380_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+381_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+382_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+383_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+384_2019-2020,offer_institutions,3640,Northeast,PUI,USA,US college or university
+385_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+386_2019-2020,offer_institutions,0,NA,NA,NA,NA
+387_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+388_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+389_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+390_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+391_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+392_2019-2020,offer_institutions,4470,NA,RI,Canada,NA
+393_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+394_2019-2020,offer_institutions,2479,Midwest,PUI,USA,US college or university
+395_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+396_2019-2020,offer_institutions,0,NA,NA,NA,NA
+397_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+398_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+399_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+400_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+401_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+402_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+403_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+404_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+405_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+406_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+407_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+408_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+409_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+410_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+411_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+412_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+413_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+414_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+415_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+416_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+417_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+418_2019-2020,offer_institutions,0,NA,NA,NA,NA
+419_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+420_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+421_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+422_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+423_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+424_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+425_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+426_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+427_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+428_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+429_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+430_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+431_2019-2020,offer_institutions,3609,Midwest,PUI,USA,US college or university
+432_2019-2020,offer_institutions,0,NA,NA,NA,NA
+433_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+434_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+435_2019-2020,offer_institutions,0,NA,NA,NA,NA
+436_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+437_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+438_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+439_2019-2020,offer_institutions,513,Midwest,PUI,USA,US college or university
+440_2019-2020,offer_institutions,1405,Southeast,RI,USA,US college or university
+441_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+442_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+443_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+444_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+445_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+446_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+447_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+448_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+449_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+450_2019-2020,offer_institutions,4464,NA,RI,Canada,NA
+451_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+452_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+453_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+454_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+455_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+456_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+457_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+458_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+459_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+460_2019-2020,offer_institutions,2509,Pacific,PUI,USA,US college or university
+461_2019-2020,offer_institutions,3697,Pacific,RI,USA,US college or university
+462_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+463_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+464_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+465_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+466_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+467_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+468_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+469_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+470_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+471_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+472_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+473_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+474_2019-2020,offer_institutions,4404,NA,RI,European,NA
+475_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+476_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+477_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+478_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+479_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+480_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+481_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+482_2019-2020,offer_institutions,4144,Southeast,RI,USA,US college or university
+483_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+484_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+485_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+486_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+487_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+488_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+489_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+490_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+491_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+492_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+493_2019-2020,offer_institutions,3808,Southeast,RI,USA,US college or university
+494_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+495_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+496_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+497_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+498_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+499_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+500_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+501_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+502_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+503_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+504_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+505_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+506_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+507_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+508_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+509_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+510_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+511_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+512_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+513_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+514_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+515_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+516_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+517_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+518_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+519_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+520_2019-2020,offer_institutions,4495,NA,PUI,Canada,NA
+521_2019-2020,offer_institutions,1312,Southeast,PUI,USA,US college or university
+522_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+523_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+524_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+525_2019-2020,offer_institutions,2479,Midwest,PUI,USA,US college or university
+526_2019-2020,offer_institutions,3913,Southeast,RI,USA,US college or university
+527_2019-2020,offer_institutions,2597,Pacific,RI,USA,US college or university
+528_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+529_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+530_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+531_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+532_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+533_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+534_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+535_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+536_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+537_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+538_2019-2020,offer_institutions,3694,Pacific,RI,USA,US college or university
+539_2019-2020,offer_institutions,0,NA,NA,NA,NA
+540_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+541_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+542_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+543_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+544_2019-2020,offer_institutions,0,NA,NA,NA,NA
+545_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+546_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+547_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+548_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+549_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+550_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+551_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+552_2019-2020,offer_institutions,782,Southeast,RI,USA,US college or university
+553_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+554_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+555_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+556_2019-2020,offer_institutions,0,NA,NA,NA,NA
+557_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+558_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+559_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+560_2019-2020,offer_institutions,0,NA,NA,NA,NA
+561_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+562_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+563_2019-2020,offer_institutions,1138,Southeast,RI,USA,US college or university
+564_2019-2020,offer_institutions,0,NA,NA,NA,NA
+565_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+566_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+567_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+568_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+569_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+570_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+571_2019-2020,offer_institutions,3493,Northeast,PUI,USA,US college or university
+572_2019-2020,offer_institutions,0,NA,NA,NA,NA
+573_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+574_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+575_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+576_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+577_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+578_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+579_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+580_2019-2020,offer_institutions,3900,Southeast,RI,USA,US college or university
+581_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+582_2019-2020,offer_institutions,1350,Southeast,PUI,USA,US college or university
+583_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+584_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+585_2019-2020,offer_institutions,3773,Midwest,RI,USA,US college or university
+586_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+587_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+588_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+589_2019-2020,offer_institutions,3763,Southeast,RI,USA,US college or university
+590_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+591_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+592_2019-2020,offer_institutions,3535,Southwest,RI,USA,US college or university
+593_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+594_2019-2020,offer_institutions,2479,Midwest,PUI,USA,US college or university
+595_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+596_2019-2020,offer_institutions,0,NA,NA,NA,NA
+597_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+598_2019-2020,offer_institutions,4445,NA,RI,Canada,NA
+599_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+600_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+601_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+602_2019-2020,offer_institutions,0,NA,NA,NA,NA
+603_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+604_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+605_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+606_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+607_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+608_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+609_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+610_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+611_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+612_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+613_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+614_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+615_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+616_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+617_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+618_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+619_2019-2020,offer_institutions,0,NA,NA,NA,NA
+620_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+621_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+622_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+623_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+624_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+625_2019-2020,offer_institutions,3767,Northeast,RI,USA,US college or university
+626_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+627_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+628_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+629_2019-2020,offer_institutions,3956,Midwest,PUI,USA,US college or university
+630_2019-2020,offer_institutions,542,Pacific,PUI,USA,US college or university
+631_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+632_2019-2020,offer_institutions,3740,Midwest,RI,USA,US college or university
+633_2019-2020,offer_institutions,3522,Southeast,PUI,USA,US college or university
+634_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+635_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+636_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+637_2019-2020,offer_institutions,0,NA,NA,NA,NA
+638_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+639_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+640_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+641_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+642_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+643_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+644_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+645_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+646_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+648_2019-2020,offer_institutions,3782,Midwest,RI,USA,US college or university
+649_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+650_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+651_2019-2020,offer_institutions,4414,NA,RI,Canada,NA
+652_2019-2020,offer_institutions,0,NA,NA,NA,NA
+653_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+654_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+655_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+656_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+657_2019-2020,offer_institutions,2032,Midwest,RI,USA,US college or university
+658_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+659_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+660_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+661_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+662_2019-2020,offer_institutions,425,Northeast,PUI,USA,US college or university
+663_2019-2020,offer_institutions,1304,Southeast,RI,USA,US college or university
+664_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+665_2019-2020,offer_institutions,3696,Pacific,RI,USA,US college or university
+666_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+667_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+668_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+669_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+670_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+671_2019-2020,offer_institutions,3951,Midwest,RI,USA,US college or university
+672_2019-2020,offer_institutions,2167,Midwest,PUI,USA,US college or university
+673_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+674_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+675_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+676_2019-2020,offer_institutions,4351,NA,NA,USA,private research institute
+677_2019-2020,offer_institutions,3808,Southeast,RI,USA,US college or university
+678_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+679_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+680_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+681_2019-2020,offer_institutions,1941,Pacific,RI,USA,US college or university
+682_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+683_2019-2020,offer_institutions,51,Northeast,PUI,USA,US college or university
+684_2019-2020,offer_institutions,157,Southeast,PUI,USA,US college or university
+685_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+686_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+687_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+688_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+689_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+690_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+691_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+692_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+693_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+694_2019-2020,offer_institutions,410,Midwest,RI,USA,US college or university
+695_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+696_2019-2020,offer_institutions,3884,Northeast,RI,USA,US college or university
+697_2019-2020,offer_institutions,2776,Pacific,PUI,USA,US college or university
+698_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+699_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+700_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+701_2019-2020,offer_institutions,3346,Northeast,RI,USA,US college or university
+702_2019-2020,offer_institutions,0,NA,NA,NA,NA
+703_2019-2020,offer_institutions,4379,NA,NA,European,private research institute
+704_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+705_2019-2020,offer_institutions,3011,Midwest,PUI,USA,US college or university
+706_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+707_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+708_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+710_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+711_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+712_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+713_2019-2020,offer_institutions,0,NA,NA,NA,NA
+714_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+715_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+716_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+717_2019-2020,offer_institutions,3900,Southeast,RI,USA,US college or university
+718_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+719_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+720_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+721_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+722_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+723_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+724_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+725_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+726_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+727_2019-2020,offer_institutions,4328,NA,PUI,Western Pacific,NA
+728_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+729_2019-2020,offer_institutions,3780,Midwest,RI,USA,US college or university
+730_2019-2020,offer_institutions,1518,Northeast,RI,USA,US college or university
+731_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+732_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+733_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+734_2019-2020,offer_institutions,0,NA,NA,NA,NA
+735_2019-2020,offer_institutions,0,NA,NA,NA,NA
+736_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+737_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+738_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+739_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+740_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+741_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+742_2019-2020,offer_institutions,0,NA,NA,NA,NA
+743_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+744_2019-2020,offer_institutions,0,NA,NA,NA,NA
+745_2019-2020,offer_institutions,0,NA,NA,NA,NA
+746_2019-2020,offer_institutions,46,Midwest,PUI,USA,US college or university
+747_2019-2020,offer_institutions,0,NA,NA,NA,NA
+748_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+749_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+750_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+751_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+752_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+753_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+754_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+755_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+756_2019-2020,offer_institutions,195,Southwest,RI,USA,US college or university
+757_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+758_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+759_2019-2020,offer_institutions,3290,Midwest,PUI,USA,US college or university
+760_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+761_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+762_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+763_2019-2020,offer_institutions,3712,Rocky Mountains,RI,USA,US college or university
+764_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+765_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+766_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+767_2019-2020,offer_institutions,0,NA,NA,NA,NA
+768_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+769_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+770_2019-2020,offer_institutions,3217,Midwest,RI,USA,US college or university
+771_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+772_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+773_2019-2020,offer_institutions,0,NA,NA,NA,NA
+774_2019-2020,offer_institutions,3722,Southeast,RI,USA,US college or university
+776_2019-2020,offer_institutions,134,Southwest,PUI,USA,US college or university
+777_2019-2020,offer_institutions,1213,Southeast,RI,USA,US college or university
+778_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+779_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+780_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+781_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+782_2019-2020,offer_institutions,3693,Pacific,RI,USA,US college or university
+783_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+784_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+785_2019-2020,offer_institutions,0,NA,NA,NA,NA
+786_2019-2020,offer_institutions,3690,Pacific,RI,USA,US college or university
+787_2019-2020,offer_institutions,0,NA,NA,NA,NA
+788_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+789_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+790_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+791_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+792_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+793_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+794_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+795_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+796_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+797_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+798_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+799_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+800_2019-2020,offer_institutions,0,NA,NA,NA,NA
+801_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+802_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+803_2019-2020,offer_institutions,3722,Southeast,RI,USA,US college or university
+804_2019-2020,offer_institutions,4341,NA,NA,European,private research institute
+805_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+806_2019-2020,offer_institutions,3517,Southeast,RI,USA,US college or university
+807_2019-2020,offer_institutions,4397,NA,NA,USA,private research institute
+808_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+809_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+810_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+811_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+812_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+813_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+814_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+815_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+816_2019-2020,offer_institutions,3321,Pacific,RI,USA,US college or university
+817_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+818_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+819_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+821_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+822_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+823_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+824_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+825_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+826_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+827_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+828_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+829_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+830_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+831_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+832_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+833_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+834_2019-2020,offer_institutions,4675,NA,NA,NA,NA
+1_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+2_2020-2021,offer_institutions,2555,Midwest,RI,USA,US college or university
+3_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+4_2020-2021,offer_institutions,2599,Pacific,RI,USA,US college or university
+5_2020-2021,offer_institutions,3696,Pacific,RI,USA,US college or university
+6_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+7_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+8_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+9_2020-2021,offer_institutions,1655,Midwest,RI,USA,US college or university
+10_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+11_2020-2021,offer_institutions,4120,Northeast,PUI,USA,US college or university
+12_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+13_2020-2021,offer_institutions,3867,Northeast,RI,USA,US college or university
+14_2020-2021,offer_institutions,0,NA,NA,NA,NA
+15_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+16_2020-2021,offer_institutions,4449,NA,RI,European,NA
+17_2020-2021,offer_institutions,0,NA,NA,NA,NA
+19_2020-2021,offer_institutions,3405,Northeast,RI,USA,US college or university
+20_2020-2021,offer_institutions,0,NA,NA,NA,NA
+21_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+22_2020-2021,offer_institutions,1304,Southeast,RI,USA,US college or university
+23_2020-2021,offer_institutions,2928,Midwest,PUI,USA,US college or university
+24_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+25_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+26_2020-2021,offer_institutions,3321,Pacific,RI,USA,US college or university
+27_2020-2021,offer_institutions,2680,Northeast,RI,USA,US college or university
+28_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+30_2020-2021,offer_institutions,3744,Midwest,RI,USA,US college or university
+31_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+32_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+33_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+34_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+35_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+36_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+37_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+38_2020-2021,offer_institutions,3738,Midwest,RI,USA,US college or university
+39_2020-2021,offer_institutions,4388,NA,NA,USA,national research institute
+39_2020-2021,offer_institutions,4498,NA,NA,USA,private research institute
+40_2020-2021,offer_institutions,2965,Northeast,RI,USA,US college or university
+41_2020-2021,offer_institutions,773,Northeast,RI,USA,US college or university
+42_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+43_2020-2021,offer_institutions,1410,Southeast,RI,USA,US college or university
+44_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+45_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+46_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+47_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+48_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+49_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+50_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+51_2020-2021,offer_institutions,506,Northeast,PUI,USA,US college or university
+52_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+53_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+54_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+55_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+56_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+57_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+58_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+59_2020-2021,offer_institutions,1213,Southeast,RI,USA,US college or university
+60_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+61_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+62_2020-2021,offer_institutions,3528,Southwest,RI,USA,US college or university
+63_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+64_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+65_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+66_2020-2021,offer_institutions,3716,Southeast,RI,USA,US college or university
+67_2020-2021,offer_institutions,236,Southeast,RI,USA,US college or university
+68_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+69_2020-2021,offer_institutions,2483,Northeast,PUI,USA,US college or university
+70_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+71_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+72_2020-2021,offer_institutions,0,NA,NA,NA,NA
+74_2020-2021,offer_institutions,3690,Pacific,RI,USA,US college or university
+75_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+76_2020-2021,offer_institutions,4531,NA,RI,Western Pacific,NA
+77_2020-2021,offer_institutions,0,NA,NA,NA,NA
+78_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+79_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+80_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+81_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+82_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+83_2020-2021,offer_institutions,0,NA,NA,NA,NA
+84_2020-2021,offer_institutions,3610,Northeast,RI,USA,US college or university
+85_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+86_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+87_2020-2021,offer_institutions,195,Southwest,RI,USA,US college or university
+88_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+89_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+90_2020-2021,offer_institutions,3773,Midwest,RI,USA,US college or university
+91_2020-2021,offer_institutions,3782,Midwest,RI,USA,US college or university
+92_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+93_2020-2021,offer_institutions,4157,Midwest,RI,USA,US college or university
+95_2020-2021,offer_institutions,2915,Northeast,PUI,USA,US college or university
+96_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+97_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+98_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+99_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+100_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+101_2020-2021,offer_institutions,0,NA,NA,NA,NA
+102_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+103_2020-2021,offer_institutions,2409,Northeast,RI,USA,US college or university
+104_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+105_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+106_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+107_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+108_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+109_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+110_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+111_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+112_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+113_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+114_2020-2021,offer_institutions,2579,Southwest,RI,USA,US college or university
+115_2020-2021,offer_institutions,4092,Midwest,RI,USA,US college or university
+116_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+117_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+118_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+119_2020-2021,offer_institutions,1630,Rocky Mountains,RI,USA,US college or university
+120_2020-2021,offer_institutions,4490,NA,PUI,Canada,NA
+121_2020-2021,offer_institutions,4348,NA,NA,European,private research institute
+122_2020-2021,offer_institutions,3434,Southwest,PUI,USA,US college or university
+123_2020-2021,offer_institutions,3782,Midwest,RI,USA,US college or university
+124_2020-2021,offer_institutions,4455,NA,RI,Canada,NA
+125_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+126_2020-2021,offer_institutions,0,NA,NA,NA,NA
+127_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+128_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+129_2020-2021,offer_institutions,4258,Northeast,RI,USA,US college or university
+130_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+131_2020-2021,offer_institutions,3712,Rocky Mountains,RI,USA,US college or university
+132_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+133_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+134_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+135_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+136_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+137_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+138_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+139_2020-2021,offer_institutions,4675,NA,NA,NA,NA
+1_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+2_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+3_2021-2022,offer_institutions,3709,Midwest,RI,USA,US college or university
+4_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+5_2021-2022,offer_institutions,4494,NA,RI,Canada,NA
+6_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+7_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+8_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+9_2021-2022,offer_institutions,4445,NA,RI,Canada,NA
+10_2021-2022,offer_institutions,3745,Southeast,RI,USA,US college or university
+11_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+12_2021-2022,offer_institutions,3792,Midwest,RI,USA,US college or university
+14_2021-2022,offer_institutions,4092,Midwest,RI,USA,US college or university
+15_2021-2022,offer_institutions,3529,Southwest,RI,USA,US college or university
+16_2021-2022,offer_institutions,3809,Southeast,RI,USA,US college or university
+17_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+18_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+19_2021-2022,offer_institutions,4092,Midwest,RI,USA,US college or university
+20_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+21_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+22_2021-2022,offer_institutions,4636,NA,NA,USA,museum
+23_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+24_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+25_2021-2022,offer_institutions,2597,Pacific,RI,USA,US college or university
+27_2021-2022,offer_institutions,1579,Northeast,RI,USA,US college or university
+28_2021-2022,offer_institutions,2826,Midwest,RI,USA,US college or university
+29_2021-2022,offer_institutions,4379,NA,NA,European,private research institute
+30_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+31_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+32_2021-2022,offer_institutions,1115,Northeast,RI,USA,US college or university
+33_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+34_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+35_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+36_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+37_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+38_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+39_2021-2022,offer_institutions,3941,Pacific,RI,USA,US college or university
+40_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+41_2021-2022,offer_institutions,3793,Rocky Mountains,RI,USA,US college or university
+42_2021-2022,offer_institutions,3697,Pacific,RI,USA,US college or university
+43_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+44_2021-2022,offer_institutions,3900,Southeast,RI,USA,US college or university
+45_2021-2022,offer_institutions,2470,Northeast,RI,USA,US college or university
+46_2021-2022,offer_institutions,1115,Northeast,RI,USA,US college or university
+47_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+48_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+49_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+50_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+51_2021-2022,offer_institutions,0,NA,NA,NA,NA
+52_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+53_2021-2022,offer_institutions,4532,NA,RI,European,NA
+56_2021-2022,offer_institutions,3696,Pacific,RI,USA,US college or university
+57_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+58_2021-2022,offer_institutions,0,NA,NA,NA,NA
+59_2021-2022,offer_institutions,0,NA,NA,NA,NA
+60_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+61_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+62_2021-2022,offer_institutions,3706,Midwest,RI,USA,US college or university
+63_2021-2022,offer_institutions,477,Northeast,RI,USA,US college or university
+64_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+65_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+66_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+67_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+68_2021-2022,offer_institutions,3694,Pacific,RI,USA,US college or university
+69_2021-2022,offer_institutions,3780,Midwest,RI,USA,US college or university
+70_2021-2022,offer_institutions,2846,Northeast,PUI,USA,US college or university
+71_2021-2022,offer_institutions,0,NA,NA,NA,NA
+72_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+73_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+74_2021-2022,offer_institutions,397,Rocky Mountains,RI,USA,US college or university
+75_2021-2022,offer_institutions,3402,Northeast,PUI,USA,US college or university
+76_2021-2022,offer_institutions,0,NA,NA,NA,NA
+77_2021-2022,offer_institutions,3951,Midwest,RI,USA,US college or university
+78_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+79_2021-2022,offer_institutions,4509,NA,RI,European,NA
+80_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+81_2021-2022,offer_institutions,3764,Southeast,RI,USA,US college or university
+82_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+83_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+84_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+85_2021-2022,offer_institutions,3751,Northeast,RI,USA,US college or university
+86_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+87_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+88_2021-2022,offer_institutions,2599,Pacific,RI,USA,US college or university
+89_2021-2022,offer_institutions,3441,Southwest,PUI,USA,US college or university
+90_2021-2022,offer_institutions,0,NA,NA,NA,NA
+91_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+92_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+93_2021-2022,offer_institutions,0,NA,NA,NA,NA
+94_2021-2022,offer_institutions,957,Midwest,PUI,USA,US college or university
+95_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+96_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+97_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+98_2021-2022,offer_institutions,627,Midwest,RI,USA,US college or university
+99_2021-2022,offer_institutions,2428,Southeast,RI,USA,US college or university
+100_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+101_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+102_2021-2022,offer_institutions,3826,Southwest,RI,USA,US college or university
+103_2021-2022,offer_institutions,3773,Midwest,RI,USA,US college or university
+104_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+105_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+106_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+107_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+108_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+109_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+110_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+111_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+112_2021-2022,offer_institutions,4519,NA,RI,Canada,research institute
+113_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+114_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+115_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+116_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+117_2021-2022,offer_institutions,0,NA,NA,NA,NA
+118_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+119_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+120_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+121_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+122_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+123_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+124_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+125_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+126_2021-2022,offer_institutions,4258,Northeast,RI,USA,US college or university
+127_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+128_2021-2022,offer_institutions,4380,NA,RI,Canada,NA
+129_2021-2022,offer_institutions,1791,Southeast,RI,USA,US college or university
+130_2021-2022,offer_institutions,543,Pacific,PUI,USA,US college or university
+131_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+132_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+133_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+134_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+135_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+136_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+137_2021-2022,offer_institutions,1127,Midwest,PUI,USA,US college or university
+138_2021-2022,offer_institutions,4397,NA,NA,USA,private research institute
+139_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+140_2021-2022,offer_institutions,0,NA,NA,NA,NA
+141_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+142_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+143_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+144_2021-2022,offer_institutions,3913,Southeast,RI,USA,US college or university
+145_2021-2022,offer_institutions,3936,Rocky Mountains,RI,USA,US college or university
+146_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+147_2021-2022,offer_institutions,3809,Southeast,RI,USA,US college or university
+148_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+149_2021-2022,offer_institutions,0,NA,NA,NA,NA
+150_2021-2022,offer_institutions,0,NA,NA,NA,NA
+151_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+152_2021-2022,offer_institutions,3884,Northeast,RI,USA,US college or university
+153_2021-2022,offer_institutions,0,NA,NA,NA,NA
+154_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+155_2021-2022,offer_institutions,3733,Southwest,RI,USA,US college or university
+156_2021-2022,offer_institutions,4533,NA,RI,Western Pacific,NA
+157_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+158_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+159_2021-2022,offer_institutions,368,Northeast,RI,USA,US college or university
+160_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+161_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+162_2021-2022,offer_institutions,0,NA,NA,NA,NA
+163_2021-2022,offer_institutions,825,Southeast,PUI,USA,US college or university
+164_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+165_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+166_2021-2022,offer_institutions,3599,Southwest,PUI,USA,US college or university
+167_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+168_2021-2022,offer_institutions,3887,Northeast,RI,USA,US college or university
+169_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+170_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+171_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+172_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+173_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+174_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+175_2021-2022,offer_institutions,2925,Northeast,RI,USA,US college or university
+176_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+177_2021-2022,offer_institutions,3713,Northeast,RI,USA,US college or university
+178_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+179_2021-2022,offer_institutions,2685,Northeast,PUI,USA,US college or university
+180_2021-2022,offer_institutions,3809,Southeast,RI,USA,US college or university
+181_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+182_2021-2022,offer_institutions,3537,Southwest,PUI,USA,US college or university
+183_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+184_2021-2022,offer_institutions,3043,Pacific,RI,USA,US college or university
+185_2021-2022,offer_institutions,3706,Midwest,RI,USA,US college or university
+186_2021-2022,offer_institutions,0,NA,NA,NA,NA
+187_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+189_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+190_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+191_2021-2022,offer_institutions,3773,Midwest,RI,USA,US college or university
+192_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+193_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+194_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+195_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+196_2021-2022,offer_institutions,627,Midwest,RI,USA,US college or university
+197_2021-2022,offer_institutions,2428,Southeast,RI,USA,US college or university
+198_2021-2022,offer_institutions,1655,Midwest,RI,USA,US college or university
+199_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+200_2021-2022,offer_institutions,1293,Southeast,PUI,USA,US college or university
+201_2021-2022,offer_institutions,3043,Pacific,RI,USA,US college or university
+202_2021-2022,offer_institutions,3773,Midwest,RI,USA,US college or university
+203_2021-2022,offer_institutions,3675,Southwest,RI,USA,US college or university
+204_2021-2022,offer_institutions,2826,Midwest,RI,USA,US college or university
+206_2021-2022,offer_institutions,2788,Pacific,RI,USA,US college or university
+207_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+208_2021-2022,offer_institutions,3734,Southwest,PUI,USA,US college or university
+209_2021-2022,offer_institutions,3910,Pacific,RI,USA,US college or university
+210_2021-2022,offer_institutions,0,NA,NA,NA,NA
+211_2021-2022,offer_institutions,1518,Northeast,RI,USA,US college or university
+212_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+213_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+214_2021-2022,offer_institutions,2579,Southwest,RI,USA,US college or university
+215_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+216_2021-2022,offer_institutions,0,NA,NA,NA,NA
+217_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+218_2021-2022,offer_institutions,895,Northeast,RI,USA,US college or university
+219_2021-2022,offer_institutions,4016,Northeast,RI,USA,US college or university
+220_2021-2022,offer_institutions,1304,Southeast,RI,USA,US college or university
+221_2021-2022,offer_institutions,4374,NA,RI,European,NA
+222_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+223_2021-2022,offer_institutions,119,Southeast,RI,USA,US college or university
+224_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+226_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+227_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+228_2021-2022,offer_institutions,1969,Southeast,RI,USA,US college or university
+229_2021-2022,offer_institutions,4470,NA,RI,Canada,NA
+230_2021-2022,offer_institutions,1025,Northeast,RI,USA,US college or university
+231_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+232_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+233_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+234_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+235_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+236_2021-2022,offer_institutions,0,NA,NA,NA,NA
+237_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+238_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+239_2021-2022,offer_institutions,157,Southeast,PUI,USA,US college or university
+240_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+241_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+242_2021-2022,offer_institutions,1296,Southeast,RI,USA,US college or university
+243_2021-2022,offer_institutions,0,NA,NA,NA,NA
+244_2021-2022,offer_institutions,1049,Southeast,RI,USA,US college or university
+245_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+246_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+247_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+248_2021-2022,offer_institutions,3951,Midwest,RI,USA,US college or university
+249_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+250_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+251_2021-2022,offer_institutions,4051,Southeast,RI,USA,US college or university
+252_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+253_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+254_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+255_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+256_2021-2022,offer_institutions,4419,NA,NA,USA,private research institute
+257_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+259_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+260_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+261_2021-2022,offer_institutions,0,NA,NA,NA,NA
+262_2021-2022,offer_institutions,2032,Midwest,RI,USA,US college or university
+263_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+264_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+265_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+266_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+267_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+268_2021-2022,offer_institutions,3959,Midwest,PUI,USA,US college or university
+269_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+270_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+271_2021-2022,offer_institutions,4535,NA,NA,USA,private research institute
+272_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+273_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+274_2021-2022,offer_institutions,1117,Southeast,RI,USA,US college or university
+275_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+276_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+277_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+278_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+279_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+280_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+281_2021-2022,offer_institutions,3517,Southeast,RI,USA,US college or university
+282_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+283_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+284_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+285_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+286_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+287_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+288_2021-2022,offer_institutions,4051,Southeast,RI,USA,US college or university
+289_2021-2022,offer_institutions,0,NA,NA,NA,NA
+290_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+291_2021-2022,offer_institutions,3900,Southeast,RI,USA,US college or university
+292_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+293_2021-2022,offer_institutions,4258,Northeast,RI,USA,US college or university
+294_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+295_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+296_2021-2022,offer_institutions,4526,NA,RI,European,NA
+297_2021-2022,offer_institutions,0,NA,NA,NA,NA
+298_2021-2022,offer_institutions,3984,Southeast,RI,USA,US college or university
+299_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+300_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+301_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+302_2021-2022,offer_institutions,2680,Northeast,RI,USA,US college or university
+303_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+304_2021-2022,offer_institutions,1304,Southeast,RI,USA,US college or university
+305_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+306_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+307_2021-2022,offer_institutions,3744,Midwest,RI,USA,US college or university
+308_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+309_2021-2022,offer_institutions,2472,Southwest,RI,USA,US college or university
+310_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+311_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+312_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+313_2021-2022,offer_institutions,0,NA,NA,NA,NA
+314_2021-2022,offer_institutions,0,NA,NA,NA,NA
+315_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+316_2021-2022,offer_institutions,3675,Southwest,RI,USA,US college or university
+317_2021-2022,offer_institutions,4536,NA,RI,USA,teaching hospital
+318_2021-2022,offer_institutions,3709,Midwest,RI,USA,US college or university
+319_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+320_2021-2022,offer_institutions,3984,Southeast,RI,USA,US college or university
+321_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+322_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+323_2021-2022,offer_institutions,1213,Southeast,RI,USA,US college or university
+324_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+325_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+326_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+327_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+328_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+329_2021-2022,offer_institutions,1830,Northeast,PUI,USA,US college or university
+330_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+331_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+332_2021-2022,offer_institutions,3764,Southeast,RI,USA,US college or university
+333_2021-2022,offer_institutions,1294,Southeast,RI,USA,US college or university
+334_2021-2022,offer_institutions,4529,NA,RI,Canada,NA
+335_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+336_2021-2022,offer_institutions,4092,Midwest,RI,USA,US college or university
+337_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+338_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+339_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+340_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+341_2021-2022,offer_institutions,4537,NA,PUI,Canada,NA
+342_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+343_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+344_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+345_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+346_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+347_2021-2022,offer_institutions,2137,Midwest,RI,USA,US college or university
+348_2021-2022,offer_institutions,2277,Northeast,PUI,USA,US college or university
+349_2021-2022,offer_institutions,4470,NA,RI,Canada,NA
+350_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+351_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+352_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+353_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+354_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+355_2021-2022,offer_institutions,4675,NA,NA,NA,NA
+19_2019-2020,offer_institutions,3699,Pacific,RI,USA,US college or university
+45_2019-2020,offer_institutions,3713,Northeast,RI,USA,US college or university
+54_2019-2020,offer_institutions,3706,Midwest,RI,USA,US college or university
+55_2019-2020,offer_institutions,3934,Midwest,RI,USA,US college or university
+58_2019-2020,offer_institutions,3781,Southeast,RI,USA,US college or university
+59_2019-2020,offer_institutions,0,NA,NA,NA,NA
+85_2019-2020,offer_institutions,1402,Southeast,RI,USA,US college or university
+86_2019-2020,offer_institutions,548,Pacific,PUI,USA,US college or university
+92_2019-2020,offer_institutions,3740,Midwest,RI,USA,US college or university
+111_2019-2020,offer_institutions,47,Northeast,PUI,USA,US college or university
+116_2019-2020,offer_institutions,4331,NA,NA,USA,private research institute
+130_2019-2020,offer_institutions,3285,Northeast,PUI,USA,US college or university
+134_2019-2020,offer_institutions,477,Northeast,RI,USA,US college or university
+153_2019-2020,offer_institutions,4502,NA,RI,Canada,NA
+160_2019-2020,offer_institutions,4234,Midwest,PUI,USA,US college or university
+163_2019-2020,offer_institutions,3694,Pacific,RI,USA,US college or university
+164_2019-2020,offer_institutions,2476,Southeast,PUI,USA,US college or university
+182_2019-2020,offer_institutions,3709,Midwest,RI,USA,US college or university
+194_2019-2020,offer_institutions,3951,Midwest,RI,USA,US college or university
+196_2019-2020,offer_institutions,3285,Northeast,PUI,USA,US college or university
+197_2019-2020,offer_institutions,3745,Southeast,RI,USA,US college or university
+219_2019-2020,offer_institutions,3535,Southwest,RI,USA,US college or university
+234_2019-2020,offer_institutions,3941,Pacific,RI,USA,US college or university
+275_2019-2020,offer_institutions,3824,Midwest,RI,USA,US college or university
+278_2019-2020,offer_institutions,1970,Southeast,PUI,USA,US college or university
+279_2019-2020,offer_institutions,2687,Northeast,PUI,USA,US college or university
+307_2019-2020,offer_institutions,3936,Rocky Mountains,RI,USA,US college or university
+318_2019-2020,offer_institutions,3767,Northeast,RI,USA,US college or university
+340_2019-2020,offer_institutions,3780,Midwest,RI,USA,US college or university
+431_2019-2020,offer_institutions,1407,Southeast,PUI,USA,US college or university
+440_2019-2020,offer_institutions,997,Northeast,PUI,USA,US college or university
+521_2019-2020,offer_institutions,4228,Southeast,PUI,USA,US college or university
+527_2019-2020,offer_institutions,3712,Rocky Mountains,RI,USA,US college or university
+552_2019-2020,offer_institutions,3770,Northeast,RI,USA,US college or university
+571_2019-2020,offer_institutions,3962,Rocky Mountains,RI,USA,US college or university
+585_2019-2020,offer_institutions,1410,Southeast,RI,USA,US college or university
+592_2019-2020,offer_institutions,2555,Midwest,RI,USA,US college or university
+619_2019-2020,offer_institutions,0,NA,NA,NA,NA
+632_2019-2020,offer_institutions,2826,Midwest,RI,USA,US college or university
+646_2019-2020,offer_institutions,0,NA,NA,NA,NA
+648_2019-2020,offer_institutions,1304,Southeast,RI,USA,US college or university
+657_2019-2020,offer_institutions,3532,Southwest,RI,USA,US college or university
+671_2019-2020,offer_institutions,3527,Southwest,RI,USA,US college or university
+677_2019-2020,offer_institutions,504,Northeast,PUI,USA,US college or university
+705_2019-2020,offer_institutions,4199,Northeast,RI,USA,US college or university
+730_2019-2020,offer_institutions,3698,Pacific,RI,USA,US college or university
+774_2019-2020,offer_institutions,4091,Pacific,RI,USA,US college or university
+776_2019-2020,offer_institutions,4319,NA,RI,European,NA
+777_2019-2020,offer_institutions,3713,Northeast,RI,USA,US college or university
+782_2019-2020,offer_institutions,3773,Midwest,RI,USA,US college or university
+816_2019-2020,offer_institutions,0,NA,NA,NA,NA
+2_2020-2021,offer_institutions,3791,Midwest,RI,USA,US college or university
+9_2020-2021,offer_institutions,3826,Southwest,RI,USA,US college or university
+19_2020-2021,offer_institutions,3526,Southwest,RI,USA,US college or university
+26_2020-2021,offer_institutions,1117,Southeast,RI,USA,US college or university
+27_2020-2021,offer_institutions,3791,Midwest,RI,USA,US college or university
+38_2020-2021,offer_institutions,3984,Southeast,RI,USA,US college or university
+51_2020-2021,offer_institutions,3987,Northeast,PUI,USA,US college or university
+62_2020-2021,offer_institutions,3768,Northeast,RI,USA,US college or university
+66_2020-2021,offer_institutions,3782,Midwest,RI,USA,US college or university
+69_2020-2021,offer_institutions,3223,Pacific,PUI,USA,US college or university
+76_2020-2021,offer_institutions,4600,NA,RI,European,NA
+90_2020-2021,offer_institutions,3713,Northeast,RI,USA,US college or university
+93_2020-2021,offer_institutions,3678,Southeast,RI,USA,US college or university
+95_2020-2021,offer_institutions,2980,Northeast,PUI,USA,US college or university
+114_2020-2021,offer_institutions,1416,Southeast,RI,USA,US college or university
+123_2020-2021,offer_institutions,3436,Southwest,RI,USA,US college or university
+3_2021-2022,offer_institutions,3694,Pacific,RI,USA,US college or university
+10_2021-2022,offer_institutions,3672,Noncontiguous,RI,USA,US college or university
+12_2021-2022,offer_institutions,3669,Southeast,RI,USA,US college or university
+25_2021-2022,offer_institutions,0,NA,NA,NA,NA
+27_2021-2022,offer_institutions,809,Northeast,PUI,USA,US college or university
+41_2021-2022,offer_institutions,2826,Midwest,RI,USA,US college or university
+42_2021-2022,offer_institutions,3910,Pacific,RI,USA,US college or university
+44_2021-2022,offer_institutions,4380,NA,RI,Canada,NA
+46_2021-2022,offer_institutions,895,Northeast,RI,USA,US college or university
+68_2021-2022,offer_institutions,3941,Pacific,RI,USA,US college or university
+75_2021-2022,offer_institutions,0,NA,NA,NA,NA
+99_2021-2022,offer_institutions,3919,Southwest,RI,USA,US college or university
+102_2021-2022,offer_institutions,1969,Southeast,RI,USA,US college or university
+103_2021-2022,offer_institutions,2555,Midwest,RI,USA,US college or university
+126_2021-2022,offer_institutions,4356,NA,NA,USA,private research institute
+138_2021-2022,offer_institutions,3712,Rocky Mountains,RI,USA,US college or university
+145_2021-2022,offer_institutions,1650,Midwest,RI,USA,US college or university
+155_2021-2022,offer_institutions,3697,Pacific,RI,USA,US college or university
+159_2021-2022,offer_institutions,1025,Northeast,RI,USA,US college or university
+166_2021-2022,offer_institutions,3311,Southeast,PUI,USA,US college or university
+166_2021-2022,offer_institutions,3312,Southwest,PUI,USA,US college or university
+175_2021-2022,offer_institutions,4607,NA,RI,European,NA
+200_2021-2022,offer_institutions,2223,Midwest,PUI,USA,US college or university
+208_2021-2022,offer_institutions,3817,Southwest,RI,USA,US college or university
+209_2021-2022,offer_institutions,3706,Midwest,RI,USA,US college or university
+211_2021-2022,offer_institutions,3698,Pacific,RI,USA,US college or university
+220_2021-2022,offer_institutions,3809,Southeast,RI,USA,US college or university
+228_2021-2022,offer_institutions,236,Southeast,RI,USA,US college or university
+230_2021-2022,offer_institutions,2826,Midwest,RI,USA,US college or university
+242_2021-2022,offer_institutions,3529,Southwest,RI,USA,US college or university
+256_2021-2022,offer_institutions,3700,Pacific,RI,USA,US college or university
+271_2021-2022,offer_institutions,2409,Northeast,RI,USA,US college or university
+274_2021-2022,offer_institutions,2898,Southwest,RI,USA,US college or university
+281_2021-2022,offer_institutions,3887,Northeast,RI,USA,US college or university
+316_2021-2022,offer_institutions,2599,Pacific,RI,USA,US college or university
+317_2021-2022,offer_institutions,4258,Northeast,RI,USA,US college or university
+318_2021-2022,offer_institutions,3694,Pacific,RI,USA,US college or university
+336_2021-2022,offer_institutions,3780,Midwest,RI,USA,US college or university
+19_2019-2020,offer_institutions,3936,Rocky Mountains,RI,USA,US college or university
+45_2019-2020,offer_institutions,3938,Northeast,RI,USA,US college or university
+54_2019-2020,offer_institutions,3941,Pacific,RI,USA,US college or university
+85_2019-2020,offer_institutions,3436,Southwest,RI,USA,US college or university
+86_2019-2020,offer_institutions,3770,Northeast,RI,USA,US college or university
+130_2019-2020,offer_institutions,2946,Midwest,PUI,USA,US college or university
+134_2019-2020,offer_institutions,328,Northeast,PUI,USA,US college or university
+153_2019-2020,offer_institutions,958,Northeast,RI,USA,US college or university
+163_2019-2020,offer_institutions,895,Northeast,RI,USA,US college or university
+164_2019-2020,offer_institutions,1063,Midwest,PUI,USA,US college or university
+194_2019-2020,offer_institutions,4258,Northeast,RI,USA,US college or university
+197_2019-2020,offer_institutions,3900,Southeast,RI,USA,US college or university
+219_2019-2020,offer_institutions,2555,Midwest,RI,USA,US college or university
+307_2019-2020,offer_institutions,3712,Rocky Mountains,RI,USA,US college or university
+440_2019-2020,offer_institutions,3611,Southeast,RI,USA,US college or university
+527_2019-2020,offer_institutions,3936,Rocky Mountains,RI,USA,US college or university
+552_2019-2020,offer_institutions,2476,Southeast,PUI,USA,US college or university
+571_2019-2020,offer_institutions,3895,Northeast,PUI,USA,US college or university
+585_2019-2020,offer_institutions,4092,Midwest,RI,USA,US college or university
+632_2019-2020,offer_institutions,2680,Northeast,RI,USA,US college or university
+671_2019-2020,offer_institutions,3722,Southeast,RI,USA,US college or university
+677_2019-2020,offer_institutions,2808,Northeast,PUI,USA,US college or university
+730_2019-2020,offer_institutions,3706,Midwest,RI,USA,US college or university
+777_2019-2020,offer_institutions,3910,Pacific,RI,USA,US college or university
+782_2019-2020,offer_institutions,3527,Southwest,RI,USA,US college or university
+816_2019-2020,offer_institutions,3694,Pacific,RI,USA,US college or university
+19_2020-2021,offer_institutions,3828,Northeast,RI,USA,US college or university
+26_2020-2021,offer_institutions,3669,Southeast,RI,USA,US college or university
+27_2020-2021,offer_institutions,1213,Southeast,RI,USA,US college or university
+38_2020-2021,offer_institutions,4092,Midwest,RI,USA,US college or university
+66_2020-2021,offer_institutions,4388,NA,NA,USA,national research institute
+66_2020-2021,offer_institutions,4498,NA,NA,USA,private research institute
+90_2020-2021,offer_institutions,4536,NA,RI,USA,teaching hospital
+12_2021-2022,offer_institutions,3934,Midwest,RI,USA,US college or university
+25_2021-2022,offer_institutions,4512,NA,PUI,Canada,NA
+41_2021-2022,offer_institutions,3517,Southeast,RI,USA,US college or university
+42_2021-2022,offer_institutions,4388,NA,NA,USA,national research institute
+42_2021-2022,offer_institutions,4498,NA,NA,USA,private research institute
+68_2021-2022,offer_institutions,3936,Rocky Mountains,RI,USA,US college or university
+75_2021-2022,offer_institutions,766,Pacific,PUI,USA,US college or university
+99_2021-2022,offer_institutions,3793,Rocky Mountains,RI,USA,US college or university
+103_2021-2022,offer_institutions,4388,NA,NA,USA,national research institute
+103_2021-2022,offer_institutions,4498,NA,NA,USA,private research institute
+208_2021-2022,offer_institutions,4475,NA,PUI,Canada,NA
+211_2021-2022,offer_institutions,3919,Southwest,RI,USA,US college or university
+220_2021-2022,offer_institutions,3675,Southwest,RI,USA,US college or university
+228_2021-2022,offer_institutions,3782,Midwest,RI,USA,US college or university
+242_2021-2022,offer_institutions,2384,Northeast,RI,USA,US college or university
+256_2021-2022,offer_institutions,4349,NA,NA,USA,private research institute
+271_2021-2022,offer_institutions,3694,Pacific,RI,USA,US college or university
+274_2021-2022,offer_institutions,3824,Midwest,RI,USA,US college or university
+281_2021-2022,offer_institutions,876,Rocky Mountains,RI,USA,US college or university
+317_2021-2022,offer_institutions,1115,Northeast,RI,USA,US college or university
+85_2019-2020,offer_institutions,3824,Midwest,RI,USA,US college or university
+130_2019-2020,offer_institutions,816,Northeast,PUI,USA,US college or university
+153_2019-2020,offer_institutions,895,Northeast,RI,USA,US college or university
+163_2019-2020,offer_institutions,1117,Southeast,RI,USA,US college or university
+194_2019-2020,offer_institutions,1025,Northeast,RI,USA,US college or university
+219_2019-2020,offer_institutions,3712,Rocky Mountains,RI,USA,US college or university
+440_2019-2020,offer_institutions,1310,Northeast,RI,USA,US college or university
+552_2019-2020,offer_institutions,1063,Midwest,PUI,USA,US college or university
+571_2019-2020,offer_institutions,3380,Northeast,PUI,USA,US college or university
+585_2019-2020,offer_institutions,1025,Northeast,RI,USA,US college or university
+632_2019-2020,offer_institutions,3699,Pacific,RI,USA,US college or university
+677_2019-2020,offer_institutions,4653,NA,PUI,USA,NA
+730_2019-2020,offer_institutions,4502,NA,RI,Canada,NA
+777_2019-2020,offer_institutions,895,Northeast,RI,USA,US college or university
+782_2019-2020,offer_institutions,3697,Pacific,RI,USA,US college or university
+27_2020-2021,offer_institutions,4462,NA,RI,Western Pacific,NA
+12_2021-2022,offer_institutions,4102,Midwest,RI,USA,US college or university
+42_2021-2022,offer_institutions,4423,NA,RI,European,NA
+99_2021-2022,offer_institutions,406,Northeast,RI,USA,US college or university
+211_2021-2022,offer_institutions,3828,Northeast,RI,USA,US college or university
+271_2021-2022,offer_institutions,3867,Northeast,RI,USA,US college or university
+317_2021-2022,offer_institutions,4068,Southeast,RI,USA,US college or university
+85_2019-2020,offer_institutions,2826,Midwest,RI,USA,US college or university
+130_2019-2020,offer_institutions,3006,Pacific,PUI,USA,US college or university
+153_2019-2020,offer_institutions,4409,NA,NA,USA,private research institute
+163_2019-2020,offer_institutions,2409,Northeast,RI,USA,US college or university
+194_2019-2020,offer_institutions,3766,Northeast,RI,USA,US college or university
+440_2019-2020,offer_institutions,3744,Midwest,RI,USA,US college or university
+552_2019-2020,offer_institutions,1484,Midwest,PUI,USA,US college or university
+782_2019-2020,offer_institutions,3722,Southeast,RI,USA,US college or university
+27_2020-2021,offer_institutions,3919,Southwest,RI,USA,US college or university
+99_2021-2022,offer_institutions,4144,Southeast,RI,USA,US college or university
+211_2021-2022,offer_institutions,3693,Pacific,RI,USA,US college or university
+271_2021-2022,offer_institutions,3941,Pacific,RI,USA,US college or university
+130_2019-2020,offer_institutions,407,Northeast,PUI,USA,US college or university
+130_2019-2020,offer_institutions,4317,NA,PUI,USA,NA
+153_2019-2020,offer_institutions,4348,NA,NA,European,private research institute
+552_2019-2020,offer_institutions,1836,Midwest,PUI,USA,US college or university
+782_2019-2020,offer_institutions,195,Southwest,RI,USA,US college or university
+99_2021-2022,offer_institutions,0,NA,NA,NA,NA
+211_2021-2022,offer_institutions,1025,Northeast,RI,USA,US college or university
+153_2019-2020,offer_institutions,4341,NA,NA,European,private research institute
+552_2019-2020,offer_institutions,4255,Midwest,PUI,USA,US college or university
+211_2021-2022,offer_institutions,3773,Midwest,RI,USA,US college or university
+153_2019-2020,offer_institutions,3534,Southwest,PUI,USA,US college or university
+552_2019-2020,offer_institutions,3285,Northeast,PUI,USA,US college or university
+42_2019-2020,offer_institutions,4092,Midwest,RI,USA,US college or university
+45_2019-2020,offer_institutions,3532,Southwest,RI,USA,US college or university
+154_2019-2020,offer_institutions,1405,Southeast,RI,USA,US college or university
+174_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+203_2019-2020,offer_institutions,3665,Northeast,RI,USA,US college or university
+264_2019-2020,offer_institutions,3527,Southwest,RI,USA,US college or university
+294_2019-2020,offer_institutions,3532,Southwest,RI,USA,US college or university
+647_2019-2020,offer_institutions,3722,Southeast,RI,USA,US college or university
+709_2019-2020,offer_institutions,0,NA,NA,NA,NA
+775_2019-2020,offer_institutions,1752,Southeast,RI,USA,US college or university
+820_2019-2020,offer_institutions,1625,Northeast,RI,USA,US college or university
+18_2020-2021,offer_institutions,3698,Pacific,RI,USA,US college or university
+29_2020-2021,offer_institutions,392,Southeast,PUI,USA,US college or university
+73_2020-2021,offer_institutions,3694,Pacific,RI,USA,US college or university
+94_2020-2021,offer_institutions,4331,NA,NA,USA,private research institute
+13_2021-2022,offer_institutions,4518,NA,RI,European,NA
+26_2021-2022,offer_institutions,2242,Rocky Mountains,RI,USA,US college or university
+54_2021-2022,offer_institutions,3782,Midwest,RI,USA,US college or university
+55_2021-2022,offer_institutions,3939,Southeast,RI,USA,US college or university
+188_2021-2022,offer_institutions,1805,Midwest,PUI,USA,US college or university
+205_2021-2022,offer_institutions,3104,Northeast,PUI,USA,US college or university
+225_2021-2022,offer_institutions,2826,Midwest,RI,USA,US college or university
+258_2021-2022,offer_institutions,4427,NA,RI,European,NA
+154_2019-2020,offer_institutions,3611,Southeast,RI,USA,US college or university
+218_2021-2022,offer_institutions,1518,Northeast,RI,USA,US college or university
+42_2021-2022,offer_institutions,4562,NA,RI,European,NA
+42_2019-2020,offer_institutions,3744,Midwest,RI,USA,US college or university
+154_2019-2020,offer_institutions,997,Northeast,PUI,USA,US college or university
+174_2019-2020,offer_institutions,627,Midwest,RI,USA,US college or university
+203_2019-2020,offer_institutions,3810,Southeast,RI,USA,US college or university
+264_2019-2020,offer_institutions,4484,NA,NA,USA,private research institute
+264_2019-2020,offer_institutions,4530,NA,RI,USA,private research institute
+294_2019-2020,offer_institutions,240,Southeast,PUI,USA,US college or university
+647_2019-2020,offer_institutions,3436,Southwest,RI,USA,US college or university
+709_2019-2020,offer_institutions,4502,NA,RI,Canada,NA
+775_2019-2020,offer_institutions,406,Northeast,RI,USA,US college or university
+820_2019-2020,offer_institutions,3346,Northeast,RI,USA,US college or university
+18_2020-2021,offer_institutions,1213,Southeast,RI,USA,US college or university
+29_2020-2021,offer_institutions,3010,Northeast,PUI,USA,US college or university
+73_2020-2021,offer_institutions,4092,Midwest,RI,USA,US college or university
+94_2020-2021,offer_institutions,3907,Southeast,RI,USA,US college or university
+13_2021-2022,offer_institutions,4673,NA,RI,European,NA
+26_2021-2022,offer_institutions,1294,Southeast,RI,USA,US college or university
+54_2021-2022,offer_institutions,1707,Midwest,RI,USA,US college or university
+55_2021-2022,offer_institutions,2965,Northeast,RI,USA,US college or university
+188_2021-2022,offer_institutions,1499,Southeast,PUI,USA,US college or university
+205_2021-2022,offer_institutions,2130,Midwest,RI,USA,US college or university
+225_2021-2022,offer_institutions,3001,Midwest,RI,USA,US college or university
+258_2021-2022,offer_institutions,4546,NA,RI,European,NA
+154_2019-2020,offer_institutions,3744,Midwest,RI,USA,US college or university
+218_2021-2022,offer_institutions,406,Northeast,RI,USA,US college or university
+42_2021-2022,offer_institutions,4603,NA,RI,European,NA
+294_2019-2020,offer_institutions,1405,Southeast,RI,USA,US college or university
+647_2019-2020,offer_institutions,3763,Southeast,RI,USA,US college or university
+775_2019-2020,offer_institutions,3321,Pacific,RI,USA,US college or university
+18_2020-2021,offer_institutions,0,NA,NA,NA,NA
+73_2020-2021,offer_institutions,3951,Midwest,RI,USA,US college or university
+94_2020-2021,offer_institutions,2965,Northeast,RI,USA,US college or university
+13_2021-2022,offer_institutions,4646,NA,NA,European,private research institute
+55_2021-2022,offer_institutions,2139,Midwest,RI,USA,US college or university
+205_2021-2022,offer_institutions,3813,Southeast,RI,USA,US college or university
+154_2019-2020,offer_institutions,1310,Northeast,RI,USA,US college or university
+218_2021-2022,offer_institutions,0,NA,NA,NA,NA
+42_2021-2022,offer_institutions,4641,NA,RI,European,NA
+775_2019-2020,offer_institutions,236,Southeast,RI,USA,US college or university
+73_2020-2021,offer_institutions,3709,Midwest,RI,USA,US college or university
+94_2020-2021,offer_institutions,0,NA,NA,NA,NA
+13_2021-2022,offer_institutions,4649,NA,NA,NA,NA
+55_2021-2022,offer_institutions,1969,Southeast,RI,USA,US college or university
+218_2021-2022,offer_institutions,1752,Southeast,RI,USA,US college or university
+775_2019-2020,offer_institutions,2965,Northeast,RI,USA,US college or university
+94_2020-2021,offer_institutions,0,NA,NA,NA,NA
+13_2021-2022,offer_institutions,4309,NA,RI,European,NA
+55_2021-2022,offer_institutions,3887,Northeast,RI,USA,US college or university
+218_2021-2022,offer_institutions,0,NA,NA,NA,NA
+13_2021-2022,offer_institutions,4650,NA,NA,European,NA
+218_2021-2022,offer_institutions,1213,Southeast,RI,USA,US college or university
+218_2021-2022,offer_institutions,2898,Southwest,RI,USA,US college or university
+218_2021-2022,offer_institutions,2409,Northeast,RI,USA,US college or university
+89_2019-2020,offer_institutions,4388,NA,NA,USA,national research institute
+89_2019-2020,offer_institutions,4498,NA,NA,USA,private research institute
+89_2019-2020,offer_institutions,3938,Northeast,RI,USA,US college or university

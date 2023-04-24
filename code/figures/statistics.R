@@ -1,10 +1,10 @@
 stats_demo_data <- res_demo_data %>% 
-  select(id, covid_offers_rescinded, gender, race_ethnicity, research_category)
+  select(id, covid_offers_rescinded, adjusted_gender, peer, research_category)
 
 #Figure 2 -----
 
 #Fig A
-gen_chi <- fisher.test(table(stats_demo_data$gender, 
+gen_chi <- fisher.test(table(stats_demo_data$adjusted_gender, 
                              stats_demo_data$covid_offers_rescinded))
 
 #Fig B
@@ -12,16 +12,16 @@ cat_chi <- fisher.test(table(stats_demo_data$research_category,
                              stats_demo_data$covid_offers_rescinded))
 
 #Fig C
-re_chi <- fisher.test(table(race_data$race_ethnicity, 
-                            race_data$covid_offers_rescinded))
+re_chi <- fisher.test(table(stats_demo_data$peer, 
+                            stats_demo_data$covid_offers_rescinded))
 
 #Fig D
 pui_count <- PUI_RI_rescinded %>% select(PUI_RI, n_rescinded, nr) %>% 
   remove_rownames %>% column_to_rownames(var="PUI_RI")
 
 pui_chi <- fisher.test(pui_count)
-
-#Fig F
+#
+##Fig F
 us_reg_count <- per_US_region_rescinded %>% select(US_region, n_rescinded, nr) %>% 
   remove_rownames %>% column_to_rownames(var="US_region") 
 
@@ -187,59 +187,85 @@ a_count <- Fig_4A_data %>% select(research_category, false, true) %>%
 a_chi <- fisher.test(a_count)
 
 #Fig B
-b_count <- Fig_4B_data %>% select(first_gen_phd, false, true) %>% 
-  remove_rownames %>% column_to_rownames(var="first_gen_phd")
+b_topic_count <- Fig_4B_data %>% filter(concern == "Added pandemic-related topics") %>% 
+  select(-concern, -per_yes) %>% 
+  remove_rownames %>% column_to_rownames(var="research_category")
 
-b_chi <- fisher.test(b_count)
+b_remote_count <- Fig_4B_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
+  select(-concern, -per_yes) %>% 
+  remove_rownames %>% column_to_rownames(var="research_category")
+
+b_topic_chi <- fisher.test(b_topic_count)
+
+b_remote_chi <- fisher.test(b_remote_count)
 
 #Fig C
-c_topic_count <- Fig_4c_data %>% filter(concern == "Added pandemic-related topics") %>% 
-  select(-concern, -per_yes) %>% 
-  remove_rownames %>% column_to_rownames(var="research_category")
+c_count <- Fig_4C_data %>% select(research_category, false, true) %>% 
+  remove_rownames %>% column_to_rownames(var="research_category") 
 
-c_remote_count <- Fig_4c_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
-  select(-concern, -per_yes) %>% 
-  remove_rownames %>% column_to_rownames(var="research_category")
-
-c_topic_chi <- fisher.test(c_topic_count)
-
-c_remote_chi <- fisher.test(c_remote_count)
+c_chi <- fisher.test(c_count)
 
 #Fig D
-d_topic_count <- Fig_4d_data %>% filter(concern == "Added pandemic-related topics") %>% 
-  select(-concern, -per_yes) %>% 
-  remove_rownames %>% column_to_rownames(var="desired_institution")
+d_count <- Fig_4D_data %>% select(first_gen_phd, false, true) %>% 
+  remove_rownames %>% column_to_rownames(var="first_gen_phd")
 
-d_remote_count <- Fig_4d_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
-  select(-concern, -per_yes) %>% 
-  remove_rownames %>% column_to_rownames(var="desired_institution")
-  
-d_teach_count <- Fig_4d_data %>% filter(concern == "More online teaching practices") %>% 
-  select(-concern, -per_yes) %>% 
-  remove_rownames %>% column_to_rownames(var="desired_institution")
-  
-d_topic_chi <- fisher.test(d_topic_count)
+d_chi <- fisher.test(d_count)
 
-d_remote_chi <- fisher.test(d_remote_count)
+#Fig E
+e_count <- Fig_4E_data %>% select(first_gen_phd, false, true) %>% 
+  remove_rownames %>% column_to_rownames(var="first_gen_phd")
 
-d_teach_chi <- fisher.test(d_teach_count)
+e_chi <- fisher.test(e_count)
 
 #Fig F
-f_count <- mid_pan_strategy_data %>% 
+f_topic_count <- Fig_4F_data %>% filter(concern == "Added pandemic-related topics") %>% 
+  select(-concern, -per_yes) %>% 
+  remove_rownames %>% column_to_rownames(var="desired_institution")
+
+f_remote_count <- Fig_4F_data %>% filter(concern == "Be more 'remote-friendly'") %>% 
+  select(-concern, -per_yes) %>% 
+  remove_rownames %>% column_to_rownames(var="desired_institution")
+  
+f_teach_count <- Fig_4F_data %>% filter(concern == "More online teaching practices") %>% 
+  select(-concern, -per_yes) %>% 
+  remove_rownames %>% column_to_rownames(var="desired_institution")
+  
+f_topic_chi <- fisher.test(f_topic_count)
+
+f_remote_chi <- fisher.test(f_remote_count)
+
+f_teach_chi <- fisher.test(f_teach_count)
+
+#Fig G
+g_count_early <- G_data_early %>% pull(n)
+
+g_chi_early <- chisq.test(g_count_early, p = c(0.33, 0.33, 0.34))
+
+g_count_mid <- mid_pan_strategy_data %>% 
   select(id, current_app) %>% distinct() %>% 
   filter(!is.na(current_app)) %>% count(current_app) %>% pull(n)
 
-f_chi <- chisq.test(f_count, p = c(0.33, 0.33, 0.34))
+g_chi_mid <- chisq.test(g_count_mid, p = c(0.33, 0.33, 0.34))
+
+g_count_late <- G_data_late %>% pull(n)
+
+g_chi_late <- chisq.test(g_count_late, p = c(0.33, 0.33, 0.34))
 
 #fig 4 chi stats
-fig4_chi_list <- c("a_chi", "b_chi", "c_topic_chi", "c_remote_chi",
-                   "d_topic_chi", "d_remote_chi", "d_teach_chi", "f_chi")
+fig4_chi_list <- c("a_chi", "b_topic_chi", "b_remote_chi", "c_chi",
+                   "d_chi", "e_chi",
+                   "f_topic_chi", "f_remote_chi", "f_teach_chi", 
+                   "g_chi_early", "g_chi_mid", "g_chi_late")
 
-fig4_plot_list <- c('4A', '4B', '4C pandemic topics', '4C remote research',
-                    '4D pandemic topics', '4D remote research', 
-                    '4D online teaching', '4F')
+fig4_plot_list <- c('4A', '4B pandemic topics', '4B remote research', '4C',
+                    '4D early first gen', '4E late first gen',
+                    '4F pandemic topics', '4F remote research', 
+                    '4F online teaching', 
+                    '4G early commitment', '4G mid commitment',
+                    '4G late commitment')
 
-fig4_chi_tbl <- map2_df(fig4_chi_list, fig4_plot_list, get_wilcox_tbl) 
+fig4_chi_tbl <- map2_df(fig4_chi_list, fig4_plot_list, get_wilcox_tbl) %>% 
+  spread(key = figure, value = value)
 
 
 write_csv(fig4_chi_tbl, file = paste0("figures/fig4_fisher-chi_stats_", 

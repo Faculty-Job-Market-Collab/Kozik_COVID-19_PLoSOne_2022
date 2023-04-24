@@ -1,11 +1,12 @@
 ---
 title: "Response of the academic job market to COVID-19: Data analysis"
 author: "Alliance SciComm & Consulting, LLC"
-date: "2/21/2021"
+date: ""
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -28,28 +29,61 @@ knitr::opts_chunk$set(
 source("code/get_3yr_survey_results.R")
 source("code/figures/figure_2.R")
 ```
-1. Overall response rate to the offers rescinded question: `r response_rate`%
+1. Overall response rates (%) to the offers rescinded question: `r response_rate`
 
-1. Offers made: `r offers_made`
+1. Offers made: `r offers_made_df`
 
-1. Offers rescinded: `r offers_rescinded`
+1. Offers rescinded: `r offers_rescinded_df`
 
-1. Overall offers rescinded: `r percent_rescinded`%
+1. Percent rescinded: `r percent_rescinded_df`
+
+1. Overall offers made: `r overall_offers_made`
+
+1. Overall offers rescinded: `r overall_offers_rescinded`
+
+1. Overall percent of offers rescinded: `r overall_percent_rescinded`
+
+1. Percent of on-site interviews moved off-site: `r percent_moved`
+
+1. Percent of respondents who rejected offers for covid-related reasons: `r percent_covid_rejected`
 
 ![]("figures/Figure_2.png")
-```{r fig_3}
-source("code/get_ecr_ads.R")
-source("code/get_adjuct_ads.R")
-source("code/figures/figure_3.R")
-```
 
+```{r fig_3}
+#source("code/get_ecr_ads.R")
+#source("code/get_adjuct_ads.R")
+#source("code/figures/figure_3.R")
+```
 ![]("figures/Figure_3.png")
+
 ```{r fig_4}
 source("code/get_search_strategy_results.R")
-source("code/figures/figure_4.R")
+source("code/get_3yr_strategy_data.R")
+#source("code/figures/figure_4.R")
 ```
-![]("figures/Figure_4.png")
+## Figure 4 Related Data
 
+### Three Year Survey Results
+
+1. Altered research strategy responses and response rates: `r strategy_summary`
+
+1. Overall number that changed strategies: `r overall_num_changed`
+
+1. Overall total responses: `r overall_total_resp`
+
+1. Overall percent that changed strategies: `r overall_percent_changed`%
+
+### Altered strategy demographics
+
+1. PEER status: `r changed_demo_peer`
+
+1. Gender: `r changed_demo_gender`
+
+1. Research category: `r changed_demo_research` 
+
+1. First-generation PhD: `r changed_demo_first_gen`
+
+![]("figures/Figure_4.png")
 ```{r fig_stats}
-source("code/statistics.R")
+#source("code/figures/statistics.R")
 ```

@@ -18,13 +18,10 @@ survey_data_3yrs <- read_csv("data/covid_survey_data_19-22.csv") #load data
 
 ## question-based datasets----
 clean_data <- survey_data_3yrs %>% 
-  select(-contains("covid")) %>% 
   mutate(research_category = fct_collapse(research_category,
                                           "Mathematics & Engineering Sciences" = c("Mathematical & Physical Sciences",
                                                                                    "Engineering", "Computer & Information Sciences"),
                                           "Social & Behavioral Sciences" = c("Humanities", "Social, Behavior, & Economic Sciences"))
          )
-
-covid_only <- select(survey_data_3yrs, contains("covid"), id)
 
 offers_df <- read_csv("data/carn_offer_data.csv")

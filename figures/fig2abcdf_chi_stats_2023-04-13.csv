@@ -1,0 +1,4 @@
+figure,alternative,data.name,method,p.value
+2A,two.sided,"table(stats_demo_data$adjusted_gender, stats_demo_data$covid_offers_rescinded)",Fisher's Exact Test for Count Data,0.539817516472239
+2B,two.sided,"table(stats_demo_data$research_category, stats_demo_data$covid_offers_rescinded)",Fisher's Exact Test for Count Data,0.645447750997515
+2C,two.sided,"table(stats_demo_data$peer, stats_demo_data$covid_offers_rescinded)",Fisher's Exact Test for Count Data,0.53930586503642

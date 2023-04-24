@@ -1,0 +1,6 @@
+figure,alternative,conf.int1,conf.int2,data.name,estimate.odds ratio,method,null.value.odds ratio,p.value
+2A,two.sided,NA,NA,"table(stats_demo_data$adjusted_gender, stats_demo_data$covid_offers_rescinded)",NA,Fisher's Exact Test for Count Data,NA,0.539817516472239
+2B,two.sided,NA,NA,"table(stats_demo_data$research_category, stats_demo_data$covid_offers_rescinded)",NA,Fisher's Exact Test for Count Data,NA,0.645447750997515
+2C,two.sided,NA,NA,"table(stats_demo_data$peer, stats_demo_data$covid_offers_rescinded)",NA,Fisher's Exact Test for Count Data,NA,0.53930586503642
+2D,two.sided,0.104804858546444,130.923780463351,pui_count,2.12132181522271,Fisher's Exact Test for Count Data,1,0.611953612845673
+2F,two.sided,NA,NA,us_reg_count,NA,Fisher's Exact Test for Count Data,NA,0.155256253965202
