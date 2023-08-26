@@ -1,0 +1,23 @@
+attribute,4A,4B pandemic topics,4B remote research,4C,4D early first gen,4E late first gen,4F online teaching,4F pandemic topics,4F remote research,4G early commitment,4G late commitment,4G mid commitment
+alternative,two.sided,two.sided,two.sided,two.sided,two.sided,two.sided,two.sided,two.sided,two.sided,NA,NA,NA
+conf.int1,NA,NA,NA,NA,0.408261725686022,0.429785207142632,0.10292632449397,0.0562311168277324,0.0648023991074085,NA,NA,NA
+conf.int2,NA,NA,NA,NA,8.44163463091146,3.92653540228906,6.99491143665992,5.94513350898576,6.69210700218557,NA,NA,NA
+data.name,a_count,b_topic_count,b_remote_count,c_count,d_count,e_count,f_teach_count,f_topic_count,f_remote_count,g_count_early,g_count_late,g_count_mid
+estimate.odds ratio,NA,NA,NA,NA,1.511510600978,1.20621403766578,0.848787921654199,0.469404542598352,0.533464113054751,NA,NA,NA
+expected1,NA,NA,NA,NA,NA,NA,NA,NA,NA,77.22,37.62,25.41
+expected2,NA,NA,NA,NA,NA,NA,NA,NA,NA,77.22,37.62,25.41
+expected3,NA,NA,NA,NA,NA,NA,NA,NA,NA,79.56,38.76,26.18
+method,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Fisher's Exact Test for Count Data,Chi-squared test for given probabilities,Chi-squared test for given probabilities,Chi-squared test for given probabilities
+null.value.odds ratio,NA,NA,NA,NA,1,1,1,1,1,NA,NA,NA
+observed1,NA,NA,NA,NA,NA,NA,NA,NA,NA,20,10,10
+observed2,NA,NA,NA,NA,NA,NA,NA,NA,NA,114,50,13
+observed3,NA,NA,NA,NA,NA,NA,NA,NA,NA,100,54,54
+p.value,0.403837920689658,0.593543818318196,0.806721964058074,0.260983682999692,0.77150631983417,0.813029519189565,1,0.590021669044977,0.604756619628984,7.05642517966966e-15,2.57515413888349e-07,1.71822506153403e-10
+parameter.df,NA,NA,NA,NA,NA,NA,NA,NA,NA,2,2,2
+residuals1,NA,NA,NA,NA,NA,NA,NA,NA,NA,-6.51152863619636,-4.5031278632632,-3.05703426230604
+residuals2,NA,NA,NA,NA,NA,NA,NA,NA,NA,4.18549498845337,2.01841864399705,-2.46189456166242
+residuals3,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.29157198488077,2.44789667723433,5.43716239523399
+statistic.X-squared,NA,NA,NA,NA,NA,NA,NA,NA,NA,65.1696756402639,30.3443725177471,44.9691182258027
+stdres1,NA,NA,NA,NA,NA,NA,NA,NA,NA,-7.95509835394279,-5.50144628920261,-3.73476177204116
+stdres2,NA,NA,NA,NA,NA,NA,NA,NA,NA,5.11339597095449,2.46589084215526,-3.00768290662108
+stdres3,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.82073012305443,3.01315251764128,6.69268425926112

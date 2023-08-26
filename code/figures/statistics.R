@@ -117,66 +117,66 @@ write_csv(fig3_posthoc_tbl, file = paste0("figures/fig3abc_posthoc_stats_",
 #data has an empirical density, fits the gamma distribution, uses the Kolmogorov-Smirnov stat (per fitdist) -- need to perform a glmm
 #cube-root transformed data, one-way anova, with a tukey multiple comparisions of means
 
-ecr_region_count <- ten_track_data %>% 
-  filter(ECR == "Yes") %>% 
-  filter(Country == "USA") %>% 
-  filter(MonthPosted %in% c("Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) %>% 
-  filter(US_region %not_in% c("Rocky Mountains", "Noncontiguous")) %>% 
-  rowid_to_column("id") %>% as.tibble() %>% 
-  dplyr::select(id, MonthPosted, US_region, YearPosted) %>% 
-  #mutate(US_region = as.factor(US_region)) %>% 
-  count(YearPosted, MonthPosted, US_region, .drop = FALSE) %>% 
-  filter(!is.na(US_region)) %>% 
-  mutate(n = n^(1/3))
-
-region_list <- ecr_region_count %>% pull(US_region) %>% unique()
-
-ecr_reg_anov_list <- map(region_list, function(x){
-  
-  df <- ecr_region_count %>% filter(US_region == x)
-  anova <- aov(n ~ YearPosted, data = df)
-  summarise <- summary(anova)
-  region <- paste(x, "Data: One-way ANOVA, with a Tukey multiple comparisions of means")
-  tukey <- TukeyHSD(anova)
-  stats <- list(region, summarise, tukey)
-  return(stats)
-})
-
-sink(paste0("figures/anova_stats_fig3D_", Sys.Date(),".txt"))
-
-print(ecr_reg_anov_list)
-
-sink()
+#ecr_region_count <- ten_track_data %>% 
+#  filter(ECR == "Yes") %>% 
+#  filter(Country == "USA") %>% 
+#  filter(MonthPosted %in% c("Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) %>% 
+#  filter(US_region %not_in% c("Rocky Mountains", "Noncontiguous")) %>% 
+#  rowid_to_column("id") %>% as.tibble() %>% 
+#  dplyr::select(id, MonthPosted, US_region, YearPosted) %>% 
+#  #mutate(US_region = as.factor(US_region)) %>% 
+#  count(YearPosted, MonthPosted, US_region, .drop = FALSE) %>% 
+#  filter(!is.na(US_region)) %>% 
+#  mutate(n = n^(1/3))
+#
+#region_list <- ecr_region_count %>% pull(US_region) %>% unique()
+#
+#ecr_reg_anov_list <- map(region_list, function(x){
+#  
+#  df <- ecr_region_count %>% filter(US_region == x)
+#  anova <- aov(n ~ YearPosted, data = df)
+#  summarise <- summary(anova)
+#  region <- paste(x, "Data: One-way ANOVA, with a Tukey multiple comparisions of means")
+#  tukey <- TukeyHSD(anova)
+#  stats <- list(region, summarise, tukey)
+#  return(stats)
+#})
+#
+#sink(paste0("figures/anova_stats_fig3D_", Sys.Date(),".txt"))
+#
+#print(ecr_reg_anov_list)
+#
+#sink()
 
 #E
-ecr_uni_count <- ten_track_data %>% 
-  filter(ECR == "Yes") %>% 
-  filter(Country == "USA") %>% 
-  filter(MonthPosted %in% c("Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) %>% 
-  filter(!is.na(PUI_RI)) %>% 
-  rowid_to_column("id") %>% as.tibble() %>% 
-  count(YearPosted, MonthPosted, PUI_RI, .drop = FALSE) %>% 
-  filter(!is.na(PUI_RI)) %>% 
-  mutate(n = n^(1/3))
+#ecr_uni_count <- ten_track_data %>% 
+#  filter(ECR == "Yes") %>% 
+#  filter(Country == "USA") %>% 
+#  filter(MonthPosted %in% c("Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")) %>% 
+#  filter(!is.na(PUI_RI)) %>% 
+#  rowid_to_column("id") %>% as.tibble() %>% 
+#  count(YearPosted, MonthPosted, PUI_RI, .drop = FALSE) %>% 
+#  filter(!is.na(PUI_RI)) %>% 
+#  mutate(n = n^(1/3))
+#
+#uni_list <- c("PUI", "RI")
+#
+#ecr_uni_anov_list <- map(uni_list, function(x){
+#  
+#  df <- ecr_uni_count %>% filter(PUI_RI == x)
+#  anova <- aov(n ~ YearPosted, data = df)
+#  inst <- paste(x, "Data: One-way ANOVA, with a Tukey multiple comparisions of means")
+#  summarise <- summary(anova)
+#  tukey <- TukeyHSD(anova)
+#  stats <- list(inst, summarise, tukey)
+#  return(stats)
+#})
+#
+#sink(paste0("figures/anova_stats_fig3E_", Sys.Date(),".txt"))
 
-uni_list <- c("PUI", "RI")
+#print(ecr_uni_anov_list)
 
-ecr_uni_anov_list <- map(uni_list, function(x){
-  
-  df <- ecr_uni_count %>% filter(PUI_RI == x)
-  anova <- aov(n ~ YearPosted, data = df)
-  inst <- paste(x, "Data: One-way ANOVA, with a Tukey multiple comparisions of means")
-  summarise <- summary(anova)
-  tukey <- TukeyHSD(anova)
-  stats <- list(inst, summarise, tukey)
-  return(stats)
-})
-
-sink(paste0("figures/anova_stats_fig3E_", Sys.Date(),".txt"))
-
-print(ecr_uni_anov_list)
-
-sink()
+#sink()
 
 #Figure 4----
 

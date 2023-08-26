@@ -20,7 +20,7 @@ Fig_4A <- Fig_4A_data %>%
   scale_y_continuous(limits = c(0,20), expand = c(0,0))+
   geom_hline(yintercept = Fig_4A_avg, linetype="dashed", color = "black")+
   geom_text(aes(3, Fig_4A_avg+2, label = Fig_4A_avg),  color = "black")+
-  labs(y = "Early Pandemic Respondents That Altered Their\nResearch Statement to Focus on Remote or Computational Research (%)", x = "\nResearch Category")+
+  labs(y = "Early Pandemic Respondents That Altered Their\nResearch Statement to Focus on Remote\nor Computational Research (%)", x = "\nResearch Category")+
   my_theme_horiz+
   right_margin
 
@@ -38,10 +38,10 @@ Fig_4C <- Fig_4C_data %>%
   geom_col(aes(x = research_category, y=percent_res, fill = research_category))+
   coord_flip()+
   scale_fill_manual(values = cbPalette)+
-  scale_y_continuous(limits = c(0,20), expand = c(0,0))+
+  scale_y_continuous(limits = c(0,40), expand = c(0,0))+
   geom_hline(yintercept = Fig_4C_avg, linetype="dashed", color = "black")+
   geom_text(aes(2, Fig_4C_avg+2, label = Fig_4C_avg),  color = "black")+
-  labs(y = "Late Pandemic Respondents That Altered Their\nResearch Statement to Focus on Remote or Computational Research (%)", x = "\nResearch Category")+
+  labs(y = "Late Pandemic Respondents That Altered Their\nResearch Statement to Focus on Remote\nor Computational Research (%)", x = "\nResearch Category")+
   my_theme_horiz+
   right_margin
 
@@ -114,7 +114,11 @@ Fig_4B_data <- bfg_data %>%
   distinct() %>% 
   count(research_category, concern, alt_strategy) %>% 
   spread(alt_strategy, n) %>% 
-  mutate(no = coalesce(no, 0),
+  mutate(research_category = case_when(
+    str_detect(research_category, "Mathematics &") ~ "Mathematics & Engineering",
+    TRUE ~ research_category
+    ),
+         no = coalesce(no, 0),
          yes = coalesce(yes, 0),
          per_yes = get_percent(yes, (yes+no)),
          research_category = paste0(research_category, " (n=", no+yes, ")"))
@@ -133,8 +137,9 @@ Fig_4B <- Fig_4B_data %>%
              linetype="dashed", color = "black") +
   geom_text(data = Fig_4B_avg, mapping = aes(2, per_yes+10, label = per_yes),  color = "black")+
   facet_wrap(~concern)+
-  scale_y_continuous(limits = c(0,50), expand = c(0,0))+
-  labs(y = "Mid-Pandemic Respondents That\nAltered Their Research Statement (%)", x = "\nResearch Category")+
+  scale_y_continuous(limits = c(0,40), expand = c(0,0))+
+  labs(y = "Mid-Pandemic Respondents That\nAltered Their Research Statement (%)", 
+       x = "\nResearch Category\n\n")+
   my_theme_horiz+
   theme(panel.spacing = unit(2, "lines"))+
   right_margin
@@ -265,3 +270,12 @@ Fig_4fg <- plot_grid(Fig_4F, Fig_4G,
 
 ggsave("Figure_4fg.png", device = 'png', units = "in", 
        path = 'figures', width = 20, height = 8)
+
+Fig4_top <- plot_grid(Fig_4abc, Fig_4de,
+                  nrow = 1, rel_widths = c(1, .75))
+
+Fig4 <- plot_grid(Fig4_top, Fig_4fg,
+                 nrow = 2)
+
+ggsave("Figure_4.png", device = 'png', units = "in", 
+       path = 'figures', width = 20, height = 20, dpi = 600)

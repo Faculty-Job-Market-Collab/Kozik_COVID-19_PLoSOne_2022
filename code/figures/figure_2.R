@@ -25,8 +25,10 @@ fig2A <- fig2A_data %>%
   right_margin
 
 # B. Offers rescinded by race/ethnicity----
-fig2B <- get_plot_summary(data = fig2_data, 
-                          x = "peer", y = "covid_offers_rescinded") %>% 
+fig2B_data <- get_plot_summary(data = fig2_data, 
+                          x = "peer", y = "covid_offers_rescinded")
+
+fig2B <- fig2B_data %>% 
   filter(peer != "NR (0/1)") %>% 
   ggplot(aes(x = fct_reorder(peer, desc(percent_res)), y = percent_res, 
              fill = peer))+
@@ -45,8 +47,10 @@ fig2B <- get_plot_summary(data = fig2_data,
   right_margin
 
 # C. Offers rescinded by research category----
-fig2C <- get_plot_summary(data = fig2_data, 
-                                   x = "research_category", y = "covid_offers_rescinded") %>% 
+fig2C_data <- get_plot_summary(data = fig2_data, 
+                                   x = "research_category", y = "covid_offers_rescinded")
+
+fig2C <- fig2C_data %>% 
   ggplot(aes(x = research_category, y = percent_res, fill = research_category))+
   geom_col()+
   #geom_text(aes(label = r), position = position_dodge(width = 0.9), hjust = -0.25)+
@@ -122,4 +126,4 @@ plot_grid(fig2AB, fig2C, fig2DE,
           nrow = 3)
 
 ggsave("Figure_2.png", device = 'png', units = "in", scale = 1.75,
-       path = 'figures', width = 7.5, height = 6.8)
+       path = 'figures', width = 7.5, height = 6.8, dpi = 600)

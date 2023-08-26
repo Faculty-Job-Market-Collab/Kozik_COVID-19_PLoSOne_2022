@@ -4,6 +4,7 @@ non_track_data <- herc_data %>%
   filter(TenureTrack == "No") %>% 
   filter(str_detect(Title, "Lectur|Adjunct|Prof|Facul|Instructor") == TRUE) %>% 
   filter(!is.na(YearPosted)) %>% 
+  filter(YearPosted != "2023") %>% 
   mutate(YearPosted = as.factor(YearPosted)) 
 
 #All adjunct positions

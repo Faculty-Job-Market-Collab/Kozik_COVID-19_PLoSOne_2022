@@ -9,7 +9,7 @@ month_levels <- c(
   "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
-herc_data <- read_csv("data/herc_dataset.csv") %>% 
+herc_data <- read_csv("data/final_herc_data_18-22_2023-08-10.csv") %>% 
   mutate(YearPosted = as_factor(YearPosted),
          MonthPosted = factor(MonthPosted, levels = month_levels))
 

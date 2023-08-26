@@ -30,21 +30,34 @@ changed_demo_df <- strategy_demo_data %>%
 changed_demo_peer <- changed_demo_df %>% 
   count(survey_year, covid_alter, peer) %>% 
   spread(key = covid_alter, value = n) %>% 
+  mutate(Total = true + false,
+         `% Adjusted` = get_percent(true, Total),
+         `% No Adjustment` = get_percent(false, Total)) %>% 
   rename("No adjustment" = false, "Adjusted" = true)
+  
 
 changed_demo_gender <- changed_demo_df %>% 
   count(survey_year, covid_alter, adjusted_gender) %>% 
   spread(key = covid_alter, value = n) %>% 
+  mutate(Total = true + false,
+         `% Adjusted` = get_percent(true, Total),
+         `% No Adjustment` = get_percent(false, Total)) %>% 
   rename("No adjustment" = false, "Adjusted" = true)
 
 changed_demo_research <- changed_demo_df %>% 
   count(survey_year, covid_alter, research_category) %>% 
   spread(key = covid_alter, value = n) %>% 
+  mutate(Total = true + false,
+         `% Adjusted` = get_percent(true, Total),
+         `% No Adjustment` = get_percent(false, Total)) %>% 
   rename("No adjustment" = false, "Adjusted" = true)
 
 changed_demo_first_gen <- changed_demo_df %>% 
   count(survey_year, covid_alter, first_gen_phd) %>% 
   spread(key = covid_alter, value = n) %>% 
+  mutate(Total = true + false,
+         `% Adjusted` = get_percent(true, Total),
+         `% No Adjustment` = get_percent(false, Total)) %>% 
   rename("No adjustment" = false, "Adjusted" = true)
 
 
